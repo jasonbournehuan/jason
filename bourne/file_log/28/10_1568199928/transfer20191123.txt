@@ -1,0 +1,4 @@
+start|-|2019-11-23 23:17:48|-|{"status":"0000","userBalance":50,"userCashBalance":50,"agentCashBalance":0,"amount":50,"serialNo":"1574522267140khevarii2","pid":3221934,"payDate":"23-11-2019 11:17:48"}
+end|-|2019-11-23 23:17:48|-|{"status":"0000","data":[{"uid":"khevarii2","action":"deposit","amount":50,"plsBalance":0,"date":"23-11-2019 11:17:48","pid":3221934,"remark":"","afterBalance":50}]}
+start|-|2019-11-23 23:17:59|-|{"status":"0000","userBalance":0,"userCashBalance":0,"agentCashBalance":0,"amount":-50,"serialNo":"1574522279868khevarii2","pid":3221935,"payDate":"23-11-2019 11:18:00"}
+end|-|2019-11-23 23:18:00|-|{"status":"0000","data":[{"uid":"khevarii2","action":"withdraw","amount":50,"plsBalance":50,"date":"23-11-2019 11:18:00","pid":3221935,"remark":"","afterBalance":0}]}

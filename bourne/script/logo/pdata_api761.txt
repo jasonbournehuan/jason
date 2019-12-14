@@ -1,0 +1,936 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 301
+Memory = 1126608
+Processtime = 0.0434
+
+Code:
+297  : 	   $cache_api761_key = "api761_".$end_log_id;
+298  : 	   $in_data = $data_data  = array();
+299  : 	   $this->c('api761');
+300  : 	   $this->c('cache_redis');
+301  : 	   $this->cache_redis->select($$this->redis_db);<--
+302  : 
+303  : 	   $cache_log_data = json_decode($this->cache_redis->kGet($cache_api761_key),true);
+304  : 
+305  : 	   if(!empty($cache_log_data))
+306  :        {
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 301
+Memory = 1126608
+Processtime = 0.0290
+
+Code:
+297  : 	   $cache_api761_key = "api761_".$end_log_id;
+298  : 	   $in_data = $data_data  = array();
+299  : 	   $this->c('api761');
+300  : 	   $this->c('cache_redis');
+301  : 	   $this->cache_redis->select($$this->redis_db);<--
+302  : 
+303  : 	   $cache_log_data = json_decode($this->cache_redis->kGet($cache_api761_key),true);
+304  : 
+305  : 	   if(!empty($cache_log_data))
+306  :        {
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��3�� 
+Error: 未找到 model:games
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+Line: 24
+Memory = 2033840
+Processtime = 0.4177
+
+Code:
+20  : 			// 遍历全局的 conf，包含 model
+21  : 
+22  : 			$this->$var = core::get_model($var, $this->conf);
+23  : 			if(!$this->$var) {
+24  : 				throw new Exception('未找到 model:'.$var);<--
+25  : 			}
+26  : 			return $this->$var;
+27  : 		}
+28  : 	}
+29  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\za.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\mcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\api_cache.php
+  D:\phpStudy\PHPTutorial\WWW\class\user.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error_data.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\games_cache.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��4�� 
+Error: 未找到 model:games
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+Line: 24
+Memory = 2033872
+Processtime = 0.4595
+
+Code:
+20  : 			// 遍历全局的 conf，包含 model
+21  : 
+22  : 			$this->$var = core::get_model($var, $this->conf);
+23  : 			if(!$this->$var) {
+24  : 				throw new Exception('未找到 model:'.$var);<--
+25  : 			}
+26  : 			return $this->$var;
+27  : 		}
+28  : 	}
+29  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\za.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\mcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\api_cache.php
+  D:\phpStudy\PHPTutorial\WWW\class\user.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error_data.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\games_cache.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��5�� 
+Error: 未找到 model:games
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+Line: 24
+Memory = 2033864
+Processtime = 0.4007
+
+Code:
+20  : 			// 遍历全局的 conf，包含 model
+21  : 
+22  : 			$this->$var = core::get_model($var, $this->conf);
+23  : 			if(!$this->$var) {
+24  : 				throw new Exception('未找到 model:'.$var);<--
+25  : 			}
+26  : 			return $this->$var;
+27  : 		}
+28  : 	}
+29  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\za.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\mcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\api_cache.php
+  D:\phpStudy\PHPTutorial\WWW\class\user.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error_data.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\games_cache.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��6�� 
+Error: 未找到 model:games
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+Line: 24
+Memory = 2033872
+Processtime = 0.3753
+
+Code:
+20  : 			// 遍历全局的 conf，包含 model
+21  : 
+22  : 			$this->$var = core::get_model($var, $this->conf);
+23  : 			if(!$this->$var) {
+24  : 				throw new Exception('未找到 model:'.$var);<--
+25  : 			}
+26  : 			return $this->$var;
+27  : 		}
+28  : 	}
+29  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\za.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\mcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\api_cache.php
+  D:\phpStudy\PHPTutorial\WWW\class\user.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error_data.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\games_cache.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��7�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6ilvJae1KcpPlLJsrLr9TEQ%2B6q633hEoJClgLsQl5DW50MTh5wT%2FXxSmthBIFtmyhXNfHJPmZLNYdDXwvxpCVsxOchpPQjy0nQsEH1wpxQEC&agent=1156&timestamp=1564583336&sign=4c6ecb469ed1852385e5ad0fdfd3b7a2<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991337
+    [etime] => 1564583336
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:28:56 采集761数据失败，返回状态: ！
+失败原因:   
+ ��8�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6ilvJae1KcpPlLJsrLr9TESWnjb5AZcl9UMznA5MSCx8QUoKqCLWW9oWdGWvpA80lklzilOY2VvirBu9Ax61zh6su0Zawl6OZiunbk8fD1p8&agent=1156&timestamp=1564583396&sign=9c7d173ab11fe505baff94966a1ab5a5<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991397
+    [etime] => 1564583396
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:29:56 采集761数据失败，返回状态: ！
+失败原因:   
+ ��9�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6oB%2Fy2B7GHj%2FVR4E7v9BWh0PWEBO%2B2HdkL7SCJNRORjFasDDHn5DzsUakxslqyHHf9kdg7%2BvcFiyJCBORmwylQHv%2BS8VYIGDwWU%2FhWnVMzMZ&agent=1156&timestamp=1564583455&sign=190d1b0571c50a16184350f493bb5e32<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991456
+    [etime] => 1564583455
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:30:55 采集761数据失败，返回状态: ！
+失败原因:   
+ ��10�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6m%2FtWEjyQbA1w0PPuGFs8GIt7okk%2F07c9deFU5g%2FNAzIOMZUqRzwxlWwyT1vdVY99dRIhkTJTjge8NCkvRhBmsxlgYlIQBKqAw4UmJARiKf2&agent=1156&timestamp=1564583514&sign=c5fa973a9f5f9768ab283ec9db50d4ea<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991515
+    [etime] => 1564583514
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:31:54 采集761数据失败，返回状态: ！
+失败原因:   
+ ��11�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6m%2FtWEjyQbA1w0PPuGFs8GLKIIlqCV5M3Lf3tr9aO%2B2DsUajydW8StWvIK4pVtc7AEIhb8%2FhMuFLJy1IJ9mws0EjXfJzzkTUOSCve0%2BgNMR1&agent=1156&timestamp=1564583574&sign=77d82fadb61f69879640031fdb203e7f<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991575
+    [etime] => 1564583574
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:32:54 采集761数据失败，返回状态: ！
+失败原因:   
+ ��12�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6hRYod50WJKY9cMSDzaojcm6519cjwQHA8yu%2BWI%2FDXYiIgazdyzAPlSzDkwpRwBDpcTSiFESStQKrFDdofPEcM5XcKaKmFuntAnHcwTtNcrw&agent=1156&timestamp=1564583633&sign=1fa91e034a00e14b9655487b6d47ad23<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991634
+    [etime] => 1564583633
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:33:53 采集761数据失败，返回状态: ！
+失败原因:   
+ ��13�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6hRYod50WJKY9cMSDzaojcm44L5B2tDHwJku7ZbaTXkzjCJ%2FPJlpDnRVOEaq1qZIaPu5s8y1zajZ4vlwUQusQ5liiFlRLPSufKfdoy%2BNyFZX&agent=1156&timestamp=1564583692&sign=bf0d60639813e200fd92f1b9118f8129<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991693
+    [etime] => 1564583692
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:34:52 采集761数据失败，返回状态: ！
+失败原因:   
+ ��14�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6ne3ri8i4nW%2FxMVZP43YDfgd682JSDwZrhGli%2BUdY6ve1fGQuWdgX3nt%2Fi5az91e05ERbu6A21FIqW%2BVbDP9bNUoD1CJSKDrbihLeyAtqVrF&agent=1156&timestamp=1564583751&sign=ab289d766637e37bdd754d072f4d6caa<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991752
+    [etime] => 1564583751
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:35:51 采集761数据失败，返回状态: ！
+失败原因:   
+ ��15�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6hZJog5kVDqn9rhFvJ88HJNIr4clS9B%2FvDGI2zD0vF3DL9gZJTj%2F7yOUwjNmsBuYKFZ2o2UTKH58hsGkjMW7na3mzg3w0uwQICZV8ZyZG9eR&agent=1156&timestamp=1564583811&sign=6beaeade6d354d8a13544ae36d8873b1<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561991812
+    [etime] => 1564583811
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:36:51 采集761数据失败，返回状态: ！
+失败原因:   
+ ��16�� 
+Error: 未找到 model:games
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+Line: 24
+Memory = 2033872
+Processtime = 0.4467
+
+Code:
+20  : 			// 遍历全局的 conf，包含 model
+21  : 
+22  : 			$this->$var = core::get_model($var, $this->conf);
+23  : 			if(!$this->$var) {
+24  : 				throw new Exception('未找到 model:'.$var);<--
+25  : 			}
+26  : 			return $this->$var;
+27  : 		}
+28  : 	}
+29  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\za.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\mcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\api_cache.php
+  D:\phpStudy\PHPTutorial\WWW\class\user.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error_data.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\games_cache.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��17�� 
+Error: 未找到 model:games
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+Line: 24
+Memory = 2033856
+Processtime = 0.3735
+
+Code:
+20  : 			// 遍历全局的 conf，包含 model
+21  : 
+22  : 			$this->$var = core::get_model($var, $this->conf);
+23  : 			if(!$this->$var) {
+24  : 				throw new Exception('未找到 model:'.$var);<--
+25  : 			}
+26  : 			return $this->$var;
+27  : 		}
+28  : 	}
+29  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\za.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\mcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\api_cache.php
+  D:\phpStudy\PHPTutorial\WWW\class\user.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error_data.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\games_cache.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��18�� 
+Error: 未找到 model:games
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+Line: 24
+Memory = 2033856
+Processtime = 0.3726
+
+Code:
+20  : 			// 遍历全局的 conf，包含 model
+21  : 
+22  : 			$this->$var = core::get_model($var, $this->conf);
+23  : 			if(!$this->$var) {
+24  : 				throw new Exception('未找到 model:'.$var);<--
+25  : 			}
+26  : 			return $this->$var;
+27  : 		}
+28  : 	}
+29  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\za.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\mcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\api_cache.php
+  D:\phpStudy\PHPTutorial\WWW\class\user.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error_data.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\games_cache.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��19�� 
+Error: 未找到 model:games
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+Line: 24
+Memory = 2033872
+Processtime = 0.4007
+
+Code:
+20  : 			// 遍历全局的 conf，包含 model
+21  : 
+22  : 			$this->$var = core::get_model($var, $this->conf);
+23  : 			if(!$this->$var) {
+24  : 				throw new Exception('未找到 model:'.$var);<--
+25  : 			}
+26  : 			return $this->$var;
+27  : 		}
+28  : 	}
+29  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_api761.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\api761.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\za.class.php
+  D:\phpStudy\PHPTutorial\WWW\model\mcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\api_cache.php
+  D:\phpStudy\PHPTutorial\WWW\class\user.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error_data.class.php
+  D:\phpStudy\PHPTutorial\WWW\cache\games_cache.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��20�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6tzaPIhlmlmfvWaODvoZbH6o8p%2BfnuH4uKdSy83Ukn%2FtCXBL6zbqRQcy%2BrEe91rTeC0S2iHBVDiPhnic%2FFNnuApFJoNAg431k534%2BD1itiLc&agent=1156&timestamp=1564584108&sign=6e0e45480a7546bb781c8d1663b1f328<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992109
+    [etime] => 1564584108
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:41:48 采集761数据失败，返回状态: ！
+失败原因:   
+ ��21�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6tzaPIhlmlmfvWaODvoZbH5q%2BJ5SriANVghOp9ELTUpiq5RRD5V8YSLqC9r%2B6WT%2Fo4nCx9LYiOLXGDLUy5Aw%2FpYAvVhWTfmoxuC0R92tK4yk&agent=1156&timestamp=1564584168&sign=9d83e45a2e331abb8c7f68916881a661<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992169
+    [etime] => 1564584168
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:42:48 采集761数据失败，返回状态: ！
+失败原因:   
+ ��22�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6ifX38q8CqChyPhYvqwS1s2%2FxNnYI%2Fnd7tvkQJGwXvXdBKERnOrCt5dxYj3EzUpbl0estubwpZVsfHw%2FLaYpdsfRN0GbiH4lsOGpdHz8e9%2F9&agent=1156&timestamp=1564584227&sign=db48bb8185f960d5040bd674e613c68e<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992228
+    [etime] => 1564584227
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:43:47 采集761数据失败，返回状态: ！
+失败原因:   
+ ��23�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6ifX38q8CqChyPhYvqwS1s2bxH9Ju7lB53pEAdMeUL50EafEWOv2l5q61l0Owg5V5aX4wBgZW65rqggC9hsytT5oKrq4QYhyT7IA7tXC50Xw&agent=1156&timestamp=1564584289&sign=20139ff1576cfef98f3e6c1e66909dfe<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992290
+    [etime] => 1564584289
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:44:49 采集761数据失败，返回状态: ！
+失败原因:   
+ ��24�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6u0ZX8jhHcxrUlcj09gC%2BWFu%2Fz%2F9j6VouiEq8NljDEgG7yhg81gkuMnms2Afq4s63TXQHMLL74FpMmawqH0EFmpzsySynDQxKnX7AqCOY1qM&agent=1156&timestamp=1564584350&sign=0a43a9765e31f8c505e97c6bf0760231<hr>0Connection timed out after 3000 milliseconds
+
+Array
+(
+    [stime] => 1561992351
+    [etime] => 1564584350
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:45:50 采集761数据失败，返回状态: ！
+失败原因:   
+ ��25�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6t3tGG5gWQZyIcHMawbDdwKUJruN8fxa0AZ%2Fp1HHwxZ7q08cHcqTTwmtl2VRIRG9nDU26pQx5WAhPcive27gmLcMv3iAz%2F5lfF3mJMa4fg6V&agent=1156&timestamp=1564584414&sign=6fba95464faa797315cdd367c27fcf39<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992415
+    [etime] => 1564584414
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:46:54 采集761数据失败，返回状态: ！
+失败原因:   
+ ��26�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6t3tGG5gWQZyIcHMawbDdwKR7X%2FxOdf4WKTKayNlpKHbTDCb%2FvkYtpEnhq6%2BQRjvBKU1sXL5%2B6a2vaxWLI2LZsBp0F1u7l2%2BEre11SEVYn0B&agent=1156&timestamp=1564584473&sign=1ccb29ba8d31d0efcb0fd7cfebf15a87<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992474
+    [etime] => 1564584473
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:47:53 采集761数据失败，返回状态: ！
+失败原因:   
+ ��27�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6v1XINerSyTYk5CuZr%2F7R1LXn5V6LW2ijBlC4%2BW4VuP6ezWzQVml%2FiYSPZAZL1sF%2BNYAOS4V%2B%2FnJ1GXQ1kuN2c7fw%2BrjaLzspUY0RuZNF2j2&agent=1156&timestamp=1564584533&sign=13845ba8e49623c3007804139485187b<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992534
+    [etime] => 1564584533
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:48:53 采集761数据失败，返回状态: ！
+失败原因:   
+ ��28�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6v1XINerSyTYk5CuZr%2F7R1Lfp3NfA3Wi6KyhdlxkgCZLQZ6HsMGDJxL%2F4duJf4nF%2Fxm8j9hasoDNsBIYGC3yQ2ZdK6WGOISFcY5tjEgYntFf&agent=1156&timestamp=1564584594&sign=712ebc069521725a49411b81de3016fe<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992595
+    [etime] => 1564584594
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:49:54 采集761数据失败，返回状态: ！
+失败原因:   
+ ��29�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6uh1GpEXgJG2U0gGNvzwil9pLZQ3%2Bumzc9PrjIt8lNf2%2BstEERUoRuegl%2FhiHFxVZt1cN767cBoKQGyK00hAIfxux1YX%2BxpLMWLtii%2BA5d92&agent=1156&timestamp=1564584653&sign=d5125685d102c8d7e974a4df82d05596<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992654
+    [etime] => 1564584653
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:50:53 采集761数据失败，返回状态: ！
+失败原因:   
+ ��30�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6odYqnJHGBVs9RB3jBG1ZqGRYPhEDu5cRuTK582n%2BV%2BbSKePatcKpLXf7GqCr1NjDPa%2FBzdz3%2FmjshsYgMq9VzL%2Fd40T16iSuCCYkfG%2BSz7F&agent=1156&timestamp=1564584714&sign=1dcf6893eb04765d989da023920d8f41<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992715
+    [etime] => 1564584714
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:51:54 采集761数据失败，返回状态: ！
+失败原因:   
+ ��31�� 
+<hr>http://tapi.761city.com:10018/record/loadrecords?params=FWUl3gcdmLFRerDilx6y6odYqnJHGBVs9RB3jBG1ZqHZlR%2FrZEm9y5gEI5w6jU8tj2fNw%2BsgnJurpJZ7ufEQe0dI%2FGBJg9IKoHrc%2BZFpXug%2FnOA3jXMipb6df2n3Erc2&agent=1156&timestamp=1564584774&sign=686093faacb8c8c0745e88ac59176fd5<hr>
+Array
+(
+    [code] => 8
+    [m] => 无操作权限!
+)
+Array
+(
+    [stime] => 1561992775
+    [etime] => 1564584774
+    [bets] => Array
+        (
+        )
+
+)
+Array
+(
+    [status] => 0
+)
+07-31 22:52:54 采集761数据失败，返回状态: ！
+失败原因:   

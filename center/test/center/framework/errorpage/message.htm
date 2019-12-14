@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- Apple devices fullscreen -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- Apple devices fullscreen -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>提示</title>
+<link href="./templates/default/css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="msgpage">
+  <div class="msgbox">
+    <div class="pic"></div>
+    <div class="con">{$message}</div>
+    <div class="scon">页面如不能自动跳转，选择手动操作...</div>
+    <div class="button">
+	{if !empty($goto)}
+      <a href="#" class="ncap-btn">页面3秒后将自动跳转</a>
+      <script type="text/javascript"> window.setTimeout("javascript:location.href='{$goto}'", 3000); </script>
+	  {else}
+      <a href="javascript:history.back()" class="ncap-btn">返回上一页</a> 
+	{/if}
+    </div>
+  </div>
+</div>
+</body>
+</html>

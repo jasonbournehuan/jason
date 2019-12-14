@@ -1,0 +1,1952 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 626
+Memory = 1127952
+Processtime = 0.0591
+
+Code:
+622  :         $this->c('fg');
+623  : 
+624  :         $fg_cache_key = "fg_fish_".$end_log_id ;
+625  :         $this->c('cache_redis');
+626  :         $this->cache_redis->select($$this->redis_db);<--
+627  : 
+628  :         $log_redis_data = json_decode($this->cache_redis->kGet($fg_cache_key),true);
+629  : 
+630  :         if(!empty($log_redis_data)) {
+631  :             $end_log_data  = $log_redis_data;
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_fg3.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\fg.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish<br>
+/agent/log_by_page/gt/fishArray
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                    [0] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 20
+                            [all_wins] => 9.3
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 189.3
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372298874
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.06
+                            [player_name] => jhzvt5
+                            [result] => -10.7
+                            [scene_id] => 180680001
+                            [start_chips] => 200
+                            [start_time] => 1561134665
+                            [time] => 1561134721
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 20
+                            [all_wins] => 35.4
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 204.7
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372298875
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.06
+                            [player_name] => jhzvt5
+                            [result] => 15.4
+                            [scene_id] => 180680002
+                            [start_chips] => 189.3
+                            [start_time] => 1561134721
+                            [time] => 1561134782
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [2] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 20
+                            [all_wins] => 33.7
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 218.4
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372298876
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.06
+                            [player_name] => jhzvt5
+                            [result] => 13.7
+                            [scene_id] => 180680003
+                            [start_chips] => 204.7
+                            [start_time] => 1561134783
+                            [time] => 1561134857
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [3] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 20
+                            [all_wins] => 17.28
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 215.68
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372298877
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.06
+                            [player_name] => jhzvt5
+                            [result] => -2.72
+                            [scene_id] => 180680004
+                            [start_chips] => 218.4
+                            [start_time] => 1561134858
+                            [time] => 1561134915
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [4] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 7.7
+                            [all_wins] => 2.4
+                            [bullet_count] => 77
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 210.38
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372298878
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0231
+                            [player_name] => jhzvt5
+                            [result] => -5.3
+                            [scene_id] => 180680005
+                            [start_chips] => 215.68
+                            [start_time] => 1561134915
+                            [time] => 1561134946
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [5] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 15.2
+                            [all_wins] => 26.82
+                            [bullet_count] => 152
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 222
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372298881
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0456
+                            [player_name] => jhzvt5
+                            [result] => 11.62
+                            [scene_id] => 180680006
+                            [start_chips] => 210.38
+                            [start_time] => 1561134969
+                            [time] => 1561135016
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 1.6
+                            [all_wins] => 11.68
+                            [bullet_count] => 16
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 232.08
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372298884
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0048
+                            [player_name] => jhzvt5
+                            [result] => 10.08
+                            [scene_id] => 180680007
+                            [start_chips] => 222
+                            [start_time] => 1561135026
+                            [time] => 1561135046
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [7] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 12
+                            [all_wins] => 2.08
+                            [bullet_count] => 120
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 0.08
+                            [game_id] => 5003
+                            [gt] => fish
+                            [id] => 27124978881087653
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.036
+                            [player_name] => uhjjaavc5
+                            [result] => -9.92
+                            [scene_id] => 180720001
+                            [start_chips] => 10
+                            [start_time] => 1561479888
+                            [time] => 1561479939
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [8] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 9.1
+                            [all_wins] => 0
+                            [bullet_count] => 43
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 0.98
+                            [game_id] => 5003
+                            [gt] => fish
+                            [id] => 27124978881087656
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0273
+                            [player_name] => uhjjaavc5
+                            [result] => -9.1
+                            [scene_id] => 180720002
+                            [start_chips] => 10.08
+                            [start_time] => 1561479959
+                            [time] => 1561479990
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [9] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 16.2
+                            [all_wins] => 26.59
+                            [bullet_count] => 162
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 705.92
+                            [game_id] => 5002
+                            [gt] => fish
+                            [id] => 18117779625735613
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0486
+                            [player_name] => uhjjaavc5
+                            [result] => 10.39
+                            [scene_id] => 180750001
+                            [start_chips] => 695.53
+                            [start_time] => 1561727450
+                            [time] => 1561727545
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [10] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0.4
+                            [all_wins] => 0
+                            [bullet_count] => 2
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 0.02
+                            [game_id] => 5006
+                            [gt] => fish
+                            [id] => 54146578971059828
+                            [ip] => 103.119.129.73
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0012
+                            [player_name] => uhjjaavc5
+                            [result] => -0.4
+                            [scene_id] => 180770001
+                            [start_chips] => 0.42
+                            [start_time] => 1561868459
+                            [time] => 1561869066
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [11] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 20
+                            [all_wins] => 15.5
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2675.07
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301427
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.06
+                            [player_name] => uhjjaavc5
+                            [result] => -4.5
+                            [scene_id] => 180810001
+                            [start_chips] => 2679.57
+                            [start_time] => 1562218257
+                            [time] => 1562218315
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [12] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 12.7
+                            [all_wins] => 28
+                            [bullet_count] => 127
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2690.37
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301428
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0381
+                            [player_name] => uhjjaavc5
+                            [result] => 15.3
+                            [scene_id] => 180810002
+                            [start_chips] => 2675.07
+                            [start_time] => 1562218315
+                            [time] => 1562218354
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [13] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0
+                            [all_wins] => 5.2
+                            [bullet_count] => 1
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2695.57
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301429
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 5.2
+                            [scene_id] => 180810003
+                            [start_chips] => 2690.37
+                            [start_time] => 1562218354
+                            [time] => 1562218354
+                            [total_agent_uid] => 1253
+                            [type] => 20
+                        )
+
+                    [14] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 20
+                            [all_wins] => 32.4
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2707.97
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301430
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.06
+                            [player_name] => uhjjaavc5
+                            [result] => 12.4
+                            [scene_id] => 180810004
+                            [start_chips] => 2695.57
+                            [start_time] => 1562218357
+                            [time] => 1562218415
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [15] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 20
+                            [all_wins] => 0.5
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2688.47
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301431
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.06
+                            [player_name] => uhjjaavc5
+                            [result] => -19.5
+                            [scene_id] => 180810005
+                            [start_chips] => 2707.97
+                            [start_time] => 1562218415
+                            [time] => 1562218453
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [16] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 20
+                            [all_wins] => 12.8
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2681.27
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301432
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.06
+                            [player_name] => uhjjaavc5
+                            [result] => -7.2
+                            [scene_id] => 180810006
+                            [start_chips] => 2688.47
+                            [start_time] => 1562218453
+                            [time] => 1562218502
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [17] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 7.3
+                            [all_wins] => 8.2
+                            [bullet_count] => 73
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2682.17
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301433
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0219
+                            [player_name] => uhjjaavc5
+                            [result] => 0.9
+                            [scene_id] => 180810007
+                            [start_chips] => 2681.27
+                            [start_time] => 1562218502
+                            [time] => 1562218523
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [18] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0
+                            [all_wins] => 0.99
+                            [bullet_count] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2683.16
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301434
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 0.99
+                            [scene_id] => 180810008
+                            [start_chips] => 2682.17
+                            [start_time] => 1562218523
+                            [time] => 1562218523
+                            [total_agent_uid] => 1253
+                            [type] => 18
+                        )
+
+                    [19] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 19.5
+                            [all_wins] => 15.5
+                            [bullet_count] => 195
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2679.16
+                            [game_id] => 5001
+                            [gt] => fish
+                            [id] => 9110580372301435
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0585
+                            [player_name] => uhjjaavc5
+                            [result] => -4
+                            [scene_id] => 180810009
+                            [start_chips] => 2683.16
+                            [start_time] => 1562218524
+                            [time] => 1562218583
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [20] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 200
+                            [all_wins] => 5
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2096.66
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861387
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6
+                            [player_name] => uhjjaavc5
+                            [result] => -195
+                            [scene_id] => 180820001
+                            [start_chips] => 2291.66
+                            [start_time] => 1562328839
+                            [time] => 1562328872
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [21] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 200
+                            [all_wins] => 33
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 1929.66
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861392
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6
+                            [player_name] => uhjjaavc5
+                            [result] => -167
+                            [scene_id] => 180820002
+                            [start_chips] => 2096.66
+                            [start_time] => 1562328872
+                            [time] => 1562328905
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [22] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 200
+                            [all_wins] => 175
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 1904.66
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861401
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6
+                            [player_name] => uhjjaavc5
+                            [result] => -25
+                            [scene_id] => 180820003
+                            [start_chips] => 1929.66
+                            [start_time] => 1562328905
+                            [time] => 1562329026
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [23] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 200
+                            [all_wins] => 138.5
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 1843.16
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861406
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6
+                            [player_name] => uhjjaavc5
+                            [result] => -61.5
+                            [scene_id] => 180820004
+                            [start_chips] => 1904.66
+                            [start_time] => 1562329027
+                            [time] => 1562329079
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [24] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 136
+                            [all_wins] => 44
+                            [bullet_count] => 38
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 1751.16
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861412
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.408
+                            [player_name] => uhjjaavc5
+                            [result] => -92
+                            [scene_id] => 180820005
+                            [start_chips] => 1843.16
+                            [start_time] => 1562329080
+                            [time] => 1562329137
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [25] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 326
+                            [all_wins] => 265
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 1690.16
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861417
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.978
+                            [player_name] => uhjjaavc5
+                            [result] => -61
+                            [scene_id] => 180820006
+                            [start_chips] => 1751.16
+                            [start_time] => 1562329148
+                            [time] => 1562329205
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [26] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 200
+                            [all_wins] => 15
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 1505.16
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861420
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6
+                            [player_name] => uhjjaavc5
+                            [result] => -185
+                            [scene_id] => 180820007
+                            [start_chips] => 1690.16
+                            [start_time] => 1562329205
+                            [time] => 1562329234
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [27] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 671
+                            [all_wins] => 0
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 834.16
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861422
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 2.013
+                            [player_name] => uhjjaavc5
+                            [result] => -671
+                            [scene_id] => 180820008
+                            [start_chips] => 1505.16
+                            [start_time] => 1562329234
+                            [time] => 1562329258
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [28] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 345
+                            [all_wins] => 190.7
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 679.86
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861430
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 1.035
+                            [player_name] => uhjjaavc5
+                            [result] => -154.3
+                            [scene_id] => 180820009
+                            [start_chips] => 834.16
+                            [start_time] => 1562329258
+                            [time] => 1562329355
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [29] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 200
+                            [all_wins] => 318.4
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 798.26
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861435
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6
+                            [player_name] => uhjjaavc5
+                            [result] => 118.4
+                            [scene_id] => 180820010
+                            [start_chips] => 679.86
+                            [start_time] => 1562329356
+                            [time] => 1562329451
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [30] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 200
+                            [all_wins] => 154.3
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 752.56
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861438
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6
+                            [player_name] => uhjjaavc5
+                            [result] => -45.7
+                            [scene_id] => 180820011
+                            [start_chips] => 798.26
+                            [start_time] => 1562329464
+                            [time] => 1562329509
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [31] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 200
+                            [all_wins] => 47.05
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 599.61
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861439
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6
+                            [player_name] => uhjjaavc5
+                            [result] => -152.95
+                            [scene_id] => 180820012
+                            [start_chips] => 752.56
+                            [start_time] => 1562329509
+                            [time] => 1562329548
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [32] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 771
+                            [all_wins] => 786
+                            [bullet_count] => 109
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 614.61
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861441
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 2.313
+                            [player_name] => uhjjaavc5
+                            [result] => 15
+                            [scene_id] => 180820013
+                            [start_chips] => 599.61
+                            [start_time] => 1562329548
+                            [time] => 1562329572
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [33] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2000
+                            [all_wins] => 1860
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 474.61
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861449
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 6
+                            [player_name] => uhjjaavc5
+                            [result] => -140
+                            [scene_id] => 180820014
+                            [start_chips] => 614.61
+                            [start_time] => 1562329572
+                            [time] => 1562329683
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [34] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 760
+                            [all_wins] => 1090
+                            [bullet_count] => 76
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 804.61
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861450
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 2.28
+                            [player_name] => uhjjaavc5
+                            [result] => 330
+                            [scene_id] => 180820015
+                            [start_chips] => 474.61
+                            [start_time] => 1562329683
+                            [time] => 1562329747
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [35] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 7.5
+                            [all_wins] => 1.44
+                            [bullet_count] => 75
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 798.55
+                            [game_id] => 5006
+                            [gt] => fish
+                            [id] => 54146578971060156
+                            [ip] => 103.119.129.73
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0225
+                            [player_name] => uhjjaavc5
+                            [result] => -6.06
+                            [scene_id] => 180820001
+                            [start_chips] => 804.61
+                            [start_time] => 1562330372
+                            [time] => 1562330400
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [36] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 796.4
+                            [all_wins] => 206.5
+                            [bullet_count] => 200
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 208.65
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861454
+                            [ip] => 103.119.129.73
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 2.3892
+                            [player_name] => uhjjaavc5
+                            [result] => -589.9
+                            [scene_id] => 180820016
+                            [start_chips] => 798.55
+                            [start_time] => 1562330535
+                            [time] => 1562330636
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [37] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 360
+                            [all_wins] => 154
+                            [bullet_count] => 180
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 2.65
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393861456
+                            [ip] => 103.119.129.73
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 1.08
+                            [player_name] => uhjjaavc5
+                            [result] => -206
+                            [scene_id] => 180820017
+                            [start_chips] => 208.65
+                            [start_time] => 1562330637
+                            [time] => 1562330715
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [38] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 207.9
+                            [all_wins] => 247.5
+                            [bullet_count] => 21
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 121.25
+                            [game_id] => 5003
+                            [gt] => fish
+                            [id] => 27124978881088418
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.6237
+                            [player_name] => uhjjaavc5
+                            [result] => 39.6
+                            [scene_id] => 181000001
+                            [start_chips] => 81.65
+                            [start_time] => 1563886599
+                            [time] => 1563886652
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [39] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 99
+                            [all_wins] => 0
+                            [bullet_count] => 1
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 22.25
+                            [game_id] => 5003
+                            [gt] => fish
+                            [id] => 27124978881088419
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.297
+                            [player_name] => uhjjaavc5
+                            [result] => -99
+                            [scene_id] => 181000002
+                            [start_chips] => 121.25
+                            [start_time] => 1563886658
+                            [time] => 1563886666
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [40] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 12
+                            [all_wins] => 11
+                            [bullet_count] => 12
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 21.25
+                            [game_id] => 5003
+                            [gt] => fish
+                            [id] => 27124978881088420
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.036
+                            [player_name] => uhjjaavc5
+                            [result] => -1
+                            [scene_id] => 181000003
+                            [start_chips] => 22.25
+                            [start_time] => 1563886675
+                            [time] => 1563886684
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [41] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 24
+                            [all_wins] => 14
+                            [bullet_count] => 12
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 34.85
+                            [game_id] => 5006
+                            [gt] => fish
+                            [id] => 54146578971061312
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.072
+                            [player_name] => uhjjaavc5
+                            [result] => -10
+                            [scene_id] => 181020001
+                            [start_chips] => 44.85
+                            [start_time] => 1564046164
+                            [time] => 1564046266
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [42] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2
+                            [all_wins] => 0
+                            [bullet_count] => 4
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 32.85
+                            [game_id] => 5004
+                            [gt] => fish
+                            [id] => 36132178137956193
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.006
+                            [player_name] => uhjjaavc5
+                            [result] => -2
+                            [scene_id] => 181030001
+                            [start_chips] => 34.85
+                            [start_time] => 1564120286
+                            [time] => 1564120344
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                    [43] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 116.8
+                            [all_wins] => 84
+                            [bullet_count] => 62
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 0.05
+                            [game_id] => 5005
+                            [gt] => fish
+                            [id] => 45139377393868900
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.3504
+                            [player_name] => uhjjaavc5
+                            [result] => -32.8
+                            [scene_id] => 181030001
+                            [start_chips] => 32.85
+                            [start_time] => 1564121372
+                            [time] => 1564121503
+                            [total_agent_uid] => 1253
+                            [type] => 1
+                        )
+
+                )
+
+            [page_key] => g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA
+        )
+
+    [msg] => success
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/page_key/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+07-31 22:24:02采集FG捕鱼数据37条！
+  
+ ��3�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:25:02 采集FG捕鱼数据成功，没有新数据！
+  
+ ��4�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:26:02 采集FG捕鱼数据成功，没有新数据！
+  
+ ��5�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:27:01 采集FG捕鱼数据成功，没有新数据！
+  
+ ��6�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:28:01 采集FG捕鱼数据成功，没有新数据！
+  
+ ��7�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:29:03 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��8�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:30:03 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��9�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:31:03 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��10�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:32:03 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��11�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:33:03 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��12�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:34:03 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��13�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:35:03 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��14�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:36:03 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��15�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:37:03 采集FG捕鱼数据成功，没有新数据！
+  
+ ��16�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:38:02 采集FG捕鱼数据成功，没有新数据！
+  
+ ��17�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:39:03 采集FG捕鱼数据成功，没有新数据！
+  
+ ��18�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:40:03 采集FG捕鱼数据成功，没有新数据！
+  
+ ��19�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:41:04 采集FG捕鱼数据成功，没有新数据！
+  
+ ��20�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:42:05 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��21�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:43:05 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��22�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:44:07 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��23�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:45:07 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��24�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:46:06 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��25�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:47:06 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��26�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:48:06 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��27�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:49:06 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��28�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:50:06 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��29�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:51:06 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��30�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDA<br>
+/agent/log_by_page/gt/fish/id/g2gCbgcA3GiVao-OBW0AAAARNDUxMzkzNzczOTM4Njg5MDAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fish/id/45139377393868900<br>
+/agent/log_by_page/gt/fish/id/45139377393868900Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:52:06 采集FG捕鱼数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��31�� 

@@ -1,0 +1,2223 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 2434
+Memory = 1207344
+Processtime = 0.0617
+
+Code:
+2430  :         $end_log_id = '30033';
+2431  :         $in_data = $db_data = array();
+2432  :         $this->c('bbin');
+2433  :         $this->c('cache_redis');
+2434  :         $this->cache_redis->select($$this->redis_db);<--
+2435  : 
+2436  :         $data = $this->bbin->get_log($end_log_id,5,3);
+2437  :         print_R($data);
+2438  :         /*  exit;
+2439  :           */
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_bbin1_3.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\bbin.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564500242
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:24:01 采集BIN电子数据成功，没有新数据！
+  
+ ��3�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564503843
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:25:02 采集BIN电子数据成功，没有新数据！
+  
+ ��4�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564507444
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:26:06 采集BIN电子数据成功，没有新数据！
+  
+ ��5�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564511045
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:27:07 采集BIN电子数据成功，没有新数据！
+  
+ ��6�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564514646
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:28:08 采集BIN电子数据成功，没有新数据！
+  
+ ��7�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:29:09 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��8�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:30:11 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��9�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:31:12 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��10�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:32:13 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��11�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:33:15 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��12�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:34:16 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��13�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:35:16 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��14�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:36:19 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��15�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564518247
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:37:21 采集BIN电子数据成功，没有新数据！
+  
+ ��16�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564521848
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:38:22 采集BIN电子数据成功，没有新数据！
+  
+ ��17�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564525449
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:39:23 采集BIN电子数据成功，没有新数据！
+  
+ ��18�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 18:24:10
+    [endtime] => 19:24:10
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564529050
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:40:27 采集BIN电子数据成功，没有新数据！
+  
+ ��19�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 19:24:11
+    [endtime] => 20:24:11
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564532651
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:41:28 采集BIN电子数据成功，没有新数据！
+  
+ ��20�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:42:29 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��21�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:43:30 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��22�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:44:31 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��23�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:45:33 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��24�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:46:46 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��25�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:47:47 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��26�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:48:48 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��27�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:49:49 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��28�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:50:50 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��29�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:51:51 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��30�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 20:24:12
+    [endtime] => 21:24:12
+    [gamekind] => 5
+    [subgamekind] => 3
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:52:52 采集BBIN电子数据失败，返回状态:采集失败！
+失败原因:IP is not accepted.  

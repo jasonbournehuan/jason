@@ -1,0 +1,4 @@
+start|-|2019-12-06 12:32:51|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"out_game","uid":"5648732"}
+end|-|2019-12-06 00:32:52|-|{"status":1,"money":0,"orders_number":"888kh8vvvhp5dd2gh","order_id":null}
+start|-|2019-12-06 12:34:56|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"out_game","uid":"5648732"}
+end|-|2019-12-06 00:34:57|-|{"status":1,"money":50,"orders_number":"888kh8vvvhp5dd2kh","order_id":null}

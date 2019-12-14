@@ -1,0 +1,4 @@
+start|-|2019-11-23 23:16:18|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-11-23 23:16:19|-|{"result":true,"data":{"TransID":"1574522177679215681","TransType":"IN","Status":1,"UserName":"khevarii2"}}
+start|-|2019-11-23 23:16:27|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-11-23 23:16:28|-|{"result":true,"data":{"TransID":"1574522186719215681","TransType":"OUT","Status":1,"UserName":"khevarii2"}}

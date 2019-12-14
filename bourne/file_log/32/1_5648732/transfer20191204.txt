@@ -1,0 +1,12 @@
+start|-|2019-12-04 17:29:16|-|{"code":0,"data":[],"msg":"success"}
+end|-|2019-12-04 17:29:16|-|{"code":0,"data":{"amount":3050,"end_chips":59200,"externaltransactionid":"1575451756152_khjv5a","member_code":"khjv5aldk","time":1575451756},"msg":"success"}
+start|-|2019-12-04 17:33:11|-|{"code":0,"data":[],"msg":"success"}
+end|-|2019-12-04 17:33:11|-|{"code":0,"data":{"amount":59200,"end_chips":0,"externaltransactionid":"1575451991593_khjv5a","member_code":"khjv5aldk","time":1575451992},"msg":"success"}
+start|-|2019-12-04 17:33:20|-|{"code":0,"data":[],"msg":"success"}
+end|-|2019-12-04 17:33:20|-|{"code":0,"data":{"amount":3025,"end_chips":3025,"externaltransactionid":"1575452000611_khjv5a","member_code":"khjv5aldk","time":1575452001},"msg":"success"}
+start|-|2019-12-04 17:34:05|-|{"code":0,"data":[],"msg":"success"}
+end|-|2019-12-04 17:34:05|-|{"code":0,"data":{"amount":3025,"end_chips":0,"externaltransactionid":"1575452045298_khjv5a","member_code":"khjv5aldk","time":1575452045},"msg":"success"}
+start|-|2019-12-04 17:44:24|-|{"code":0,"data":[],"msg":"success"}
+end|-|2019-12-04 17:44:24|-|{"code":0,"data":{"amount":3025,"end_chips":3025,"externaltransactionid":"1575452664251_khjv5a","member_code":"khjv5aldk","time":1575452664},"msg":"success"}
+start|-|2019-12-04 17:47:53|-|{"code":0,"data":[],"msg":"success"}
+end|-|2019-12-04 17:47:53|-|{"code":0,"data":{"amount":3025,"end_chips":0,"externaltransactionid":"1575452873640_khjv5a","member_code":"khjv5aldk","time":1575452874},"msg":"success"}

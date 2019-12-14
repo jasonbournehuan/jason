@@ -1,0 +1,44 @@
+start|-|2019-11-23 23:17:21|-|<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <errcode>000000</errcode>
+  <errtext />
+  <result>
+    <Account>khevarii2</Account>
+    <Balance>50.0000</Balance>
+    <SerialNumber>1574522241260_khevarii2</SerialNumber>
+    <Amount>50.0000</Amount>
+  </result>
+</response>
+end|-|2019-11-23 23:17:21|-|<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <errcode>000000</errcode>
+  <errtext />
+  <result>
+    <Account>khevarii2</Account>
+    <SerialNumber>1574522241260_khevarii2</SerialNumber>
+    <Amount>50.0000</Amount>
+    <TransferDate>2019-11-23 23:17:21</TransferDate>
+  </result>
+</response>
+start|-|2019-11-23 23:17:32|-|<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <errcode>000000</errcode>
+  <errtext />
+  <result>
+    <Account>khevarii2</Account>
+    <Balance>0.0000</Balance>
+    <SerialNumber>1574522252701_khevarii2</SerialNumber>
+    <Amount>50.0000</Amount>
+  </result>
+</response>
+end|-|2019-11-23 23:17:33|-|<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <errcode>000000</errcode>
+  <errtext />
+  <result>
+    <Account>khevarii2</Account>
+    <SerialNumber>1574522252701_khevarii2</SerialNumber>
+    <Amount>-50.0000</Amount>
+    <TransferDate>2019-11-23 23:17:33</TransferDate>
+  </result>
+</response>

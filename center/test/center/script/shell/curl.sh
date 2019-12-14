@@ -1,0 +1,25 @@
+#!/bin/bash
+php /opt/app/zz/center/center_data.php   fanya >> /logs/fanya_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php   api761 >> /logs/api761_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php fg3     >> /logs/fg3_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php fg2     >> /logs/fg2_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php fg1     >> /logs/fg1_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php fg4     >> /logs/fg4_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php ky      >> /logs/ky_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bbin1   >> /logs/bbin1_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bbin1_2 >> /logs/bbin1_2_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bbin1_3 >> /logs/bbin1_3_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bbin1_5 >> /logs/bbin1_5_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bbin5   >> /logs/bbin5_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bbin6   >> /logs/bbin6_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bbin38  >> /logs/bbin38_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bbin30  >> /logs/bbin30_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bg1     >> /logs/bg1_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bg_fish_master >> /logs/bg_fish_master_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bg_westward_fish >> /logs/bg_westward_fish_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php bg5 >> /logs/bg5_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php ug6 >> /logs/ug6_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php cq9 >> /logs/cq9_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php jdb >> /logs/jdb_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php leg >> /logs/leg_`date +%Y-%m-%d`.log
+php /opt/app/zz/center/center_data.php dg >> /logs/dg`date +%Y-%m-%d`.log

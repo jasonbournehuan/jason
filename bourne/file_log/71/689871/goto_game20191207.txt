@@ -1,0 +1,3 @@
+start|-|2019-12-07 19:30:02|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"180","uid":"689871","money":"100","order_id":"346456456"}
+start|-|2019-12-07 19:30:09|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"180","uid":"689871","money":"100","order_id":"346456456"}
+end|-|2019-12-07 19:30:17|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=8f08936e257d469eb9c314009d3e7d58&UserName=khvaialu","money":212,"orders_number":"888kh8vvvhp5dd1uh","order_id":"346456456"}

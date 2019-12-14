@@ -1,0 +1,3 @@
+start|-|2019-12-06 17:46:41|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+request_info|-|2019-12-06 17:46:43|-|{"website":"avia","transid":"157562560118720","key":"qwertyucf075529a3a6cf3856257de404065fd5axwsqfasb","old_key":"qwertyucavia5Jr57Ya8c720191206xwsqfasb"}
+end|-|2019-12-06 17:46:43|-|{"result":true,"data":{"TransID":"157562560118720","TransType":"OUT","Status":1,"UserName":"uhjejav"}}

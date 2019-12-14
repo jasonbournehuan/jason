@@ -1,0 +1,4270 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 2939
+Memory = 1205992
+Processtime = 0.0493
+
+Code:
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_bbin5.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\bbin.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 6
+            [TotalPage] => 1
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564566887
+    [end_id] => 22898635842
+    [end_page] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [end_total_page] => 1
+)
+2019-07-31 22:24:00采集BBIN视讯6条！
+  
+ ��3�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 6
+            [TotalPage] => 1
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564566887
+    [end_id] => 22898635842
+    [end_page] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [end_total_page] => 1
+)
+2019-07-31 22:25:01采集BBIN视讯6条！
+  
+ ��4�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 6
+            [TotalPage] => 1
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564566887
+    [end_id] => 22898635842
+    [end_page] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [end_total_page] => 1
+)
+2019-07-31 22:26:03采集BBIN视讯6条！
+  
+ ��5�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 6
+            [TotalPage] => 1
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564566887
+    [end_id] => 22898635842
+    [end_page] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [end_total_page] => 1
+)
+2019-07-31 22:27:06采集BBIN视讯6条！
+  
+ ��6�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 6
+            [TotalPage] => 1
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564566887
+    [end_id] => 22898635842
+    [end_page] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [end_total_page] => 1
+)
+2019-07-31 22:28:11采集BBIN视讯6条！
+  
+ ��7�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:29:12 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��8�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:30:13 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��9�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:31:14 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��10�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:32:15 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��11�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:33:17 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��12�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:34:24 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��13�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:35:25 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��14�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:36:28 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��15�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 6
+            [TotalPage] => 1
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564566887
+    [end_id] => 22898635842
+    [end_page] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [end_total_page] => 1
+)
+2019-07-31 22:37:29采集BBIN视讯6条！
+  
+ ��16�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 6
+            [TotalPage] => 1
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564566887
+    [end_id] => 22898635842
+    [end_page] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [end_total_page] => 1
+)
+2019-07-31 22:38:31采集BBIN视讯6条！
+  
+ ��17�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:50:21
+    [endtime] => 06:50:21
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 6
+            [TotalPage] => 1
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564566887
+    [end_id] => 22898635842
+    [end_page] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898599992
+                    [WagersDate] => 2019-07-31 05:50:46
+                    [SerialID] => 147555372
+                    [RoundNo] => 12-24
+                    [GameType] => 3021
+                    [WagerDetail] => 1,10.66,10.00,-10.00*2,11.82,10.00,-10.00*7,0.94,10.00,9.40*8,0.92,10.00,-10.00*10,1.27,10.00,12.70
+                    [GameCode] => 1
+                    [Result] => 4
+                    [Card] => D.4
+                    [BetAmount] => 50
+                    [Origin] => P
+                    [Commissionable] => 50
+                    [Payoff] => -7.9
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [1] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898605411
+                    [WagersDate] => 2019-07-31 05:51:20
+                    [SerialID] => 147555401
+                    [RoundNo] => 12-25
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.28,10.00,2.80*2,11.77,10.00,-10.00*8,0.92,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => D.9
+                    [BetAmount] => 30
+                    [Origin] => P
+                    [Commissionable] => 30
+                    [Payoff] => -17.2
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [2] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898611022
+                    [WagersDate] => 2019-07-31 05:51:58
+                    [SerialID] => 147555431
+                    [RoundNo] => 12-26
+                    [GameType] => 3021
+                    [WagerDetail] => 1,1.96,20.00,-20.00*2,10.57,10.00,105.70*3,0.64,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 9
+                    [Card] => H.9
+                    [BetAmount] => 40
+                    [Origin] => P
+                    [Commissionable] => 40
+                    [Payoff] => 75.7
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [3] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898621761
+                    [WagersDate] => 2019-07-31 05:53:07
+                    [SerialID] => 147555483
+                    [RoundNo] => 12-28
+                    [GameType] => 3021
+                    [WagerDetail] => 1,0.92,10.00,9.20*3,1.31,10.00,-10.00
+                    [GameCode] => 1
+                    [Result] => 13
+                    [Card] => C.13
+                    [BetAmount] => 20
+                    [Origin] => P
+                    [Commissionable] => 20
+                    [Payoff] => -0.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [4] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898630847
+                    [WagersDate] => 2019-07-31 05:54:11
+                    [SerialID] => 147555537
+                    [RoundNo] => 12-30
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.14,40.00,5.60*4,1.91,30.00,-30.00
+                    [GameCode] => 1
+                    [Result] => 12
+                    [Card] => S.12
+                    [BetAmount] => 70
+                    [Origin] => P
+                    [Commissionable] => 70
+                    [Payoff] => -24.4
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+            [5] => Array
+                (
+                    [UserName] => uhjjaavc5
+                    [WagersID] => 22898635842
+                    [WagersDate] => 2019-07-31 05:54:47
+                    [SerialID] => 147555561
+                    [RoundNo] => 12-31
+                    [GameType] => 3021
+                    [WagerDetail] => 3,0.26,30.00,7.80*4,1.90,30.00,57.00
+                    [GameCode] => 1
+                    [Result] => 2
+                    [Card] => C.2
+                    [BetAmount] => 60
+                    [Origin] => P
+                    [Commissionable] => 60
+                    [Payoff] => 64.8
+                    [Currency] => RMB
+                    [ExchangeRate] => 1.000000
+                    [ResultType] =>  
+                )
+
+        )
+
+    [end_total_page] => 1
+)
+2019-07-31 22:39:34采集BBIN视讯6条！
+  
+ ��18�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-31
+    [starttime] => 05:54:48
+    [endtime] => 06:54:48
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 1
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 1
+    [data] => Array
+        (
+        )
+
+    [pagination] => Array
+        (
+            [Page] => 0
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+Array
+(
+    [status] => 1
+    [msg] => 采集成功
+    [end_time] => 1564570488
+    [end_id] => 0
+    [end_page] => 
+    [data] => Array
+        (
+        )
+
+)
+2019-07-31 22:40:35 采集BBIN视讯成功，没有新数据！
+  
+ ��19�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+0SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:41:37
+    [endtime] => 11:41:37
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:41:37
+    [endtime] => 11:41:37
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:41:37
+    [endtime] => 11:41:37
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:41:36 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��20�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:42:43
+    [endtime] => 11:42:43
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:42:43
+    [endtime] => 11:42:43
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:42:43
+    [endtime] => 11:42:43
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:42:42 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��21�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:43:44
+    [endtime] => 11:43:44
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:43:44
+    [endtime] => 11:43:44
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:43:44
+    [endtime] => 11:43:44
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:43:43 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��22�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:44:45
+    [endtime] => 11:44:45
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:44:45
+    [endtime] => 11:44:45
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:44:45
+    [endtime] => 11:44:45
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:44:44 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��23�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:45:48
+    [endtime] => 11:45:48
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:45:48
+    [endtime] => 11:45:48
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:45:48
+    [endtime] => 11:45:48
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:45:47 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��24�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:46:52
+    [endtime] => 11:46:52
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:46:52
+    [endtime] => 11:46:52
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:46:52
+    [endtime] => 11:46:52
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:46:51 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��25�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:47:53
+    [endtime] => 11:47:53
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:47:53
+    [endtime] => 11:47:53
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:47:53
+    [endtime] => 11:47:53
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:47:52 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��26�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:48:54
+    [endtime] => 11:48:54
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:48:54
+    [endtime] => 11:48:54
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:48:54
+    [endtime] => 11:48:54
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:48:53 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��27�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:49:55
+    [endtime] => 11:49:55
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:49:55
+    [endtime] => 11:49:55
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:49:55
+    [endtime] => 11:49:55
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:49:54 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��28�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:50:56
+    [endtime] => 11:50:56
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:50:56
+    [endtime] => 11:50:56
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:50:56
+    [endtime] => 11:50:56
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:50:55 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��29�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:51:57
+    [endtime] => 11:51:57
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:51:57
+    [endtime] => 11:51:57
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:51:57
+    [endtime] => 11:51:57
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:51:56 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��30�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:52:59
+    [endtime] => 11:52:59
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:52:59
+    [endtime] => 11:52:59
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/BetRecord
+Array
+(
+    [website] => avia
+    [username] => 
+    [uppername] => dmingbo
+    [rounddate] => 2019-07-30
+    [starttime] => 10:52:59
+    [endtime] => 11:52:59
+    [gamekind] => 3
+    [subgamekind] => 1
+    [gametype] => 0
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcewqwertyu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+Array
+(
+    [status] => -1
+    [msg] => 采集失败
+    [error] => IP is not accepted.
+)
+2019-07-31 22:52:58 采集BBIN视讯失败，返回状态:采集失败！
+失败原因:IP is not accepted.  

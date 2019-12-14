@@ -1,0 +1,1 @@
+update `center`.`center_games` set screen = 1 where id in(284,273);

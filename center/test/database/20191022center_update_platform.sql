@@ -1,0 +1,12 @@
+UPDATE `center`.`center_platform` SET `name` = 'FG乐游', `module_status` = '{\"1\":1,\"2\":1,\"3\":1}', `remarks` = '', `status` = 1, `class_name` = 'fg', `paixu` = NULL WHERE `id` = 1;
+UPDATE `center`.`center_platform` SET `name` = '761', `module_status` = '{\"1\":1,\"2\":1,\"3\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'api761', `paixu` = NULL WHERE `id` = 2;
+UPDATE `center`.`center_platform` SET `name` = 'BBIN', `module_status` = '{\"1\":1,\"3\":1,\"5\":1,\"6\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'bbin', `paixu` = NULL WHERE `id` = 3;
+UPDATE `center`.`center_platform` SET `name` = '泛亚电竞', `module_status` = '{\"6\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'fanya', `paixu` = NULL WHERE `id` = 4;
+UPDATE `center`.`center_platform` SET `name` = '开元棋牌', `module_status` = '{\"2\":1,\"3\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'ky', `paixu` = NULL WHERE `id` = 5;
+UPDATE `center`.`center_platform` SET `name` = 'BG', `module_status` = '{\"1\":1,\"3\":1,\"5\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'bg', `paixu` = NULL WHERE `id` = 6;
+UPDATE `center`.`center_platform` SET `name` = 'DG', `module_status` = '{\"5\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'dg', `paixu` = NULL WHERE `id` = 7;
+UPDATE `center`.`center_platform` SET `name` = 'UG', `module_status` = '{\"6\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'ug', `paixu` = NULL WHERE `id` = 8;
+UPDATE `center`.`center_platform` SET `name` = 'CQ9', `module_status` = '{\"1\":1,\"2\":1,\"3\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'cq9', `paixu` = NULL WHERE `id` = 9;
+UPDATE `center`.`center_platform` SET `name` = 'JDB', `module_status` = '{\"1\":1,\"2\":1,\"3\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'jdb', `paixu` = NULL WHERE `id` = 10;
+UPDATE `center`.`center_platform` SET `name` = 'LEG', `module_status` = '{\"2\":1,\"3\":1}', `remarks` = NULL, `status` = 1, `class_name` = 'leg', `paixu` = NULL WHERE `id` = 11;
+DELETE FROM `center`.`center_platform` WHERE`id` = 12;

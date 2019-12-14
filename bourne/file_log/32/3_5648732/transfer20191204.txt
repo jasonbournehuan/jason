@@ -1,0 +1,25 @@
+start|-|2019-12-04 12:11:28|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 12:11:29|-|{"result":false,"data":{"Message":"Not found Transaction.","Status":-1}}
+end|-|2019-12-04 12:11:32|-|{"result":true,"data":{"TransID":"1575432688056256487","TransType":"IN","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 12:11:50|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 12:11:51|-|{"result":true,"data":{"TransID":"1575432710189256487","TransType":"OUT","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 12:13:04|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 12:13:05|-|{"result":true,"data":{"TransID":"1575432783563256487","TransType":"IN","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 15:27:05|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 15:27:06|-|{"result":true,"data":{"TransID":"1575444424848256487","TransType":"OUT","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 15:31:32|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 15:31:33|-|{"result":true,"data":{"TransID":"1575444691924256487","TransType":"IN","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 17:14:39|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 17:14:40|-|{"result":true,"data":{"TransID":"1575450878606256487","TransType":"IN","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 17:16:46|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 17:16:47|-|{"result":true,"data":{"TransID":"1575451005771256487","TransType":"IN","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 17:19:30|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 17:19:31|-|{"result":true,"data":{"TransID":"1575451170010256487","TransType":"OUT","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 17:28:09|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 17:28:10|-|{"result":true,"data":{"TransID":"1575451688746256487","TransType":"IN","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 17:29:13|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 17:29:15|-|{"result":true,"data":{"TransID":"1575451753367256487","TransType":"OUT","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 17:48:20|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 17:48:22|-|{"result":true,"data":{"TransID":"1575452900046256487","TransType":"IN","Status":1,"UserName":"khjv5aldk"}}
+start|-|2019-12-04 18:06:47|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+end|-|2019-12-04 18:06:48|-|{"result":true,"data":{"TransID":"1575454006814256487","TransType":"OUT","Status":1,"UserName":"khjv5aldk"}}

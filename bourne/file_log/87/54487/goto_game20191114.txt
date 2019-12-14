@@ -1,0 +1,8 @@
+start|-|2019-11-14 20:44:29|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"411","uid":"54487","money":"30.55","order_id":"346456456"}
+start|-|2019-11-14 20:44:58|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"411","uid":"54487","money":"30.55","order_id":"346456456"}
+start|-|2019-11-14 20:47:35|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"411","uid":"54487","money":"30.55","order_id":"346456456"}
+start|-|2019-11-14 20:48:16|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"411","uid":"54487","money":"30.55","order_id":"346456456"}
+start|-|2019-11-14 20:48:39|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"411","uid":"54487","money":"30.55","order_id":"346456456"}
+start|-|2019-11-14 20:50:39|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"411","uid":"54487","money":"30.55","order_id":"346456456"}
+start|-|2019-11-14 20:52:01|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"411","uid":"54487","money":"30.55","order_id":"346456456"}
+end|-|2019-11-14 20:52:04|-|{"status":1,"msg":"https:\/\/msport.ugamingservice888.com\/Login\/AutoLogin?language=ch&LoginCode=5BFF112EE5517E49F53CB8CFE9B0497F4294967298&CheckCode=D41D8C&area=SP1","money":"30.55","orders_number":"888kh8vvvhp5dqldh","order_id":"346456456"}

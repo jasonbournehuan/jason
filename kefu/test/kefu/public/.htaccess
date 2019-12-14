@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks -Multiviews
+  RewriteEngine On
+
+  RewriteRule ^chat/(.*?)/(.*?)/(.*?)/?$ index.php?s=index/index/chat&group=$1&id=$2&name=$3&name=$4 [L]
+  RewriteRule ^chat/(.*?)/(.*?)/(.*?)/?$ index.php?s=index/index/chat&group=$1&id=$2&name=$3 [L]
+  RewriteRule ^chat/(.*?)/(.*?)/?$ index.php?s=index/index/chat&group=$1&id=$2 [L]
+  RewriteRule ^chat/(.*?)?$ index.php?s=index/index/chat&group=$1 [L]
+  RewriteRule ^leave/(.*?)/(.*?)/(.*?)/?$ index.php?s=index/index/leave&group=$1&id=$2&name=$3 [L]
+  RewriteRule ^leave/(.*?)/(.*?)/?$ index.php?s=index/index/leave&group=$1&uid=$2 [L]
+  RewriteRule ^leave/(.*?)?$ index.php?s=index/index/leave&group=$1 [L]
+  RewriteRule ^mobile/(.*?)/(.*?)/(.*?)/?$ index.php?s=index/index/mobile&group=$1&id=$2&name=$3 [L]
+  RewriteRule ^mobile/(.*?)/(.*?)/?$ index.php?s=index/index/mobile&group=$1&id=$2 [L]
+  RewriteRule ^mobile/(.*?)?$ index.php?s=index/index/mobile&group=$1 [L]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php?/$1 [QSA,PT,L]
+</IfModule>

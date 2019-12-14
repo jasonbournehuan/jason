@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ft/static/css/fonts.css">
+    <link rel="stylesheet" href="ft/static/css/main.css">
+    <link rel="stylesheet" href="ft/static/css/style.css">
+    <title></title>
+
+</head>
+<body style="transform: scale(0.72241, 0.669127);overflow: visible;">
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img src="ft/static/picture/logo.png"></div>
+            <div class="position">
+                <div class="positm" id="pos1" style="background-position: 0px -576px;"></div>
+                <div class="positm" id="pos2" style="background-position: 0px -64px;"></div>
+                <div class="positm" id="pos3" style="background-position: 0px 0px;"></div>
+                <div class="positm" id="pos4" style="background-position: 0px -384px;"></div>
+                <div class="positm" id="pos5" style="background-position: 0px -128px;"></div>
+                <div class="positm" id="pos6" style="background-position: 0px -320px;"></div>
+                <div class="positm" id="pos7" style="background-position: 0px -192px;"></div>
+                <div class="positm" id="pos8" style="background-position: 0px -448px;"></div>
+                <div class="positm" id="pos9" style="background-position: 0px -512px;"></div>
+                <div class="positm" id="pos10" style="background-position: 0px -256px;"></div>
+            </div>
+        </div>
+        <div class="currentdraw">
+            已开期数 : <span id="currentdrawid"></span><br>
+            等待开奖 : <span id="nextdrawtime" style="margin-top: 0px;display: inline-block;"></span>
+        </div>
+
+        <div class="scenary page1">
+            <div class="scenaryitm" id="scenaryitm">
+                <img src="ft/static/picture/scenery.jpg">
+            </div>
+        </div>
+        <div class="road page1">
+            <!--<div class="drawAnimal-roadani">-->
+            <div class="roaditm" id="roaditm" style="left:-1300px;">
+                <img src="ft/static/picture/road.jpg" width="2660" height="540">
+            </div>
+            <!--</div>-->
+            <div class="roadstart" id="roadstart">
+                <img src="ft/static/picture/finisher.png" width="249" height="515" style="opacity:0.3;">
+            </div>
+            <div class="car1" id="car1">
+                <img src="ft/static/picture/car1.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -41px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car2" id="car2">
+                <img src="ft/static/picture/car2.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -41px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car3" id="car3">
+                <img src="ft/static/picture/car3.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -41px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car4" id="car4">
+                <img src="ft/static/picture/car4.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -41px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car5" id="car5">
+                <img src="ft/static/picture/car5.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -42px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car6" id="car6">
+                <img src="ft/static/picture/car6.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -42px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car7" id="car7">
+                <img src="ft/static/picture/car7.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -43px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car8" id="car8">
+                <img src="ft/static/picture/car8.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -43px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car9" id="car9">
+                <img src="ft/static/picture/car9.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind" style="left: -20px; top: -2px;">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -45px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="car10" id="car10">
+                <img src="ft/static/picture/car10.png">
+                <div class="wheela">
+                    <img src="ft/static/picture/wheel.png">
+                </div>
+                <div class="wheelb">
+                    <img src="ft/static/picture/wheel2.png">
+                </div>
+                <div class="wind">
+                    <img src="ft/static/picture/wind.png">
+                </div>
+                <div class="flame" style="right: -45px; bottom: 5px;">
+                    <img src="ft/static/picture/flame.png">
+                </div>
+            </div>
+            <div class="trafficlight">
+                <div class="countdownnum"></div>
+                <div class="countdownnum2" id="betDrawTime_milli"></div>
+            </div>
+        </div>
+        <div class="resultpage page2">
+            <div class="resultitm result1" id="result1"><img src="ft/static/picture/result1.png"></div>
+            <div class="resultitm result2" id="result2"><img src="ft/static/picture/result2.png"></div>
+            <div class="resultitm result3" id="result3"><img src="ft/static/picture/result3.png"></div>
+            <div class="resultitm resultcar2" id="resultcar2">
+                <div></div>
+            </div>
+            <div class="resultitm resultcar3" id="resultcar3">
+                <div></div>
+            </div>
+            <div class="resultitm resultcar1" id="resultcar1">
+                <div></div>
+            </div>
+        </div>
+
+        <div class="flashlight">
+        </div>
+
+    </div>
+
+    <div style="display:none;" id="sound">
+        <audio src="ft/static/sound/1.mp3" controls="controls" loop="loop" id="running"></audio>
+        <!--<audio src="ft/static/sound/2.mp3" controls="controls" id="carStarting"></audio>-->
+        <audio src="ft/static/sound/3.mp3" controls="controls" id="finish"></audio>
+        <audio src="ft/static/sound/6.mp3" controls="controls" id="lights"></audio>
+    </div>
+    <div class="ctrl">
+        <div id="soundCtrl" class="on"></div>
+    </div>
+    <script>
+	var game_id = <?php echo $game_id;?>;
+	</script>
+    <script src="ft/static/js/TweenMax.min.js"></script>
+    <script src="ft/static/js/jquery-1.8.3.min.js"></script>
+    <script src="ft/static/js/main.js"></script>
+</body>
+</html>
+
+
+
+

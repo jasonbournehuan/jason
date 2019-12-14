@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html style="zoom:0.78">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html">
+    
+    <title></title>
+    <link rel="stylesheet" href="11x5/static/css/11x5.css">
+    <script src="11x5/static/js/jquery-2.1.0-2019530156.js"></script>
+    <script src="11x5/static/js/main.js"></script>
+    <script src="11x5/static/js/config-2019530156.js"></script>
+    <script src="11x5/static/js/video-2019530156.js"></script>
+</head>
+
+<body>
+    <div id="videobox">
+        <div class="content">
+            <div class="animate">
+                <div class="eleAnimate">
+                    <div class="loading">
+                        <div class="loadtxt">
+                            LOADING...
+                        </div>
+                    </div>
+                    <div class="noinfor"></div>
+                    <div class="bodybg"><img src="11x5/static/picture/flash.png"></div>
+                    <div class="animate_content">
+                        <div class="nameLogo"><img src="11x5/static/picture/11x5_gd.png" alt=""></div>
+                        <div class="codeArr">
+                            <ul>
+                                <li class="code6"></li>
+                                <li class="code7"></li>
+                                <li class="code8"></li>
+                                <li class="code9"></li>
+                                <li class="code10"></li>
+                                <li>
+                                    <span>1</span>
+                                    <span>小</span>
+                                    <span>单</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="drawInfo">
+                            <div class="nextDraw">
+                                <p class="next">下期开奖<span id="drawIssue">2017051748</span></p>
+                                <p>开奖时间<span id="drawTime">00：00：00</span></p>
+                            </div>
+                            <div id="spanbtn" class="soundsOn"></div>
+                            <audio src="11x5/static/sound/bg.mp3" id="audioidB" loop="loop"></audio>
+                            <audio src="11x5/static/sound/run.mp3" id="audioidR" loop="loop"></audio>
+                        </div>
+                    </div>
+                    <div class="codeNum">
+                        <ul>
+                            <li class="num1"></li>
+                            <li class="num2"></li>
+                            <li class="num3"></li>
+                            <li class="num4"></li>
+                            <li class="num5"></li>
+                        </ul>
+                        <div id="hidNum">
+                            <span class="num1">1</span>
+                            <span class="num2">2</span>
+                            <span class="num3">3</span>
+                            <span class="num4">4</span>
+                            <span class="num5">5</span>
+                        </div>
+                    </div>
+                    <div class="manPic">
+                        <span class="manll"></span>
+                        <span class="manrl"></span>
+                    </div>
+                    <div class="cuttime">
+                        <div id="hourtxt">19:36:00</div>
+                        <div id="opening">正在开奖中</div>
+                    </div>
+                    <span id="mnKai"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+	var game_id = <?php echo $game_id;?>;
+    $(function () {
+        pubmethod.init(10006);
+    });
+</script>

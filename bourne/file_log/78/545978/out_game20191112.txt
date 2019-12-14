@@ -1,0 +1,2 @@
+start|-|2019-11-12 19:46:13|-|{"api_key":"krasi","api_secret":"krasi12345","method":"out_game","uid":"545978","order_id":"65786867sdfg"}
+end|-|2019-11-12 19:46:14|-|{"status":1,"money":80,"orders_number":"888kh8vvvhp5d2v5h","order_id":"65786867sdfg"}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="referrer" content="origin"/>
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<iframe name="a_iframe" id="'a_iframe'" src="http://test.bw-gaming.com/handler/fastlogin?key=bf1672732401459295d778af0db83544&UserName=uhe5il5jv" marginwidth="0" marginheight="0" scrolling="no"
+        frameborder="0" WIDTH="100%" height="100%"></iframe>
+<script>
+    let token= 'http://test.bw-gaming.com/handler/fastlogin?key=bf1672732401459295d778af0db83544&UserName=uhe5il5jv';
+    let sid= '1';
+    let gid= '180';
+    let num = 0;
+    var timer = setInterval(function () {
+        let data = new URLSearchParams();
+        ajaxPost('http://test.01717.com/api_heartbeat.html',data,function (res) {
+            res = JSON.parse(res);
+            if ((res.status == 1 && res.gid != gid) || res.status == -1) {
+                top.window.close()
+            }
+        })
+    }, 3000)
+    function ajaxPost(url, data, fn) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", url, true);
+        // 添加http头，发送信息至服务器时内容编码类型
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.setRequestHeader("Authorization", token);
+        xhr.setRequestHeader("sid", sid);
+        xhr.setRequestHeader("gid", gid);
+//        xhr.setRequestHeader("sid", 1);
+        xhr.timeout = 10000;
+        xhr.ontimeout = function(event){
+			alert('您的网络不稳定，可能出现风险，建议关闭游戏重新进入！');
+        }
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200 ) {
+                num = 0;
+                fn.call(this, xhr.responseText);
+            }else{
+                ++num;
+                if(num == 3){
+                    alert('您的网络不稳定，可能出现风险，建议关闭游戏重新进入！');
+                }
+            }
+        };
+        xhr.send(data);
+    }
+</script>
+</body>
+</html>

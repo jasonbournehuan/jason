@@ -1,0 +1,561 @@
+@charset "UTF-8";
+
+html {
+    margin-left: -9px;
+    overflow: hidden;
+    position: fixed;
+    top: 7px;
+    left: 0;
+}
+
+body {
+    font-family: "Microsoft YaHei",΢���ź�,STXihei,����ϸ��,serif,Georgia,"Times New Roman";
+    color: #fff;
+    margin: -17px 0 0 0;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    width: 1334px;
+    height: 780px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.header {
+    height: 114px;
+    background-image: url(../image/top_header.jpg);
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+.position {
+    position: absolute;
+    top: 35px;
+    left: 345px;
+}
+
+.positm {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-right: 5px;
+}
+
+.positm {
+    background: url(../image/numbersprite.png) no-repeat top left;
+    width: 64px;
+    height: 64px;
+}
+
+.num1 {
+    background-position: 0 0;
+}
+
+.num2 {
+    background-position: 0 -64px;
+}
+
+.num3 {
+    background-position: 0 -128px;
+}
+
+.num4 {
+    background-position: 0 -192px;
+}
+
+.num5 {
+    background-position: 0 -256px;
+}
+
+.num6 {
+    background-position: 0 -320px;
+}
+
+.num7 {
+    background-position: 0 -384px;
+}
+
+.num8 {
+    background-position: 0 -448px;
+}
+
+.num9 {
+    background-position: 0 -512px;
+}
+
+.num10 {
+    background-position: 0 -576px;
+}
+
+.scenary {
+    height: 119px;
+    position: relative;
+}
+
+.scenaryitm {
+    position: absolute;
+    left: -1334px;
+}
+
+.road {
+    height: 540px;
+    position: relative;
+}
+
+.roadani {
+    position: absolute;
+    width: 1334px;
+    height: 540px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.roaditm {
+    position: absolute;
+    top: 0;
+    left: -1300px;
+}
+
+.flag {
+    position: absolute;
+    bottom: 0;
+    left: -150px;
+}
+
+.car1, .car10, .car2, .car3, .car4, .car5, .car6, .car7, .car8, .car9 {
+    position: absolute;
+}
+
+.car1 {
+    top: -5px;
+    left: 1206px;
+}
+
+.car2 {
+    top: 38px;
+    left: 1197px;
+}
+
+.car3 {
+    top: 83px;
+    left: 1181px;
+}
+
+.car4 {
+    top: 132px;
+    left: 1166px;
+}
+
+.car5 {
+    top: 179px;
+    left: 1150px;
+}
+
+.car6 {
+    top: 225px;
+    left: 1139px;
+}
+
+.car7 {
+    top: 272px;
+    left: 1128px;
+}
+
+.car8 {
+    top: 328px;
+    left: 1105px;
+}
+
+.car9 {
+    top: 380px;
+    left: 1084px;
+}
+
+.car10 {
+    top: 440px;
+    left: 1067px;
+}
+
+.roadstart {
+    position: absolute;
+    top: 15px;
+    left: 960px;
+    display: block;
+}
+
+@-webkit-keyframes twinkling{   /*é€æ˜Žåº¦ç”±0åˆ°1*/  
+    0%{  
+        opacity:0.3;                /*é€æ˜Žåº¦ä¸º0*/  
+    }  
+    100%{  
+        opacity:1;              /*é€æ˜Žåº¦ä¸º1*/  
+    }  
+}  
+@keyframes twinkling{   /*é€æ˜Žåº¦ç”±0åˆ°1*/  
+    0%{  
+        opacity:0.3;                /*é€æ˜Žåº¦ä¸º0*/  
+    }  
+    100%{  
+        opacity:1;              /*é€æ˜Žåº¦ä¸º1*/  
+    }  
+} 
+@-webkit-keyframes twinkling2{ 
+    0%{  
+        opacity:0.3;
+        width: 130%;
+        top: 0;                
+    }  
+    100%{  
+        opacity:0.8;
+        width: 138%;
+        top: 32;              
+    }  
+}  
+@keyframes twinkling2{   
+    0%{  
+        opacity:0.3;         
+        width: 130%;
+        top: 0; 
+    }  
+    100%{  
+        opacity:0.8;             
+        width: 138%;
+        top: 32;   
+    }  
+} 
+.wheela {
+	position: absolute;
+	left: 4%;
+	top: 10%;
+	width: 100%;
+    display:none;
+}
+.wheela img{
+	width: 138%;
+	animation: twinkling 0.01s  ease-in-out  infinite ;
+}
+.wheelb{
+	position: absolute;
+	left: -5%;
+	top: 11%;
+	width: 100%;
+    display:none;
+}
+.wheelb img{
+	width: 138%;
+	animation: twinkling2 0.05s  ease-in infinite ;
+}
+
+
+
+.trafficlight {
+    position: absolute;
+    top: 145px;
+    left: 340px;
+    width: 636px;
+    height: 128px;
+}
+
+.redlight {
+    position: absolute;
+    left: 377px;
+    top: -32px;
+    display: none;
+}
+
+.yellowlight {
+    position: absolute;
+    left: 179px;
+    top: -32px;
+    display: none;
+}
+
+.greenlight {
+    position: absolute;
+    left: -23px;
+    top: -33px;
+    display: none;
+}
+
+.countdownnum {
+    font-family: DS-Digital;
+    position: absolute;
+    top: -99px;
+    left: 115px;
+    font-size: 120px;
+    line-height: 80px;
+    color: #fff;
+    text-align: right;
+    width: 308px;
+    height: 87px;
+}
+
+.countdownnum2 {
+    font-family: DS-Digital;
+    position: absolute;
+    top: -72px;
+    left: 433px;
+    font-size: 70px;
+    line-height: 60px;
+    color: #fff;
+    text-align: left;
+    width: 90px;
+    height: 63px;
+}
+
+.currentdraw {
+    position: absolute;
+    left: 1055px;
+    top: 25px;
+    font-size: 30px;
+    width: 255px;
+    height: 90px;
+    white-space: nowrap;
+}
+
+#currentdrawid {
+    font-family: arial;
+}
+
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: #202020;
+    position: absolute;
+    font-size: 31px;
+    top: 770px;
+}
+
+.footer1 {
+    margin-top: 2px;
+    margin-left: 13px;
+    width: 370px;
+    height: 88px;
+    border: 4px solid #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: left;
+    white-space: nowrap;
+}
+
+.footer1_1 {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer1_2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 16px;
+    line-height: 28px;
+    font-family: arial;
+}
+
+.footer2 {
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 370px;
+    height: 88px;
+    border: 4px solid #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: left;
+    white-space: nowrap;
+}
+
+.footer2_1 {
+    float: left;
+    width: 141px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.footer2_2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: #0191de;
+    background: -moz-linear-gradient(top,#0191de 0,#09418b 100%);
+    background: -webkit-linear-gradient(top,#0191de 0,#09418b 100%);
+    background: linear-gradient(to bottom,#0191de 0,#09418b 100%);
+}
+
+.footer3 {
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 530px;
+    height: 88px;
+    border: 4px solid #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: left;
+    white-space: nowrap;
+}
+
+.flashlight {
+    width: 100%;
+    height: 639px;
+    background-color: #fff;
+    position: absolute;
+    top: 114px;
+    display: none;
+}
+
+.wind {
+    position: absolute;
+    top: -2px;
+    left: -20px;
+    display: none;
+}
+
+.flame {
+    position: absolute;
+    display: none;
+}
+
+.page1 {
+    display: block;
+}
+
+.resultpage {
+    width: 1334px;
+    height: 639px;
+    display: none;
+    position: relative;
+    background-image: url(../image/resultbg.jpg);
+}
+
+.resultitm {
+    position: absolute;
+    opacity: 0;
+}
+
+    .resultitm .rcar {
+        background-size: 100% 100%;
+    }
+
+.rcar1 {
+    background-image: url(../image/winner1.png);
+}
+
+.rcar2 {
+    background-image: url(../image/winner2.png);
+}
+
+.rcar3 {
+    background-image: url(../image/winner3.png);
+}
+
+.rcar4 {
+    background-image: url(../image/winner4.png);
+}
+
+.rcar5 {
+    background-image: url(../image/winner5.png);
+}
+
+.rcar6 {
+    background-image: url(../image/winner6.png);
+}
+
+.rcar7 {
+    background-image: url(../image/winner7.png);
+}
+
+.rcar8 {
+    background-image: url(../image/winner8.png);
+}
+
+.rcar9 {
+    background-image: url(../image/winner9.png);
+}
+
+.rcar10 {
+    background-image: url(../image/winner10.png);
+}
+
+.result1 {
+    top: 80px;
+    left: 568px;
+}
+
+.result2 {
+    left: 173px;
+    top: 107px;
+}
+
+.result3 {
+    left: 960px;
+    top: 121px;
+}
+
+.resultcar1 {
+    top: 328px;
+    left: 395px;
+}
+
+    .resultcar1 div {
+        width: 510px;
+        height: 222px;
+    }
+
+.resultcar2 {
+    top: 287px;
+    left: 81px;
+}
+
+    .resultcar2 div {
+        width: 422px;
+        height: 184px;
+    }
+
+.resultcar3 {
+    top: 291px;
+    left: 859px;
+}
+
+    .resultcar3 div {
+        width: 384px;
+        height: 166px;
+    }
+
+.ctrl {
+    position: fixed;
+    left: 30px;
+    top: 130px;
+}
+
+#soundCtrl {
+    height: 74px;
+    width: 74px;
+    background: url(../image/soundbtn.png) no-repeat;
+    background-position-y: -92px;
+    cursor: pointer;
+}
+
+    #soundCtrl.on {
+        background-position-y: 0;
+    }

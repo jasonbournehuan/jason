@@ -1,0 +1,552 @@
+<?php
+!defined('FRAMEWORK_PATH') && exit('FRAMEWORK_PATH not defined.');
+
+class common_control extends base_control {
+	
+	// 为了避免与 model 冲突，加下划线分开
+	public $_sid = '';		// session id
+	public $_user = array();	// 全局 user
+	public $_admin = array();	// 全局 admin
+	public $_dev = array();	// 全局 dev
+	public $admin_system = array();	// 全局 admin_system
+	
+	// header 相关
+	public $_title = array();	// header.htm title
+	public $_nav = array();		// header.htm 导航
+	public $_seo_keywords = '';	// header.htm keywords
+	public $_seo_description = '';	// header.htm description
+	public $_checked = array();	// 选中状态
+	
+	// 计划任务
+	protected $_cron_1_run = 0;	// 计划任务1 是否被激活, 15 分钟执行一次
+	protected $_cron_2_run = 0;	// 计划任务2 是否被激活, 每天0点执行一次
+	
+	// hook common_control_before.php
+	
+	// 初始化 _sid, _user, _title, _nav
+	function __construct() {
+		// hook common_control_construct_before.php
+		parent::__construct();
+		// hook common_control_construct_after.php
+		
+		$this->init_timezone();
+		//$this->conf['runtime'] = &$this->runtime->read_site();	// 析构函数会比 mysql 的析构函数早。所以不用担心mysql被释放。
+                	
+		//$this->check_lang();
+		//$this->init_view();
+		//$this->init_sid();
+		//$this->init_user();
+		//$this->init_admin();
+		//$this->check_ip();
+		//$this->check_safecode();
+		//$this->check_domain();
+		//$this->init_cron();
+		//$this->check_msg();
+		// hook common_control_init_after.php
+	}
+	
+	private function init_timezone() {
+		/*
+		$cache_data = $this->cache_redis->lRange(date("Ymd", $_SERVER['time']), 0, -1);
+		if(empty($cache_data)){
+			for($i = 0; $i < 100; $i++){
+				$this->cache_redis->lPush(date("Ymd", $_SERVER['time']), "test".$i);
+			}
+		}
+		print_r($this->cache_redis->lRange(date("Ymd", $_SERVER['time']), 0, -1));
+		exit;
+		$key = date("Ymd", $_SERVER['time']);
+		$cache_data = $this->cache_redis->lRange($key, 0, -1);
+		$cache_data = array_flip($cache_data);
+		if(!isset($cache_data['test95'])){
+			echo "88";
+		}
+		print_r($cache_data);echo "1";exit;
+		*/
+		$file = './a.zip';
+		$this->za->unzip($file);
+		echo "22";exit;
+		// 不需要设置，使用gmdate()
+		$offset = $this->conf['timeoffset'];
+		if($offset) {
+			date_default_timezone_set('Etc/GMT'.$offset);
+		}
+		
+		// 今日凌晨0点的开始时间！
+		$_SERVER['time_fmt'] = gmdate('Y-n-d H:i', $_SERVER['time'] + $offset * 3600);			// +8 hours
+		$arr = explode(' ', $_SERVER['time_fmt']);
+		list($y, $n, $d) = explode('-', $arr[0]);
+		$_SERVER['time_today'] = gmmktime(0, 0, 0, $n, $d, $y) - $offset * 3600;	// -8 hours
+		
+		// hook common_control_init_timezone_after.php
+	}
+	
+	private function init_view() {
+		//$keyword = "";
+		//$keyword = core::gpc($keyword);
+		$pagekeywords = $this->conf['seo_keywords'];
+		$pagedescription = $this->conf['seo_description'];
+		//$this->view->assign('keyword', $keyword);
+		//print_r($lang);
+		$this->view->assign('conf', $this->conf);
+		$this->view->assign('_title', $this->_title);
+		$this->view->assign('_nav', $this->_nav);
+		$this->view->assign('pagekeywords', $pagekeywords);
+		$this->view->assign('pagedescription', $pagedescription);
+		$this->view->assign('seo_keywords', $this->_seo_keywords);
+		$this->view->assign('seo_description', $this->_seo_description);
+		$this->view->assign('_checked', $this->_checked);
+		$this->view->assign('cron_1_run', $this->_cron_1_run);
+		
+		define('FORM_HASH', misc::form_hash($this->conf['public_key']));
+		// hook common_control_init_view_after.php
+	}
+	
+	// 初始化 sid
+	private function init_sid() {
+		$key = $this->conf['cookiepre'].'sid';
+		$sid = core::gpc($key, 'R');
+		if(!$sid) {
+			$sid = substr(md5($_SERVER['REMOTE_ADDR'].rand(1, 2147483647)), 0, 16); // 兼容32,64位
+			misc::set_cookie($key, $sid, $_SERVER['time'] + 86400 * 30, '/');
+		}
+		$this->_sid = $sid;
+		$this->view->assign('_sid', $this->_sid);
+		
+		// hook common_control_init_sid_after.php
+	}
+	
+	// 初始化 _user, 解密 cookie
+	private function init_user() {
+		/*
+		$auth = core::gpc($this->conf['cookiepre'].'auth', 'R');
+		$this->view->assign('_auth', $auth);
+	
+		$this->_user = $this->user->decrypt_auth($auth);
+		if($this->_user['uid'] !=0){
+			$this->_userdbinfo = $this->user->read($this->_user['uid']);
+			if(!empty($this->_userdbinfo) and $this->_userdbinfo['stuat'] == 1){
+				$this->_user = $this->_user + $this->_userdbinfo;
+			}
+			if(!empty($this->_userdbinfo) and $this->_userdbinfo['stuat'] == 2){
+				ob_start();
+				session_start();
+				$error = array();
+				$_SESSION['uid'] = 0;
+				misc::set_cookie($this->conf['cookiepre'].'auth', '', 0, '/');
+				header("Location: ".$this->conf['app_url']."user/dongjie.php");
+				exit;
+			}
+		}
+		$_SERVER['miscarr'] = $this->mcache->read('miscarr');
+		$this->view->assign('_user', $this->_user);
+		// hook common_control_init_user_after.php
+		*/
+	}
+	
+	// 初始化 _admin, 解密 cookie
+	private function init_admin() {
+		$auth = core::gpc($this->conf['cookiepre'].'admin_auth', 'R');
+		$this->view->assign('_admin_auth', $auth);
+		$this->_admin = $this->admins->decrypt_auth($auth);
+		if($this->_admin['id'] !=0){
+			$this->_admindbinfo = $this->admins->read($this->_admin['id']);
+			if(!empty($this->_admindbinfo)){
+				$this->_admin = $this->_admin + $this->_admindbinfo;
+				$admingroup = $this->mcache->read('admingroup');
+				$system = explode("|", $admingroup[$this->_admindbinfo['groupid']]['system']);
+				foreach($system as $k => $v){
+					$admin_system[$v] = $v;
+				}
+				$this->_admin_system = $admin_system;
+				$this->view->assign('admin_system', $admin_system);
+			}
+		}
+		$this->view->assign('_admin', $this->_admin);
+	}
+	
+	// 检查IP
+	private function check_ip() {
+		// IP 规则
+		if($this->conf['iptable_on']) {
+			$arr = include BBS_PATH.'conf/iptable.php';
+			$blacklist = $arr['blacklist'];
+			$whitelist = $arr['whitelist'];
+			$ip = $_SERVER['REMOTE_ADDR'];
+			if(!empty($blacklist)) {
+				foreach($blacklist as $black) {
+					if(substr($ip, 0, strlen($black)) == $black) {
+						$this->message('对不起，您的IP ['.$ip.'] 已经被禁止，如果有疑问，请联系管理员。', 0);
+					}
+				}
+			}
+			if(!empty($whitelist)) {
+				$ipaccess = FALSE;
+				foreach($whitelist as $white) {
+					if(substr($ip, 0, strlen($white)) == $white) {
+						$ipaccess = TRUE;
+						break;
+					}
+				}
+				if(!$ipaccess) {
+					$this->message('对不起，您的IP ['.$ip.'] 不允许访问，如果有疑问，请联系管理员。', 0);
+				}
+			}
+		}
+		
+		// hook common_control_check_ip_after.php
+	}
+
+	//加载语言包
+	private function check_lang() {
+		$lang = core::gpc('lang', 'P');
+		if(empty($lang)){
+			$lang = "cn-zh";
+		}
+		$langfile = BBS_PATH.'lang/'.$lang.'.php';
+		if(!file_exists($langfile)){
+			$langfile = BBS_PATH.'lang/cn-zh.php';
+		}
+		include $langfile;
+	}
+
+	//检测是否通过安全验证
+	private function check_safecode() {
+		$this->userlang = $lang = core::gpc('lang', 'P');
+		$safecode = trim(core::gpc('safecode', 'P'));
+		$this->appid = $appid = intval(core::gpc('appid', 'P'));
+		$version = trim(core::gpc('version', 'P'));
+		$this->imei = $imei = trim(core::gpc('imei', 'P'));
+		$this->devicecode = $devicecode = trim(core::gpc('devicecode', 'P'));
+		$userid = intval(core::gpc('userid', 'P'));
+		$usercode = trim(core::gpc('usercode', 'P'));
+		$system = intval(core::gpc('system', 'R'));
+		/*
+		$appid = 1;
+		$version = "1.0.1";
+		$safecode = "87c6415e08b4eb611db262529f501914";
+		$userid = 1;
+		$usercode = "a8f58f4128a85eb8ca827a2b5d6d4496";
+		*/
+		if($system != 1){
+			if(!empty($appid)){
+				$this->appinfo = $appinfo = $this->ylc->get($appid);
+				if(empty($appinfo) or $appinfo['stuat'] != 1){
+					$this->appinfo = $appinfo = $this->ylc->index_fetch(array('stuat' => 1, 'tg' => 1), array('id' => 1));
+					if(!empty($appinfo)){
+						$msg = array(
+							'status' => 3,
+							'url' => $appinfo['url'],
+						);
+					}else{
+						$msg = array(
+							'status' => 2,
+							'msg' => $this->lang['fuwuqiweihuzhong'],//服务器维护中
+						);
+					}
+				}else if($appinfo['version'] != $version){
+					$msg = array(
+						'status' => 3,
+						'url' => $appinfo['url'],
+					);
+				}else if(empty($lang)){
+					$langfile = BBS_PATH.'lang/'.$lang.'.php';
+					if(!file_exists($langfile)){
+						$langfile = BBS_PATH.'lang/'.$appinfo['lang'].'.php';
+						include $langfile;
+					}
+				}
+			}else{
+				$msg = array(
+					'status' => 2,
+					'msg' => $this->lang['canshucuowu'],//参数错误
+				);
+			}
+			if(!empty($msg)){
+				echo json_encode($msg);
+				exit;
+			}
+			if(core::gpc('1', 'G') != "loading"){
+				if($safecode != md5($appid.$imei.$devicecode.date("Y", $_SERVER['time']).date("m", $_SERVER['time']).date("d", $_SERVER['time']))){
+					$msg = array(
+						'status' => 2,
+						'msg' => $this->lang['feifacaozuo'],//非法操作
+					);
+					echo json_encode($msg);
+					exit;
+				}
+			}
+			if(!empty($userid)){
+				$upuser = 0;
+				$this->_user = $user = $this->user->get($userid);
+				if(!empty($user)){
+					if(md5($user['id'].$this->conf['usercode'].$user['password']) != $usercode){
+						$msg = array(
+							'status' => 4,
+							'msg' => $this->lang['mimayixiugaiqingchongxindenglu'],//密码已被修改，请重新登陆
+						);
+					}else if($user['ylcid'] != $appid){
+						$msg = array(
+							'status' => 2,
+							'msg' => $this->lang['yonghubucunzaiqingquerenzhanghaomimazhengque'],//用户不存在，请确认账号密码正确！
+						);
+					}else{
+						if(!empty($imei)){
+							$upuser = 1;
+							$user['imei'] = $imei;
+						}
+						if(!empty($devicecode)){
+							$upuser = 1;
+							$user['devicecode'] = $devicecode;
+						}
+						if(!empty($upuser)){
+							$this->_user = $user;
+							$upuserstuat = $this->user->update($user['id'], $user);
+						}
+					}
+				}else{
+					$msg = array(
+						'status' => 4,
+						'msg' => $this->lang['qingchongxindenglu'],//请重新登陆
+					);
+				}
+			}
+			if(!empty($msg)){
+				echo json_encode($msg);
+				exit;
+			}
+		}
+	}
+	
+	// 检查域名，如果不在安装域名下，跳转到安装域名。
+	private function check_domain() {
+		$appurl = $this->conf['app_url'];
+		preg_match('#^http://([^/]+)/#', $appurl, $m);
+		$installhost = $m[1];
+		$installhosts = "api.".$m[1];
+		$host = core::gpc('HTTP_HOST', 'S');
+		if($host != $m[1] and $host != $installhosts) {
+			$currurl = misc::get_script_uri();
+			$newurl = preg_replace('#^http://([^/]+)/#', "http://$installhost/", $currurl);
+			header("Location: $newurl");
+			exit;
+		}
+	}
+	
+	private function init_cron() {
+	}
+	
+	/*
+	 * 功  能：
+	 * 	提示单条信息
+	 *  
+	 * 用  法：
+		 $this->message('站点维护中，请稍后访问！');
+		$this->message('提交成功！', TRUE, '?forum-index-123.htm');
+		$this->message('校验错误！', FALSE);
+	 */
+	public function message($message, $status = 1, $goto = '') {
+		
+		// hook common_control_message_before.php
+		
+		if(core::gpc('ajax', 'R')) {
+			// 可能为窗口，也可能不为。
+			$json = array('servererror'=>'', 'status'=>$status, 'message'=>$message);
+			echo core::json_encode($json);
+			exit;
+		} else {
+			$this->view->assign('message', $message);
+			$this->view->assign('status', $status);
+			$this->view->assign('goto', $goto);
+			$this->view->display('message.htm');
+			exit;
+		}
+	}
+	
+	/*
+	 * 功  能：
+	 * 	提示错误或者警告或者正常信息
+	 *  
+	 * 用  法：
+		$error = array(
+			'stuat' = 1,//状态，1为成功，2为失败，3为警告
+			'info' = '充值成功！',//状态内容，例如：充值成功！
+		);
+		$this->error($error);
+	 */
+	public function error($error) {
+		if($error['stuat'] == 1){
+			$error['stuat'] = "success";
+		}else if($error['stuat'] == 2){
+			$error['stuat'] = "error";
+		}else if($error['stuat'] == 3){
+			$error['stuat'] = "warning";
+		}else{
+			$error['stuat'] = "error";
+		}
+		$this->view->assign('error', $error);
+		$this->view->display('msg.htm');
+		exit;
+	}
+	
+	// relocation
+	public function location($url) {
+		header("Location: ".$url);
+		exit;
+	}
+	
+	public function form_submit() {
+		// hook form_submit_after.php
+		return misc::form_submit($this->conf['public_key']);
+	}
+	
+	// --------------------------> 权限相关和公共的方法
+	
+	// 检查是否登录
+	public function check_login() {
+		if(empty($this->_user['uid'])) {
+			$url = "http://".core::gpc('HTTP_HOST', 'S').core::gpc('REQUEST_URI', 'S');
+			header("Location: ".$this->conf['app_url']);
+			exit;
+			//$this->message('您还没有登录，请先登录。', -1); // .print_r($_COOKIE, 1)
+		}
+	}
+
+	// 检查是否登录,登陸則返回首頁
+	public function logincheck() {
+		if(!empty($this->_user['uid'])) {
+			$url = "http://".core::gpc('HTTP_HOST', 'S').core::gpc('REQUEST_URI', 'S');
+			header("Location: ".$this->conf['app_url']);
+			exit;
+			//$this->message('您还没有登录，请先登录。', -1); // .print_r($_COOKIE, 1)
+		}
+	}
+	
+	protected function check_user_exists($user) {
+		if(empty($user)) {
+			$this->message('用户不存在！可能已经被删除。', 0);
+		}
+	}
+	
+	// upload 相关，可能会给人偶然扫描到。todo: 安全性
+	protected function get_aid_from_tmp($uid) {
+		$file = $this->conf['tmp_path'].$uid.'_aids.tmp';
+		if(!is_file($file)) {
+			return array();
+		}
+		$aids = trim(file_get_contents($file));
+		return explode(' ', $aids);
+	}
+	
+	// upload 相关
+	protected function clear_aid_from_tmp($uid) {
+		$file = $this->conf['tmp_path'].$uid.'_aids.tmp';
+		is_file($file) && unlink($file);
+	}
+	
+	protected function check_user_delete($user) {
+		if(empty($user)) {
+			misc::set_cookie($this->conf['cookiepre'].'auth', '', 0, '/');
+			$this->message('您的账户已经被删除。', 0);
+		}
+	}
+	
+	protected function check_adminlogin() {
+		if(empty($this->_admin["id"])){
+			header("location:?index-login.htm");
+			exit;
+		}
+	}
+	
+	protected function check_msg() {
+		if(!empty($this->_admin["id"])){
+			$msgstuat = $msgnum = 0;
+			$systemmsg = $this->admins->systemmsg();
+			if(count($systemmsg) >= 1){
+				$msgnum = count($systemmsg);
+				$msgstuat = 1;
+			}
+			$this->view->assign('systemmsg', $systemmsg);
+			$this->view->assign('msgstuat', $msgstuat);
+			$this->view->assign('msgnum', $msgnum);
+		}
+	}
+	
+	//发送数据
+	protected function post_data($data) {
+		$post_stuat = 0;
+		$post_url = $this->conf['api_url'];
+		$snoopy = new Snoopy;
+		$post = array(
+			'api_id' => $this->conf['api_id'],
+			'key' => $this->conf['api_key'],
+			'data' => json_encode($data),
+		);
+		$snoopy->submit($post_url, $post);
+		return $snoopy->results;
+	}
+	
+	//更新全局缓存
+	protected function up_caipiao_cache() {
+		$data_list = array();
+		$data = $this->kj->group(array('id' => array('>=' => 1)), 'typeid', array('typeid', 'max(qi) as qihao'));
+		if(!empty($data)){
+			foreach($data as $k => $v){
+				$data_list[$v['typeid']] = $v['qihao'];
+			}
+			$add_cache = $this->mcache->diysave('caiji', $data_list);
+		}
+	}
+	
+	//采集数据入库
+	protected function add_data($data) {
+		$add_list = $this->kj->add_list($data);
+		$up_cache = $this->up_caipiao_cache();
+		return 1;
+	}
+
+	public function on_echo($info) {
+		//echo iconv("UTF-8", "GB2312//IGNORE", $info);
+		echo $info;
+	}
+
+	//检测数据是否在缓存中，没有则表示为新数据，入库并递交
+	public function check_data($key, $arr, $game_id, $c_id) {
+		if(empty($arr)){
+			return 1;
+		}
+		//每个只保存最新100期数据做校验，完全足够使用
+		$max_len = 100;
+		$key_len = $this->cache_redis->lLen($key);
+		if($key_len > $max_len){
+			$this->cache_redis->ltrim($key, 0, $max_len);
+		}
+		//校验数据中是存在未保存数据
+		$new_data = array();
+		$cache_data = $this->cache_redis->lRange($key, 0, -1);
+		$cache_data = array_flip($cache_data);
+		foreach($arr as $k => $v){
+			if(!isset($cache_data[$k.'-'.$v['haoma']])){
+				//未记录的数据
+				$new_data_code = $k.'-'.$v['haoma'];
+				$new_data[] = array(
+					'code' => $v['haoma'],
+					'c_id' => $cid,
+					'game_id' => $game_id,
+				);
+				$this->cache_redis->lPush($key, $new_data_code);
+			}
+		}
+		if(!empty($new_data)){
+			$add_list = $this->kj->add_list($new_data);
+			$this->post_data();
+		}
+		print_r($new_data);
+		print_r($this->cache_redis->lRange($key, 0, -1));
+		return 1;
+	}
+}
+
+// hook common_control_after.php
+
+?>

@@ -1,0 +1,1050 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 1378
+Memory = 1127920
+Processtime = 0.0359
+
+Code:
+1374  :         $in_data = $db_data = array();
+1375  :         $this->c('fg');
+1376  :         $fg_cache_key = "fg_fruit_".$end_log_id ;
+1377  :         $this->c('cache_redis');
+1378  :         $this->cache_redis->select($$this->redis_db);<--
+1379  : 
+1380  : 
+1381  :         $log_redis_data = json_decode($this->cache_redis->kGet($fg_cache_key),true);
+1382  : 
+1383  : 
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_fg4.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\fg.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit<br>
+/agent/log_by_page/gt/fruitArray
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                    [0] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0.5
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 705.42
+                            [game_id] => 7011
+                            [gt] => fruit
+                            [id] => 26677808
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0015
+                            [player_name] => uhjjaavc5
+                            [result] => -0.5
+                            [time] => 1561728524
+                            [total_agent_uid] => 1253
+                        )
+
+                    [1] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0.3
+                            [all_wins] => 0.2
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2679.37
+                            [game_id] => 7016
+                            [gt] => fruit
+                            [id] => 26683316
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0009
+                            [player_name] => uhjjaavc5
+                            [result] => -0.1
+                            [time] => 1562218048
+                            [total_agent_uid] => 1253
+                        )
+
+                    [2] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0.3
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2679.07
+                            [game_id] => 7016
+                            [gt] => fruit
+                            [id] => 26683317
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0009
+                            [player_name] => uhjjaavc5
+                            [result] => -0.3
+                            [time] => 1562218069
+                            [total_agent_uid] => 1253
+                        )
+
+                    [3] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0.3
+                            [all_wins] => 0.8
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2679.57
+                            [game_id] => 7016
+                            [gt] => fruit
+                            [id] => 26683318
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0009
+                            [player_name] => uhjjaavc5
+                            [result] => 0.5
+                            [time] => 1562218078
+                            [total_agent_uid] => 1253
+                        )
+
+                    [4] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0.3
+                            [all_wins] => 0.2
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2292.06
+                            [game_id] => 7016
+                            [gt] => fruit
+                            [id] => 26683842
+                            [ip] => 103.119.129.73
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0009
+                            [player_name] => uhjjaavc5
+                            [result] => -0.1
+                            [time] => 1562230971
+                            [total_agent_uid] => 1253
+                        )
+
+                    [5] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0.3
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2291.76
+                            [game_id] => 7016
+                            [gt] => fruit
+                            [id] => 26683843
+                            [ip] => 103.119.129.73
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0009
+                            [player_name] => uhjjaavc5
+                            [result] => -0.3
+                            [time] => 1562230983
+                            [total_agent_uid] => 1253
+                        )
+
+                    [6] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 0.3
+                            [all_wins] => 0.2
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2291.66
+                            [game_id] => 7016
+                            [gt] => fruit
+                            [id] => 26683844
+                            [ip] => 103.119.129.73
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0.0009
+                            [player_name] => uhjjaavc5
+                            [result] => -0.1
+                            [time] => 1562231003
+                            [total_agent_uid] => 1253
+                        )
+
+                    [7] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 6
+                            [all_wins] => 11.7
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 46.95
+                            [game_id] => 7007
+                            [gt] => fruit
+                            [id] => 26733566
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 5.7
+                            [time] => 1563886910
+                            [total_agent_uid] => 1253
+                        )
+
+                    [8] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 6
+                            [all_wins] => 3.9
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 44.85
+                            [game_id] => 7007
+                            [gt] => fruit
+                            [id] => 26733570
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -2.1
+                            [time] => 1563886961
+                            [total_agent_uid] => 1253
+                        )
+
+                )
+
+            [page_key] => g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA
+        )
+
+    [msg] => success
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/page_key/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+07-31 22:24:02采集FG街机数据9条！
+  
+ ��3�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:25:02 采集FG街机数据成功，没有新数据！
+  
+ ��4�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:26:03 采集FG街机数据成功，没有新数据！
+  
+ ��5�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:27:05 采集FG街机数据成功，没有新数据！
+  
+ ��6�� 
+Error: file_put_contents(D:/phpStudy/PHPTutorial/WWW/tmp/center_pdata_control.class.php): failed to open stream: Invalid argument
+File: D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+Line: 519
+Memory = 1345504
+Processtime = 0.0290
+
+Code:
+515  : 				$s = preg_replace('#([\'"])\?(.+?\.htm)#i', '\\1'.$conf['app_url'].'\\2', $s);
+516  : 			} else {
+517  : 				$s = preg_replace('#([\'"])\?(.+?\.htm)#i', '\\1'.$conf['app_url'].'?\\2', $s);
+518  : 			}
+519  : 			file_put_contents($objfile, $s);<--
+520  : 		}
+521  : 
+522  : 		if(@include $objfile) {
+523  : 			$controlclass = "{$control}_control";
+524  : 			$onaction = "on_$action";
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_fg4.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��7�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:29:05 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��8�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:30:05 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��9�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:31:05 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��10�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:32:05 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��11�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:33:05 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��12�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:34:05 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��13�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:35:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��14�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:36:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��15�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:37:04 采集FG街机数据成功，没有新数据！
+  
+ ��16�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:38:04 采集FG街机数据成功，没有新数据！
+  
+ ��17�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:39:04 采集FG街机数据成功，没有新数据！
+  
+ ��18�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:40:04 采集FG街机数据成功，没有新数据！
+  
+ ��19�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:41:04 采集FG街机数据成功，没有新数据！
+  
+ ��20�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:42:03 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��21�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:43:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��22�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:44:05 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��23�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:45:05 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��24�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:46:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��25�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:47:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��26�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:48:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��27�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:49:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��28�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:50:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��29�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:51:04 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��30�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzA<br>
+/agent/log_by_page/gt/fruit/id/g2gCbgcA7qLOzliOBW0AAAAIMjY3MzM1NzAArray
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/fruit/id/26733570<br>
+/agent/log_by_page/gt/fruit/id/26733570Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:52:06 采集FG街机数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��31�� 

@@ -1,0 +1,63 @@
+#customized-widget {
+	position: fixed;
+	right: 30px;
+	top: 60%;
+	width: auto;
+	height: auto;
+	z-index: 2;
+}
+#widget-trigger {
+	width: 40px;
+	height: 40px;
+	padding: 40px;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 1px rgba(52,63,75,.06), 20px 30px 100px 30px rgba(52,63,75,.15), 0 0 100px 20px rgba(52,63,75,.2);
+	border-radius: 40px;
+	background: url(../ico/widget-bubble.svg) center center no-repeat #01AAED;
+	z-index: 1;
+}
+#cs-groups {
+	display: none;
+	width: 160px;
+	height: 141px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #01AAED;
+	box-shadow: inset 0 0 0 1px rgba(52,63,75,.06), 20px 30px 50px 0 rgba(52,63,75,.2), 0 0 50px 0 rgba(52,63,75,.2);
+	font-size: 14px;
+	line-height: 20px;
+	opacity: 1;
+	transition: opacity .3s;
+	z-index: 2;
+}
+#cs-groups .cs-groups__item {
+	display: inline-flex;
+	margin: 25px 35px;
+	height: 20px;
+	cursor: pointer;
+}
+#cs-after-sales .widget__icon {
+	background-image: url(../ico/post-sales.png);
+}
+#cs-groups .widget__icon {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 10px;
+	background-size: 100%!important;
+}
+#cs-groups .cs-groups__item {
+	display: inline-flex;
+	margin: 25px 35px;
+	height: 20px;
+	cursor: pointer;
+}
+
+#cs-groups .widget__divider {
+	width: 100%;
+	height: 1px;
+	background-color: rgba(52,63,75,.1);
+}
+#cs-pre-sales .widget__icon {
+	background-image: url(../ico/pre-sales.png);
+}

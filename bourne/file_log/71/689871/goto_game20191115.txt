@@ -1,0 +1,3 @@
+start|-|2019-11-15 18:56:29|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"174","uid":"689871","money":"30.55","order_id":"346456456"}
+start|-|2019-11-15 18:56:37|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"174","uid":"689871","money":"30.55","order_id":"346456456"}
+end|-|2019-11-15 18:56:42|-|{"status":1,"msg":"https:\/\/game.ky206.com\/index.html?account=70823_khvaialu&token=eyJkYXRhIjoiNzA4MjNfa2h2YWlhbHUiLCJjcmVhdGVkIjoxNTczODE1NDAxLCJleHAiOjE1MH0=.bc4mw2ZA+REqP\/d3DBYxBsKoLDt0pNR6CGtBIQ2k6Kk=&lang=zh-CN&route=kywss.ky206.com:443,kywss.ky206.com:443&ld=https:\/\/ldky.ky206.com\/statisticsHandle&gameId=610","money":"30.55","orders_number":"888kh8vvvhp5dqlvh","order_id":"346456456"}

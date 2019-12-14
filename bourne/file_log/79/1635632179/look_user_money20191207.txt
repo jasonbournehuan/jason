@@ -1,0 +1,12 @@
+start|-|2019-12-07 16:24:42|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"look_user_money","uid":"1635632179","pid":"4"}
+end|-|2019-12-07 16:24:42|-|{"status":1,"balance":20.52}
+start|-|2019-12-07 16:40:40|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"look_user_money","uid":"1635632179","pid":"7"}
+end|-|2019-12-07 16:40:40|-|{"status":1,"balance":83.18}
+start|-|2019-12-07 16:45:03|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"look_user_money","uid":"1635632179","pid":"7"}
+end|-|2019-12-07 16:45:03|-|{"status":1,"balance":0}
+start|-|2019-12-07 16:45:05|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"look_user_money","uid":"1635632179","pid":"6"}
+end|-|2019-12-07 04:45:06|-|{"status":1,"balance":41.2}
+start|-|2019-12-07 16:47:44|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"look_user_money","uid":"1635632179","pid":"6"}
+end|-|2019-12-07 04:47:44|-|{"status":1,"balance":41.2}
+start|-|2019-12-07 16:49:06|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"look_user_money","uid":"1635632179","pid":"9"}
+end|-|2019-12-07 04:49:06|-|{"status":1,"balance":41.2}

@@ -1,0 +1,18 @@
+<?php
+!defined('FRAMEWORK_PATH') && exit('FRAMEWORK_PATH not defined.');
+
+include BBS_PATH.'control/common_control.class.php';
+
+class heartbeat_control extends common_control {
+	
+	function __construct() {
+		parent::__construct();
+	}
+
+	//采集数据
+	public function on_api(){
+		echo $this->heartbeat();
+		exit;
+	}
+}
+?>

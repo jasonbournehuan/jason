@@ -1,0 +1,6 @@
+start|-|2019-11-29 14:33:31|-|{"m":"\/channelHandle","s":102,"d":{"code":0,"money":"497.80"}}
+end|-|2019-11-29 14:33:32|-|{"m":"\/channelHandle","s":104,"d":{"code":0,"status":0,"money":497.8}}
+start|-|2019-11-29 14:57:18|-|{"m":"\/channelHandle","s":102,"d":{"code":0,"money":"500.01"}}
+end|-|2019-11-29 14:57:19|-|{"m":"\/channelHandle","s":104,"d":{"code":0,"status":0,"money":500}}
+start|-|2019-11-29 15:15:31|-|{"m":"\/channelHandle","s":103,"d":{"code":0,"money":"0.00"}}
+end|-|2019-11-29 15:15:31|-|{"m":"\/channelHandle","s":104,"d":{"code":0,"status":0,"money":1166.01}}

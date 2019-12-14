@@ -1,0 +1,2 @@
+start|-|2019-12-02 17:00:55|-|{"code":0,"data":[],"msg":"success"}
+end|-|2019-12-02 17:00:55|-|{"code":0,"data":{"amount":50000,"end_chips":50000,"externaltransactionid":"1575277254989_khevar","member_code":"khevarii2","time":1575277255},"msg":"success"}

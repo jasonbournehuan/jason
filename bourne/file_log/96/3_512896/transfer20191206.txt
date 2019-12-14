@@ -1,0 +1,5 @@
+start|-|2019-12-06 19:25:52|-|{"result":true,"data":{"Code":"11100","Message":"Transfer Successful"}}
+request_info|-|2019-12-06 19:25:53|-|{"website":"avia","transid":"1575631551297151289","key":"qwertyucf075529a3a6cf3856257de404065fd5axwsqfasb","old_key":"qwertyucavia5Jr57Ya8c720191206xwsqfasb"}
+end|-|2019-12-06 19:25:53|-|{"result":false,"data":{"Message":"Not found Transaction.","Status":-1}}
+request_info|-|2019-12-06 19:25:56|-|{"website":"avia","transid":"1575631551297151289","key":"qwertyucf075529a3a6cf3856257de404065fd5axwsqfasb","old_key":"qwertyucavia5Jr57Ya8c720191206xwsqfasb"}
+end|-|2019-12-06 19:25:56|-|{"result":true,"data":{"TransID":"1575631551297151289","TransType":"OUT","Status":1,"UserName":"uhjmaiv"}}

@@ -1,0 +1,15 @@
+start|-|2019-11-19 15:26:20|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"255","uid":"545978","money":"","order_id":"346456456"}
+end|-|2019-11-19 15:26:22|-|{"status":1,"msg":"https:\/\/888.walk168.com\/app\/WebService\/JSON\/display.php\/ForwardGameH5By5?website=avia&username=khj5jila&uppername=dmingbo&gametype=5088&lang=zh-cn&key=qwertyuse1ef86cf8ffe67358a0dcb356f4410bdxgddfrax","money":0,"orders_number":"888kh8vvvhp5d1v5h","order_id":"346456456"}
+start|-|2019-11-19 17:27:28|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 17:27:44|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 17:28:36|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 17:29:16|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 17:41:27|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 17:41:47|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 17:42:07|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 17:42:23|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 17:43:04|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"641","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 20:18:49|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"338","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 20:19:45|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"338","uid":"545978","money":"","order_id":"346456456"}
+start|-|2019-11-19 20:21:35|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"338","uid":"545978","money":"","order_id":"346456456"}
+end|-|2019-11-19 20:21:36|-|{"status":1,"msg":"http:\/\/g2.lili0217.com\/demo\/1571736895\/#platform=direct&domain=std&glist=ZzEuYWlxcDE2OC5jb206ODA4MztnMi5haXFwMTY4LmNvbTo4MDgzO2czLmFpcXAxNjguY29tOjgwODM%3D&access_key=0WsG%2F78TzwUFDm5PMRkLsQWZCEABlLEqBXG8ERAHHUWK6ktixrVIm29pgBEaFIh8TeLGKyGpRuNCJLP%2Flre%2Bppm%2Fu0m3ySYhVqgjFFnY%2FZfOdjPk%2BdIohO6OZelLF33qArkA%2F0QW97VnJW0u2i3OpeHpcsFxNifcFvuspylLXnkAufo%2BjlHz8b5jjWykC86ucVo9YuVV%2FbQ%2FQ3r0rZcXplDc1OSptVjZz2WKevj9zJnSigfxhIZwol6HPn9Ngalu2FnizJfSsgTTaJOIWW6eNY4Jqbt8Gpmo%2BKdbDUp%2FJEzCz4qEaXE0R%2BD31SwiF9HYFWEidv%2Fbm5CGIp8a%2FQOfGQ%3D%3D","money":0,"orders_number":"888kh8vvvhp5d1vvh","order_id":"346456456"}

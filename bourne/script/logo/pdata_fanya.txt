@@ -1,0 +1,883 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 77
+Memory = 1119208
+Processtime = 0.0666
+
+Code:
+73  : 	    $cache_fanya_key = "fanya_".$end_log_id;
+74  : 	    $in_data = $db_data = array();
+75  : 	    $this->c('fanya');
+76  : 	    $this->c('cache_redis');
+77  : 	    $this->cache_redis->select($$this->redis_db);<--
+78  : 
+79  : 	    $cache_log = json_decode($this->cache_redis->kGet($cache_fanya_key),true);
+80  : 
+81  : 	    if(!empty($cache_log))
+82  :         {
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_fanya.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\fanya.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/30 22:24:01
+    [EndAt] => 2019/07/30 23:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 23ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:24:00 采集泛亚数据成功，没有新数据！
+  
+ ��3�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/30 23:24:01
+    [EndAt] => 2019/07/31 00:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 24ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:24:59 采集泛亚数据成功，没有新数据！
+  
+ ��4�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 00:24:01
+    [EndAt] => 2019/07/31 01:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 21ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:25:59 采集泛亚数据成功，没有新数据！
+  
+ ��5�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 01:24:01
+    [EndAt] => 2019/07/31 02:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 20ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:26:59 采集泛亚数据成功，没有新数据！
+  
+ ��6�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 02:24:01
+    [EndAt] => 2019/07/31 03:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 37ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:28:00 采集泛亚数据成功，没有新数据！
+  
+ ��7�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 03:24:01
+    [EndAt] => 2019/07/31 04:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 22ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:29:00 采集泛亚数据成功，没有新数据！
+  
+ ��8�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 04:24:01
+    [EndAt] => 2019/07/31 05:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 57ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:30:01 采集泛亚数据成功，没有新数据！
+  
+ ��9�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 05:24:01
+    [EndAt] => 2019/07/31 06:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 39ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:31:00 采集泛亚数据成功，没有新数据！
+  
+ ��10�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 06:24:01
+    [EndAt] => 2019/07/31 07:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 966ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:32:00 采集泛亚数据成功，没有新数据！
+  
+ ��11�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 07:24:01
+    [EndAt] => 2019/07/31 08:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 23ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:33:01 采集泛亚数据成功，没有新数据！
+  
+ ��12�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 08:24:01
+    [EndAt] => 2019/07/31 09:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 23ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:34:01 采集泛亚数据成功，没有新数据！
+  
+ ��13�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 09:24:01
+    [EndAt] => 2019/07/31 10:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 38ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:35:01 采集泛亚数据成功，没有新数据！
+  
+ ��14�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 10:24:01
+    [EndAt] => 2019/07/31 11:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 19ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:36:01 采集泛亚数据成功，没有新数据！
+  
+ ��15�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 11:24:01
+    [EndAt] => 2019/07/31 12:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 28ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:37:01 采集泛亚数据成功，没有新数据！
+  
+ ��16�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 12:24:01
+    [EndAt] => 2019/07/31 13:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 31ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:38:01 采集泛亚数据成功，没有新数据！
+  
+ ��17�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 13:24:01
+    [EndAt] => 2019/07/31 14:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 38ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:39:01 采集泛亚数据成功，没有新数据！
+  
+ ��18�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 14:24:01
+    [EndAt] => 2019/07/31 15:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 33ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:40:01 采集泛亚数据成功，没有新数据！
+  
+ ��19�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 15:24:01
+    [EndAt] => 2019/07/31 16:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 1968ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:41:01 采集泛亚数据成功，没有新数据！
+  
+ ��20�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 16:24:01
+    [EndAt] => 2019/07/31 17:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 25ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:42:03 采集泛亚数据成功，没有新数据！
+  
+ ��21�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 17:24:01
+    [EndAt] => 2019/07/31 18:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 18ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:43:03 采集泛亚数据成功，没有新数据！
+  
+ ��22�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 18:24:01
+    [EndAt] => 2019/07/31 19:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 24ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:44:03 采集泛亚数据成功，没有新数据！
+  
+ ��23�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 19:24:01
+    [EndAt] => 2019/07/31 20:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 20ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:45:03 采集泛亚数据成功，没有新数据！
+  
+ ��24�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 20:24:01
+    [EndAt] => 2019/07/31 21:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 30ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:46:03 采集泛亚数据成功，没有新数据！
+  
+ ��25�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 21:24:01
+    [EndAt] => 2019/07/31 22:24:00
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 21ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:47:03 采集泛亚数据成功，没有新数据！
+  
+ ��26�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 22:24:01
+    [EndAt] => 2019/07/31 22:47:03
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 23ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:48:03 采集泛亚数据成功，没有新数据！
+  
+ ��27�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 22:47:04
+    [EndAt] => 2019/07/31 22:48:03
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 24ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:49:03 采集泛亚数据成功，没有新数据！
+  
+ ��28�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 22:48:04
+    [EndAt] => 2019/07/31 22:49:03
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 23ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:50:03 采集泛亚数据成功，没有新数据！
+  
+ ��29�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 22:49:04
+    [EndAt] => 2019/07/31 22:50:03
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 21ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:51:03 采集泛亚数据成功，没有新数据！
+  
+ ��30�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 22:50:04
+    [EndAt] => 2019/07/31 22:51:02
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 25ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:52:02 采集泛亚数据成功，没有新数据！
+  
+ ��31�� 
+Array
+(
+    [Type] => UpdateAt
+    [StartAt] => 2019/07/31 22:51:03
+    [EndAt] => 2019/07/31 22:52:03
+    [UserName] => 
+    [PageIndex] => 1
+)
+Array
+(
+    [success] => 1
+    [msg] => 19ms
+    [info] => Array
+        (
+            [RecordCount] => 0
+            [PageIndex] => 1
+            [PageSize] => 20
+            [data] => 
+            [list] => Array
+                (
+                )
+
+        )
+
+)
+07-31 22:53:03 采集泛亚数据成功，没有新数据！
+  

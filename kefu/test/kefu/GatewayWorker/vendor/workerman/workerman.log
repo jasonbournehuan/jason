@@ -1,0 +1,1656 @@
+2019-03-05 13:36:26 pid:56947 Workerman[start.php] start in DEBUG mode
+2019-03-05 13:37:23 pid:56948 exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php:500
+Stack trace:
+#0 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(500): PDO->__construct('mysql:host=127....', 'root', 'root', Array)
+#1 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(2017): think\db\Connection->connect()
+#2 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(622): think\db\Connection->initConnect(false)
+#3 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/connector/Mysql.php(90): think\db\Connection->query('SHOW COLUMNS FR...', Array, false, true)
+#4 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(376): think\db\connector\Mysql->getFields('ws_customer')
+#5 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(412): think\db\Connection->getTableInfo('ws_customer', 'pk')
+#6 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Query.php(2182): think\db\Connection->getPk('ws_customer')
+#7 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(784): think\db\Query->getPk(Array)
+#8 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Query.php(2745): think\db\Connection->find(Object(think\db\Query))
+#9 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/Applications/whisper/Events.php(189): think\db\Query->find()
+#10 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"userIn...')
+#11 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"userIn...')
+#12 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#13 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48)
+#15 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#16 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/workerman/Worker.php(2235): Workerman\Events\Select->loop()
+#17 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/gateway-worker/src/BusinessWorker.php(197): Workerman\Worker->run()
+#18 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/workerman/Worker.php(1360): GatewayWorker\BusinessWorker->run()
+#19 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/workerman/Worker.php(1192): Workerman\Worker::forkOneWorkerForLinux(Object(GatewayWorker\BusinessWorker))
+#20 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/workerman/Worker.php(1166): Workerman\Worker::forkWorkersForLinux()
+#21 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#22 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/start.php(37): Workerman\Worker::runAll()
+#23 {main}
+2019-03-05 13:37:23 pid:56948 Worker[56948] process terminated
+2019-03-05 13:37:23 pid:56947 worker[WhisperBusinessWorker:56948] exit with status 64000
+2019-03-05 13:37:55 pid:56947 Workerman[start.php] stopping ...
+2019-03-05 13:37:55 pid:56947 Workerman[start.php] has been stopped
+2019-03-05 13:38:32 pid:57007 Workerman[start.php] start in DEBUG mode
+2019-03-05 14:04:32 pid:57008 Worker[57008] process terminated with ERROR: E_ERROR "Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php:500
+Stack trace:
+#0 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(500): PDO->__construct('mysql:host=127....', 'root', '123456', Array)
+#1 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(2017): think\db\Connection->connect()
+#2 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(622): think\db\Connection->initConnect(false)
+#3 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(669): think\db\Connection->query('SELECT COUNT(*)...', Array, false, true)
+#4 /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php(128 in /Users/huangping/PhpstormProjects/zj-whisper_pay/GatewayWorker/vendor/topthink/think-orm/src/db/Connection.php on line 500"
+2019-03-05 14:04:32 pid:57007 worker[WhisperBusinessWorker:57008] exit with status 65280
+2019-03-05 14:10:11 pid:57007 Workerman[start.php] stopping ...
+2019-03-05 14:10:11 pid:57007 Workerman[start.php] has been stopped
+2019-03-05 14:10:48 pid:59803 Workerman[start.php] start in DEBUG mode
+2019-03-05 14:28:21 pid:59803 Workerman[start.php] stopping ...
+2019-03-05 14:28:21 pid:59803 Workerman[start.php] has been stopped
+2019-03-27 13:40:06 pid:1 exception 'think\db\exception\PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kf.ws_customer' doesn't exist' in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php:672
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\connector\Mysql.php(90): think\db\Connection->query('SHOW COLUMNS FR...', Array, false, true)
+#1 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php(376): think\db\connector\Mysql->getFields('ws_customer')
+#2 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php(412): think\db\Connection->getTableInfo('ws_customer', 'pk')
+#3 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Query.php(2182): think\db\Connection->getPk('ws_customer')
+#4 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php(784): think\db\Query->getPk(Array)
+#5 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Query.php(2745): think\db\Connection->find(Object(think\db\Query))
+#6 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php(189): think\db\Query->find()
+#7 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"userIn...')
+#8 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"userIn...')
+#9 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#10 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#11 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#12 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#13 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#14 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#15 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#16 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#17 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#18 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\start_businessworker.php(35): Workerman\Worker::runAll()
+#19 {main}
+2019-03-27 13:40:06 pid:1 Worker process terminated
+2019-03-27 13:41:08 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught exception 'think\db\exception\PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kf.ws_users' doesn't exist' in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php:672
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\connector\Mysql.php(90): think\db\Connection->query('SHOW COLUMNS FR...', Array, false, true)
+#1 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php(376): think\db\connector\Mysql->getFields('ws_users')
+#2 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php(430): think\db\Connection->getTableInfo('ws_users', 'bind')
+#3 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Builder.php(291): think\db\Connection->getFieldsBind('ws_users')
+#4 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Builder.php(262): think\db\Builder->b in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php on line 672"
+2019-03-27 13:41:20 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-03-27 13:41:20 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-03-27 13:51:45 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 56"
+2019-03-27 13:51:46 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 56"
+2019-03-27 13:51:47 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 56"
+2019-03-27 13:51:48 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 56"
+2019-03-27 13:51:49 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 56"
+2019-03-27 13:51:50 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 56"
+2019-03-27 13:52:37 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 184"
+2019-03-27 13:53:38 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 780"
+2019-03-29 09:40:02 pid:1 Worker process terminated
+2019-03-29 09:40:04 pid:1 Worker process terminated
+2019-03-29 09:40:05 pid:1 Worker process terminated
+2019-03-29 09:40:06 pid:1 Worker process terminated
+2019-03-29 09:40:07 pid:1 Worker process terminated
+2019-03-29 09:40:08 pid:1 Worker process terminated
+2019-03-29 09:40:09 pid:1 Worker process terminated
+2019-03-29 09:40:10 pid:1 Worker process terminated
+2019-03-29 09:40:11 pid:1 Worker process terminated
+2019-03-29 09:40:12 pid:1 Worker process terminated
+2019-03-29 09:40:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:13 pid:1 Worker process terminated
+2019-03-29 09:40:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:14 pid:1 Worker process terminated
+2019-03-29 09:40:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:15 pid:1 Worker process terminated
+2019-03-29 09:40:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:16 pid:1 Worker process terminated
+2019-03-29 09:40:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:18 pid:1 Worker process terminated
+2019-03-29 09:40:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:40:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:50:04 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:05 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:06 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:07 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:08 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:09 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:10 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:11 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:12 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:13 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:14 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:16 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:17 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:18 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:50:19 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:52:27 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:52:28 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:52:29 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:52:30 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:52:31 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:WhisperBusinessWorker:0
+2019-03-29 09:52:55 pid:1 exception 'InvalidArgumentException' with message 'Undefined db type' in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php:178
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Query.php(79): think\db\Connection::instance()
+#1 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\Db.php(150): think\db\Query->__construct()
+#2 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php(177): think\Db::__callStatic('table', Array)
+#3 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php(177): think\Db::table('kf_customer')
+#4 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"userIn...')
+#5 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"userIn...')
+#6 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#9 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#10 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#11 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#12 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#13 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#14 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#15 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\start_businessworker.php(35): Workerman\Worker::runAll()
+#16 {main}
+2019-03-29 09:52:55 pid:1 Worker process terminated
+2019-03-29 09:53:56 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught exception 'InvalidArgumentException' with message 'Undefined db type' in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php:178
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Query.php(79): think\db\Connection::instance()
+#1 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\Db.php(150): think\db\Query->__construct()
+#2 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php(766): think\Db::__callStatic('table', Array)
+#3 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php(766): think\Db::table('kf_users')
+#4 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php(135): Events::writeLog(1)
+#5 [internal function]: Events::{closure}()
+#6 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#7 D:\phpStudy\PHPTutorial\WWW\kefu\ in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php on line 178"
+2019-03-29 09:53:58 pid:1 Worker process terminated
+2019-03-29 09:53:59 pid:1 Worker process terminated
+2019-03-29 09:54:00 pid:1 Worker process terminated
+2019-03-29 09:54:01 pid:1 Worker process terminated
+2019-03-29 09:54:02 pid:1 Worker process terminated
+2019-03-29 09:54:03 pid:1 Worker process terminated
+2019-03-29 09:54:04 pid:1 Worker process terminated
+2019-03-29 09:54:05 pid:1 Worker process terminated
+2019-03-29 09:54:06 pid:1 Worker process terminated
+2019-03-29 09:54:07 pid:1 Worker process terminated
+2019-03-29 09:54:08 pid:1 Worker process terminated
+2019-03-29 09:54:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:09 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-03-29 09:54:09 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-03-29 09:54:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:09 pid:1 Worker process terminated
+2019-03-29 09:54:10 pid:1 Worker process terminated
+2019-03-29 09:54:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:11 pid:1 Worker process terminated
+2019-03-29 09:54:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:12 pid:1 Worker process terminated
+2019-03-29 09:54:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:13 pid:1 Worker process terminated
+2019-03-29 09:54:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:14 pid:1 Worker process terminated
+2019-03-29 09:54:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:15 pid:1 Worker process terminated
+2019-03-29 09:54:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:16 pid:1 Worker process terminated
+2019-03-29 09:54:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:17 pid:1 Worker process terminated
+2019-03-29 09:54:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:18 pid:1 Worker process terminated
+2019-03-29 09:54:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:19 pid:1 Worker process terminated
+2019-03-29 09:54:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:20 pid:1 Worker process terminated
+2019-03-29 09:54:21 pid:1 Worker process terminated
+2019-03-29 09:54:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:22 pid:1 Worker process terminated
+2019-03-29 09:54:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:23 pid:1 Worker process terminated
+2019-03-29 09:54:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:24 pid:1 Worker process terminated
+2019-03-29 09:54:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:25 pid:1 Worker process terminated
+2019-03-29 09:54:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:26 pid:1 Worker process terminated
+2019-03-29 09:54:27 pid:1 Worker process terminated
+2019-03-29 09:54:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:28 pid:1 Worker process terminated
+2019-03-29 09:54:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:29 pid:1 Worker process terminated
+2019-03-29 09:54:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:30 pid:1 Worker process terminated
+2019-03-29 09:54:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:31 pid:1 Worker process terminated
+2019-03-29 09:54:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:32 pid:1 Worker process terminated
+2019-03-29 09:54:33 pid:1 Worker process terminated
+2019-03-29 09:54:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:34 pid:1 Worker process terminated
+2019-03-29 09:54:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:35 pid:1 Worker process terminated
+2019-03-29 09:54:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:36 pid:1 Worker process terminated
+2019-03-29 09:54:37 pid:1 Worker process terminated
+2019-03-29 09:54:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:38 pid:1 Worker process terminated
+2019-03-29 09:54:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:39 pid:1 Worker process terminated
+2019-03-29 09:54:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:40 pid:1 Worker process terminated
+2019-03-29 09:54:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:41 pid:1 Worker process terminated
+2019-03-29 09:54:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:42 pid:1 Worker process terminated
+2019-03-29 09:54:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:43 pid:1 Worker process terminated
+2019-03-29 09:54:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:44 pid:1 Worker process terminated
+2019-03-29 09:54:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:45 pid:1 Worker process terminated
+2019-03-29 09:54:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:46 pid:1 Worker process terminated
+2019-03-29 09:54:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:47 pid:1 Worker process terminated
+2019-03-29 09:54:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:48 pid:1 Worker process terminated
+2019-03-29 09:54:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:49 pid:1 Worker process terminated
+2019-03-29 09:54:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:50 pid:1 Worker process terminated
+2019-03-29 09:54:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:51 pid:1 Worker process terminated
+2019-03-29 09:54:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:52 pid:1 Worker process terminated
+2019-03-29 09:54:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:53 pid:1 Worker process terminated
+2019-03-29 09:54:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:54 pid:1 Worker process terminated
+2019-03-29 09:54:55 pid:1 Worker process terminated
+2019-03-29 09:54:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:56 pid:1 Worker process terminated
+2019-03-29 09:54:57 pid:1 Worker process terminated
+2019-03-29 09:54:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:58 pid:1 Worker process terminated
+2019-03-29 09:54:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:54:59 pid:1 Worker process terminated
+2019-03-29 09:55:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:00 pid:1 Worker process terminated
+2019-03-29 09:55:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:01 pid:1 Worker process terminated
+2019-03-29 09:55:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:02 pid:1 Worker process terminated
+2019-03-29 09:55:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:03 pid:1 Worker process terminated
+2019-03-29 09:55:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:04 pid:1 Worker process terminated
+2019-03-29 09:55:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:05 pid:1 Worker process terminated
+2019-03-29 09:55:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:06 pid:1 Worker process terminated
+2019-03-29 09:55:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:07 pid:1 Worker process terminated
+2019-03-29 09:55:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:15 pid:1 Worker process terminated
+2019-03-29 09:55:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:16 pid:1 Worker process terminated
+2019-03-29 09:55:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:17 pid:1 Worker process terminated
+2019-03-29 09:55:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:18 pid:1 Worker process terminated
+2019-03-29 09:55:19 pid:1 Worker process terminated
+2019-03-29 09:55:20 pid:1 Worker process terminated
+2019-03-29 09:55:21 pid:1 Worker process terminated
+2019-03-29 09:55:22 pid:1 Worker process terminated
+2019-03-29 09:55:23 pid:1 Worker process terminated
+2019-03-29 09:55:24 pid:1 Worker process terminated
+2019-03-29 09:55:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:25 pid:1 Worker process terminated
+2019-03-29 09:55:26 pid:1 Worker process terminated
+2019-03-29 09:55:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:27 pid:1 Worker process terminated
+2019-03-29 09:55:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:28 pid:1 Worker process terminated
+2019-03-29 09:55:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:29 pid:1 Worker process terminated
+2019-03-29 09:55:30 pid:1 Worker process terminated
+2019-03-29 09:55:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:31 pid:1 Worker process terminated
+2019-03-29 09:55:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:32 pid:1 Worker process terminated
+2019-03-29 09:55:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:33 pid:1 Worker process terminated
+2019-03-29 09:55:34 pid:1 Worker process terminated
+2019-03-29 09:55:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:35 pid:1 Worker process terminated
+2019-03-29 09:55:36 pid:1 Worker process terminated
+2019-03-29 09:55:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:37 pid:1 Worker process terminated
+2019-03-29 09:55:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:38 pid:1 Worker process terminated
+2019-03-29 09:55:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:39 pid:1 Worker process terminated
+2019-03-29 09:55:40 pid:1 Worker process terminated
+2019-03-29 09:55:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:41 pid:1 Worker process terminated
+2019-03-29 09:55:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:42 pid:1 Worker process terminated
+2019-03-29 09:55:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:43 pid:1 Worker process terminated
+2019-03-29 09:55:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:44 pid:1 Worker process terminated
+2019-03-29 09:55:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:45 pid:1 Worker process terminated
+2019-03-29 09:55:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:46 pid:1 Worker process terminated
+2019-03-29 09:55:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:47 pid:1 Worker process terminated
+2019-03-29 09:55:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:48 pid:1 Worker process terminated
+2019-03-29 09:55:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:49 pid:1 Worker process terminated
+2019-03-29 09:55:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:50 pid:1 Worker process terminated
+2019-03-29 09:55:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:51 pid:1 Worker process terminated
+2019-03-29 09:55:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:52 pid:1 Worker process terminated
+2019-03-29 09:55:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:53 pid:1 Worker process terminated
+2019-03-29 09:55:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:54 pid:1 Worker process terminated
+2019-03-29 09:55:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:55 pid:1 Worker process terminated
+2019-03-29 09:55:56 pid:1 Worker process terminated
+2019-03-29 09:55:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:57 pid:1 Worker process terminated
+2019-03-29 09:55:58 pid:1 Worker process terminated
+2019-03-29 09:55:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:55:59 pid:1 Worker process terminated
+2019-03-29 09:56:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:00 pid:1 Worker process terminated
+2019-03-29 09:56:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:01 pid:1 Worker process terminated
+2019-03-29 09:56:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:02 pid:1 Worker process terminated
+2019-03-29 09:56:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:03 pid:1 Worker process terminated
+2019-03-29 09:56:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:04 pid:1 Worker process terminated
+2019-03-29 09:56:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:05 pid:1 Worker process terminated
+2019-03-29 09:56:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:06 pid:1 Worker process terminated
+2019-03-29 09:56:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:07 pid:1 Worker process terminated
+2019-03-29 09:56:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:08 pid:1 Worker process terminated
+2019-03-29 09:56:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:09 pid:1 Worker process terminated
+2019-03-29 09:56:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:10 pid:1 Worker process terminated
+2019-03-29 09:56:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:11 pid:1 Worker process terminated
+2019-03-29 09:56:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:12 pid:1 Worker process terminated
+2019-03-29 09:56:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:13 pid:1 Worker process terminated
+2019-03-29 09:56:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:14 pid:1 Worker process terminated
+2019-03-29 09:56:15 pid:1 Worker process terminated
+2019-03-29 09:56:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:16 pid:1 Worker process terminated
+2019-03-29 09:56:17 pid:1 Worker process terminated
+2019-03-29 09:56:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:18 pid:1 Worker process terminated
+2019-03-29 09:56:19 pid:1 Worker process terminated
+2019-03-29 09:56:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:20 pid:1 Worker process terminated
+2019-03-29 09:56:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:21 pid:1 Worker process terminated
+2019-03-29 09:56:22 pid:1 Worker process terminated
+2019-03-29 09:56:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:23 pid:1 Worker process terminated
+2019-03-29 09:56:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:24 pid:1 Worker process terminated
+2019-03-29 09:56:25 pid:1 Worker process terminated
+2019-03-29 09:56:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:26 pid:1 Worker process terminated
+2019-03-29 09:56:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:27 pid:1 Worker process terminated
+2019-03-29 09:56:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:28 pid:1 Worker process terminated
+2019-03-29 09:56:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:29 pid:1 Worker process terminated
+2019-03-29 09:56:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:30 pid:1 Worker process terminated
+2019-03-29 09:56:31 pid:1 Worker process terminated
+2019-03-29 09:56:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:32 pid:1 Worker process terminated
+2019-03-29 09:56:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:33 pid:1 Worker process terminated
+2019-03-29 09:56:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:34 pid:1 Worker process terminated
+2019-03-29 09:56:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:35 pid:1 Worker process terminated
+2019-03-29 09:56:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:36 pid:1 Worker process terminated
+2019-03-29 09:56:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:37 pid:1 Worker process terminated
+2019-03-29 09:56:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:38 pid:1 Worker process terminated
+2019-03-29 09:56:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:39 pid:1 Worker process terminated
+2019-03-29 09:56:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:40 pid:1 Worker process terminated
+2019-03-29 09:56:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:41 pid:1 Worker process terminated
+2019-03-29 09:56:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:42 pid:1 Worker process terminated
+2019-03-29 09:56:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:43 pid:1 Worker process terminated
+2019-03-29 09:56:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:44 pid:1 Worker process terminated
+2019-03-29 09:56:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:45 pid:1 Worker process terminated
+2019-03-29 09:56:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:46 pid:1 Worker process terminated
+2019-03-29 09:56:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:47 pid:1 Worker process terminated
+2019-03-29 09:56:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:48 pid:1 Worker process terminated
+2019-03-29 09:56:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:49 pid:1 Worker process terminated
+2019-03-29 09:56:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:50 pid:1 Worker process terminated
+2019-03-29 09:56:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:51 pid:1 Worker process terminated
+2019-03-29 09:56:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:52 pid:1 Worker process terminated
+2019-03-29 09:56:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:53 pid:1 Worker process terminated
+2019-03-29 09:56:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:54 pid:1 Worker process terminated
+2019-03-29 09:56:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:55 pid:1 Worker process terminated
+2019-03-29 09:56:56 pid:1 Worker process terminated
+2019-03-29 09:56:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:57 pid:1 Worker process terminated
+2019-03-29 09:56:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:56:58 pid:1 Worker process terminated
+2019-03-29 09:56:59 pid:1 Worker process terminated
+2019-03-29 09:56:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:00 pid:1 Worker process terminated
+2019-03-29 09:57:01 pid:1 Worker process terminated
+2019-03-29 09:57:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:02 pid:1 Worker process terminated
+2019-03-29 09:57:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:03 pid:1 Worker process terminated
+2019-03-29 09:57:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:04 pid:1 Worker process terminated
+2019-03-29 09:57:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:05 pid:1 Worker process terminated
+2019-03-29 09:57:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:06 pid:1 Worker process terminated
+2019-03-29 09:57:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:07 pid:1 Worker process terminated
+2019-03-29 09:57:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:08 pid:1 Worker process terminated
+2019-03-29 09:57:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:09 pid:1 Worker process terminated
+2019-03-29 09:57:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:10 pid:1 Worker process terminated
+2019-03-29 09:57:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:11 pid:1 Worker process terminated
+2019-03-29 09:57:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:12 pid:1 Worker process terminated
+2019-03-29 09:57:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:13 pid:1 Worker process terminated
+2019-03-29 09:57:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:14 pid:1 Worker process terminated
+2019-03-29 09:57:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:15 pid:1 Worker process terminated
+2019-03-29 09:57:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:16 pid:1 Worker process terminated
+2019-03-29 09:57:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:17 pid:1 Worker process terminated
+2019-03-29 09:57:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:18 pid:1 Worker process terminated
+2019-03-29 09:57:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:19 pid:1 Worker process terminated
+2019-03-29 09:57:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:20 pid:1 Worker process terminated
+2019-03-29 09:57:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:21 pid:1 Worker process terminated
+2019-03-29 09:57:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:22 pid:1 Worker process terminated
+2019-03-29 09:57:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:23 pid:1 Worker process terminated
+2019-03-29 09:57:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:24 pid:1 Worker process terminated
+2019-03-29 09:57:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:25 pid:1 Worker process terminated
+2019-03-29 09:57:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:26 pid:1 Worker process terminated
+2019-03-29 09:57:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:27 pid:1 Worker process terminated
+2019-03-29 09:57:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:28 pid:1 Worker process terminated
+2019-03-29 09:57:29 pid:1 Worker process terminated
+2019-03-29 09:57:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:30 pid:1 Worker process terminated
+2019-03-29 09:57:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:31 pid:1 Worker process terminated
+2019-03-29 09:57:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:32 pid:1 Worker process terminated
+2019-03-29 09:57:33 pid:1 Worker process terminated
+2019-03-29 09:57:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:34 pid:1 Worker process terminated
+2019-03-29 09:57:35 pid:1 Worker process terminated
+2019-03-29 09:57:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:36 pid:1 Worker process terminated
+2019-03-29 09:57:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:37 pid:1 Worker process terminated
+2019-03-29 09:57:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:38 pid:1 Worker process terminated
+2019-03-29 09:57:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:39 pid:1 Worker process terminated
+2019-03-29 09:57:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:40 pid:1 Worker process terminated
+2019-03-29 09:57:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:41 pid:1 Worker process terminated
+2019-03-29 09:57:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:42 pid:1 Worker process terminated
+2019-03-29 09:57:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:43 pid:1 Worker process terminated
+2019-03-29 09:57:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:44 pid:1 Worker process terminated
+2019-03-29 09:57:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:45 pid:1 Worker process terminated
+2019-03-29 09:57:46 pid:1 Worker process terminated
+2019-03-29 09:57:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:47 pid:1 Worker process terminated
+2019-03-29 09:57:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:48 pid:1 Worker process terminated
+2019-03-29 09:57:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:49 pid:1 Worker process terminated
+2019-03-29 09:57:50 pid:1 Worker process terminated
+2019-03-29 09:57:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:51 pid:1 Worker process terminated
+2019-03-29 09:57:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:52 pid:1 Worker process terminated
+2019-03-29 09:57:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:53 pid:1 Worker process terminated
+2019-03-29 09:57:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:54 pid:1 Worker process terminated
+2019-03-29 09:57:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:55 pid:1 Worker process terminated
+2019-03-29 09:57:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:56 pid:1 Worker process terminated
+2019-03-29 09:57:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:57 pid:1 Worker process terminated
+2019-03-29 09:57:58 pid:1 Worker process terminated
+2019-03-29 09:57:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:57:59 pid:1 Worker process terminated
+2019-03-29 09:57:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:00 pid:1 Worker process terminated
+2019-03-29 09:58:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:01 pid:1 Worker process terminated
+2019-03-29 09:58:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:02 pid:1 Worker process terminated
+2019-03-29 09:58:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:03 pid:1 Worker process terminated
+2019-03-29 09:58:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:04 pid:1 Worker process terminated
+2019-03-29 09:58:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:05 pid:1 Worker process terminated
+2019-03-29 09:58:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:06 pid:1 Worker process terminated
+2019-03-29 09:58:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:07 pid:1 Worker process terminated
+2019-03-29 09:58:08 pid:1 Worker process terminated
+2019-03-29 09:58:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:09 pid:1 Worker process terminated
+2019-03-29 09:58:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:10 pid:1 Worker process terminated
+2019-03-29 09:58:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:11 pid:1 Worker process terminated
+2019-03-29 09:58:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:12 pid:1 Worker process terminated
+2019-03-29 09:58:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:13 pid:1 Worker process terminated
+2019-03-29 09:58:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:14 pid:1 Worker process terminated
+2019-03-29 09:58:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:15 pid:1 Worker process terminated
+2019-03-29 09:58:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:16 pid:1 Worker process terminated
+2019-03-29 09:58:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:17 pid:1 Worker process terminated
+2019-03-29 09:58:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:18 pid:1 Worker process terminated
+2019-03-29 09:58:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:19 pid:1 Worker process terminated
+2019-03-29 09:58:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:20 pid:1 Worker process terminated
+2019-03-29 09:58:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:21 pid:1 Worker process terminated
+2019-03-29 09:58:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:22 pid:1 Worker process terminated
+2019-03-29 09:58:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:23 pid:1 Worker process terminated
+2019-03-29 09:58:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:24 pid:1 Worker process terminated
+2019-03-29 09:58:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:25 pid:1 Worker process terminated
+2019-03-29 09:58:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:26 pid:1 Worker process terminated
+2019-03-29 09:58:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:27 pid:1 Worker process terminated
+2019-03-29 09:58:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:28 pid:1 Worker process terminated
+2019-03-29 09:58:29 pid:1 Worker process terminated
+2019-03-29 09:58:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:30 pid:1 Worker process terminated
+2019-03-29 09:58:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:31 pid:1 Worker process terminated
+2019-03-29 09:58:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:32 pid:1 Worker process terminated
+2019-03-29 09:58:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:33 pid:1 Worker process terminated
+2019-03-29 09:58:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:34 pid:1 Worker process terminated
+2019-03-29 09:58:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:35 pid:1 Worker process terminated
+2019-03-29 09:58:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:36 pid:1 Worker process terminated
+2019-03-29 09:58:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:37 pid:1 Worker process terminated
+2019-03-29 09:58:38 pid:1 Worker process terminated
+2019-03-29 09:58:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:39 pid:1 Worker process terminated
+2019-03-29 09:58:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:40 pid:1 Worker process terminated
+2019-03-29 09:58:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:41 pid:1 Worker process terminated
+2019-03-29 09:58:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:42 pid:1 Worker process terminated
+2019-03-29 09:58:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:43 pid:1 Worker process terminated
+2019-03-29 09:58:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:44 pid:1 Worker process terminated
+2019-03-29 09:58:45 pid:1 Worker process terminated
+2019-03-29 09:58:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:46 pid:1 Worker process terminated
+2019-03-29 09:58:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:47 pid:1 Worker process terminated
+2019-03-29 09:58:48 pid:1 Worker process terminated
+2019-03-29 09:58:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:49 pid:1 Worker process terminated
+2019-03-29 09:58:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:50 pid:1 Worker process terminated
+2019-03-29 09:58:51 pid:1 Worker process terminated
+2019-03-29 09:58:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:52 pid:1 Worker process terminated
+2019-03-29 09:58:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:53 pid:1 Worker process terminated
+2019-03-29 09:58:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:54 pid:1 Worker process terminated
+2019-03-29 09:58:55 pid:1 Worker process terminated
+2019-03-29 09:58:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:56 pid:1 Worker process terminated
+2019-03-29 09:58:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:57 pid:1 Worker process terminated
+2019-03-29 09:58:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:58 pid:1 Worker process terminated
+2019-03-29 09:58:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:58:59 pid:1 Worker process terminated
+2019-03-29 09:59:00 pid:1 Worker process terminated
+2019-03-29 09:59:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:01 pid:1 Worker process terminated
+2019-03-29 09:59:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:02 pid:1 Worker process terminated
+2019-03-29 09:59:03 pid:1 Worker process terminated
+2019-03-29 09:59:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:04 pid:1 Worker process terminated
+2019-03-29 09:59:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:05 pid:1 Worker process terminated
+2019-03-29 09:59:06 pid:1 Worker process terminated
+2019-03-29 09:59:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:07 pid:1 Worker process terminated
+2019-03-29 09:59:08 pid:1 Worker process terminated
+2019-03-29 09:59:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:09 pid:1 Worker process terminated
+2019-03-29 09:59:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:10 pid:1 Worker process terminated
+2019-03-29 09:59:11 pid:1 Worker process terminated
+2019-03-29 09:59:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:12 pid:1 Worker process terminated
+2019-03-29 09:59:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:13 pid:1 Worker process terminated
+2019-03-29 09:59:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:14 pid:1 Worker process terminated
+2019-03-29 09:59:15 pid:1 Worker process terminated
+2019-03-29 09:59:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:16 pid:1 Worker process terminated
+2019-03-29 09:59:17 pid:1 Worker process terminated
+2019-03-29 09:59:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:18 pid:1 Worker process terminated
+2019-03-29 09:59:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:19 pid:1 Worker process terminated
+2019-03-29 09:59:20 pid:1 Worker process terminated
+2019-03-29 09:59:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:21 pid:1 Worker process terminated
+2019-03-29 09:59:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:22 pid:1 Worker process terminated
+2019-03-29 09:59:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:23 pid:1 Worker process terminated
+2019-03-29 09:59:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:24 pid:1 Worker process terminated
+2019-03-29 09:59:25 pid:1 Worker process terminated
+2019-03-29 09:59:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:26 pid:1 Worker process terminated
+2019-03-29 09:59:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:27 pid:1 Worker process terminated
+2019-03-29 09:59:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:28 pid:1 Worker process terminated
+2019-03-29 09:59:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:29 pid:1 Worker process terminated
+2019-03-29 09:59:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:30 pid:1 Worker process terminated
+2019-03-29 09:59:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:31 pid:1 Worker process terminated
+2019-03-29 09:59:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:32 pid:1 Worker process terminated
+2019-03-29 09:59:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:41 pid:1 Worker process terminated
+2019-03-29 09:59:42 pid:1 Worker process terminated
+2019-03-29 09:59:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:43 pid:1 Worker process terminated
+2019-03-29 09:59:44 pid:1 Worker process terminated
+2019-03-29 09:59:45 pid:1 Worker process terminated
+2019-03-29 09:59:46 pid:1 Worker process terminated
+2019-03-29 09:59:47 pid:1 Worker process terminated
+2019-03-29 09:59:48 pid:1 Worker process terminated
+2019-03-29 09:59:49 pid:1 Worker process terminated
+2019-03-29 09:59:50 pid:1 Worker process terminated
+2019-03-29 09:59:51 pid:1 Worker process terminated
+2019-03-29 09:59:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:52 pid:1 Worker process terminated
+2019-03-29 09:59:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:53 pid:1 Worker process terminated
+2019-03-29 09:59:54 pid:1 Worker process terminated
+2019-03-29 09:59:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:55 pid:1 Worker process terminated
+2019-03-29 09:59:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:56 pid:1 Worker process terminated
+2019-03-29 09:59:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:57 pid:1 Worker process terminated
+2019-03-29 09:59:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 09:59:58 pid:1 Worker process terminated
+2019-03-29 09:59:59 pid:1 Worker process terminated
+2019-03-29 09:59:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:00 pid:1 Worker process terminated
+2019-03-29 10:00:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:01 pid:1 Worker process terminated
+2019-03-29 10:00:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:02 pid:1 Worker process terminated
+2019-03-29 10:00:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:03 pid:1 Worker process terminated
+2019-03-29 10:00:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:04 pid:1 Worker process terminated
+2019-03-29 10:00:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:05 pid:1 Worker process terminated
+2019-03-29 10:00:06 pid:1 Worker process terminated
+2019-03-29 10:00:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:07 pid:1 Worker process terminated
+2019-03-29 10:00:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:08 pid:1 Worker process terminated
+2019-03-29 10:00:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:09 pid:1 Worker process terminated
+2019-03-29 10:00:10 pid:1 Worker process terminated
+2019-03-29 10:00:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:11 pid:1 Worker process terminated
+2019-03-29 10:00:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:12 pid:1 Worker process terminated
+2019-03-29 10:00:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:13 pid:1 Worker process terminated
+2019-03-29 10:00:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:14 pid:1 Worker process terminated
+2019-03-29 10:00:15 pid:1 Worker process terminated
+2019-03-29 10:00:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:16 pid:1 Worker process terminated
+2019-03-29 10:00:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:17 pid:1 Worker process terminated
+2019-03-29 10:00:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:18 pid:1 Worker process terminated
+2019-03-29 10:00:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:19 pid:1 Worker process terminated
+2019-03-29 10:00:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:20 pid:1 Worker process terminated
+2019-03-29 10:00:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:21 pid:1 Worker process terminated
+2019-03-29 10:00:22 pid:1 Worker process terminated
+2019-03-29 10:00:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:23 pid:1 Worker process terminated
+2019-03-29 10:00:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:24 pid:1 Worker process terminated
+2019-03-29 10:00:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:25 pid:1 Worker process terminated
+2019-03-29 10:00:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:26 pid:1 Worker process terminated
+2019-03-29 10:00:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:27 pid:1 Worker process terminated
+2019-03-29 10:00:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:28 pid:1 Worker process terminated
+2019-03-29 10:00:29 pid:1 Worker process terminated
+2019-03-29 10:00:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:30 pid:1 Worker process terminated
+2019-03-29 10:00:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:31 pid:1 Worker process terminated
+2019-03-29 10:00:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:32 pid:1 Worker process terminated
+2019-03-29 10:00:33 pid:1 Worker process terminated
+2019-03-29 10:00:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:34 pid:1 Worker process terminated
+2019-03-29 10:00:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:35 pid:1 Worker process terminated
+2019-03-29 10:00:36 pid:1 Worker process terminated
+2019-03-29 10:00:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:37 pid:1 Worker process terminated
+2019-03-29 10:00:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:38 pid:1 Worker process terminated
+2019-03-29 10:00:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:39 pid:1 Worker process terminated
+2019-03-29 10:00:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:40 pid:1 Worker process terminated
+2019-03-29 10:00:41 pid:1 Worker process terminated
+2019-03-29 10:00:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:42 pid:1 Worker process terminated
+2019-03-29 10:00:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:43 pid:1 Worker process terminated
+2019-03-29 10:00:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:44 pid:1 Worker process terminated
+2019-03-29 10:00:45 pid:1 Worker process terminated
+2019-03-29 10:00:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:46 pid:1 Worker process terminated
+2019-03-29 10:00:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:47 pid:1 Worker process terminated
+2019-03-29 10:00:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:48 pid:1 Worker process terminated
+2019-03-29 10:00:49 pid:1 Worker process terminated
+2019-03-29 10:00:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:50 pid:1 Worker process terminated
+2019-03-29 10:00:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:51 pid:1 Worker process terminated
+2019-03-29 10:00:52 pid:1 Worker process terminated
+2019-03-29 10:00:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:53 pid:1 Worker process terminated
+2019-03-29 10:00:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:54 pid:1 Worker process terminated
+2019-03-29 10:00:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:55 pid:1 Worker process terminated
+2019-03-29 10:00:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:56 pid:1 Worker process terminated
+2019-03-29 10:00:57 pid:1 Worker process terminated
+2019-03-29 10:00:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:58 pid:1 Worker process terminated
+2019-03-29 10:00:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:00:59 pid:1 Worker process terminated
+2019-03-29 10:01:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:00 pid:1 Worker process terminated
+2019-03-29 10:01:01 pid:1 Worker process terminated
+2019-03-29 10:01:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:02 pid:1 Worker process terminated
+2019-03-29 10:01:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:03 pid:1 Worker process terminated
+2019-03-29 10:01:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:04 pid:1 Worker process terminated
+2019-03-29 10:01:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:05 pid:1 Worker process terminated
+2019-03-29 10:01:06 pid:1 Worker process terminated
+2019-03-29 10:01:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:07 pid:1 Worker process terminated
+2019-03-29 10:01:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:08 pid:1 Worker process terminated
+2019-03-29 10:01:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:09 pid:1 Worker process terminated
+2019-03-29 10:01:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:10 pid:1 Worker process terminated
+2019-03-29 10:01:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:11 pid:1 Worker process terminated
+2019-03-29 10:01:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:12 pid:1 Worker process terminated
+2019-03-29 10:01:13 pid:1 Worker process terminated
+2019-03-29 10:01:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:14 pid:1 Worker process terminated
+2019-03-29 10:01:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:15 pid:1 Worker process terminated
+2019-03-29 10:01:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:16 pid:1 Worker process terminated
+2019-03-29 10:01:17 pid:1 Worker process terminated
+2019-03-29 10:01:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:18 pid:1 Worker process terminated
+2019-03-29 10:01:19 pid:1 Worker process terminated
+2019-03-29 10:01:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:20 pid:1 Worker process terminated
+2019-03-29 10:01:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:21 pid:1 Worker process terminated
+2019-03-29 10:01:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:22 pid:1 Worker process terminated
+2019-03-29 10:01:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:23 pid:1 Worker process terminated
+2019-03-29 10:01:24 pid:1 Worker process terminated
+2019-03-29 10:01:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:25 pid:1 Worker process terminated
+2019-03-29 10:01:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:26 pid:1 Worker process terminated
+2019-03-29 10:01:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:27 pid:1 Worker process terminated
+2019-03-29 10:01:28 pid:1 Worker process terminated
+2019-03-29 10:01:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:29 pid:1 Worker process terminated
+2019-03-29 10:01:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:30 pid:1 Worker process terminated
+2019-03-29 10:01:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:31 pid:1 Worker process terminated
+2019-03-29 10:01:32 pid:1 Worker process terminated
+2019-03-29 10:01:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:33 pid:1 Worker process terminated
+2019-03-29 10:01:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:34 pid:1 Worker process terminated
+2019-03-29 10:01:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:35 pid:1 Worker process terminated
+2019-03-29 10:01:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:36 pid:1 Worker process terminated
+2019-03-29 10:01:37 pid:1 Worker process terminated
+2019-03-29 10:01:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:38 pid:1 Worker process terminated
+2019-03-29 10:01:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:39 pid:1 Worker process terminated
+2019-03-29 10:01:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:40 pid:1 Worker process terminated
+2019-03-29 10:01:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:41 pid:1 Worker process terminated
+2019-03-29 10:01:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:42 pid:1 Worker process terminated
+2019-03-29 10:01:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:43 pid:1 Worker process terminated
+2019-03-29 10:01:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:44 pid:1 Worker process terminated
+2019-03-29 10:01:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:45 pid:1 Worker process terminated
+2019-03-29 10:01:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:46 pid:1 Worker process terminated
+2019-03-29 10:01:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:47 pid:1 Worker process terminated
+2019-03-29 10:01:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:48 pid:1 Worker process terminated
+2019-03-29 10:01:49 pid:1 Worker process terminated
+2019-03-29 10:01:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:50 pid:1 Worker process terminated
+2019-03-29 10:01:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:51 pid:1 Worker process terminated
+2019-03-29 10:01:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:52 pid:1 Worker process terminated
+2019-03-29 10:01:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:53 pid:1 Worker process terminated
+2019-03-29 10:01:54 pid:1 Worker process terminated
+2019-03-29 10:01:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:55 pid:1 Worker process terminated
+2019-03-29 10:01:56 pid:1 Worker process terminated
+2019-03-29 10:01:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:57 pid:1 Worker process terminated
+2019-03-29 10:01:58 pid:1 Worker process terminated
+2019-03-29 10:01:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:01:59 pid:1 Worker process terminated
+2019-03-29 10:02:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:00 pid:1 Worker process terminated
+2019-03-29 10:02:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:01 pid:1 Worker process terminated
+2019-03-29 10:02:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:02 pid:1 Worker process terminated
+2019-03-29 10:02:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:03 pid:1 Worker process terminated
+2019-03-29 10:02:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:04 pid:1 Worker process terminated
+2019-03-29 10:02:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:05 pid:1 Worker process terminated
+2019-03-29 10:02:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:06 pid:1 Worker process terminated
+2019-03-29 10:02:07 pid:1 Worker process terminated
+2019-03-29 10:02:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:08 pid:1 Worker process terminated
+2019-03-29 10:02:09 pid:1 Worker process terminated
+2019-03-29 10:02:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:10 pid:1 Worker process terminated
+2019-03-29 10:02:11 pid:1 Worker process terminated
+2019-03-29 10:02:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:12 pid:1 Worker process terminated
+2019-03-29 10:02:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:13 pid:1 Worker process terminated
+2019-03-29 10:02:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:14 pid:1 Worker process terminated
+2019-03-29 10:02:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:15 pid:1 Worker process terminated
+2019-03-29 10:02:16 pid:1 Worker process terminated
+2019-03-29 10:02:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:17 pid:1 Worker process terminated
+2019-03-29 10:02:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:18 pid:1 Worker process terminated
+2019-03-29 10:02:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:19 pid:1 Worker process terminated
+2019-03-29 10:02:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:20 pid:1 Worker process terminated
+2019-03-29 10:02:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:21 pid:1 Worker process terminated
+2019-03-29 10:02:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:22 pid:1 Worker process terminated
+2019-03-29 10:02:23 pid:1 Worker process terminated
+2019-03-29 10:02:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:24 pid:1 Worker process terminated
+2019-03-29 10:02:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:25 pid:1 Worker process terminated
+2019-03-29 10:02:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:26 pid:1 Worker process terminated
+2019-03-29 10:02:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:27 pid:1 Worker process terminated
+2019-03-29 10:02:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:28 pid:1 Worker process terminated
+2019-03-29 10:02:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:29 pid:1 Worker process terminated
+2019-03-29 10:02:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:30 pid:1 Worker process terminated
+2019-03-29 10:02:31 pid:1 Worker process terminated
+2019-03-29 10:02:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:32 pid:1 Worker process terminated
+2019-03-29 10:02:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:33 pid:1 Worker process terminated
+2019-03-29 10:02:34 pid:1 Worker process terminated
+2019-03-29 10:02:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:35 pid:1 Worker process terminated
+2019-03-29 10:02:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:36 pid:1 Worker process terminated
+2019-03-29 10:02:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:37 pid:1 Worker process terminated
+2019-03-29 10:02:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:38 pid:1 Worker process terminated
+2019-03-29 10:02:39 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:40 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:41 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:42 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:43 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:44 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:45 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:46 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:47 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:48 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:49 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:50 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:50 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:51 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:51 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:52 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:53 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:54 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:55 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:56 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:57 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:58 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:02:59 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:02:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:00 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:01 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:02 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:03 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:04 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:05 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:06 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:07 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:08 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:09 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:10 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:11 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:12 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:13 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:14 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:15 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:16 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:17 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:18 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:19 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:20 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:21 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:22 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:23 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:24 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:25 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:26 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:27 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:28 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:28 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:29 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:29 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:30 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:30 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:31 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:31 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:32 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:33 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:34 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:35 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:35 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:36 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:37 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:38 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:39 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:39 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:40 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:40 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:41 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:41 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:42 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:42 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:43 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:43 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:44 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:44 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:45 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:45 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:46 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:46 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:47 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:47 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:48 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:48 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:49 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:49 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:50 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:50 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:51 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:51 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:52 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:52 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:53 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:53 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:54 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:54 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:55 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:55 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:56 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:56 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:57 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:57 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:58 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:03:58 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:59 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:03:59 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:00 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:00 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:01 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:01 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:02 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:02 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:03 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:03 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:04 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:04 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:05 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:05 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:06 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:06 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:07 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:07 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:08 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:08 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:09 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:09 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:10 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:11 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:12 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:13 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:14 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:15 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:16 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:16 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:17 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:17 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:18 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:18 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:19 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:19 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:20 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:20 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:21 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:21 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:22 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:23 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:24 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:24 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:25 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:25 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:26 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:26 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:27 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-03-29 10:04:27 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:28 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:35 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:04:36 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:05:07 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:05:08 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:05:25 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:09:00 pid:1 Worker process terminated with ERROR: E_PARSE "syntax error, unexpected ':' in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 40"
+2019-03-29 10:09:01 pid:1 Worker process terminated with ERROR: E_PARSE "syntax error, unexpected ':' in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 40"
+2019-03-29 10:12:42 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:12:43 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require(): Failed opening required '../../../application/database.php' (include_path='.;C:\php\pear') in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 38"
+2019-03-29 10:16:35 pid:1 Worker process terminated
+2019-03-29 10:16:36 pid:1 Worker process terminated
+2019-03-29 10:16:37 pid:1 Worker process terminated
+2019-03-29 10:17:24 pid:1 Worker process terminated
+2019-03-29 10:17:25 pid:1 Worker process terminated
+2019-03-29 11:45:31 pid:1 exception 'think\db\exception\PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kf.customer' doesn't exist' in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php:672
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\connector\Mysql.php(90): think\db\Connection->query('SHOW COLUMNS FR...', Array, false, true)
+#1 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php(376): think\db\connector\Mysql->getFields('customer')
+#2 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php(412): think\db\Connection->getTableInfo('customer', 'pk')
+#3 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Query.php(2182): think\db\Connection->getPk('customer')
+#4 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Connection.php(784): think\db\Query->getPk(Array)
+#5 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\topthink\think-orm\src\db\Query.php(2745): think\db\Connection->find(Object(think\db\Query))
+#6 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php(175): think\db\Query->find()
+#7 [internal function]: Events::onMessage('7f0000010b54000...', '{"type":"userIn...')
+#8 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f0000010b54000...', '{"type":"userIn...')
+#9 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#10 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#11 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#12 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#13 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#14 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#15 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#16 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#17 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#18 D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\start_businessworker.php(35): Workerman\Worker::runAll()
+#19 {main}
+2019-03-29 11:45:31 pid:1 Worker process terminated
+2019-03-29 11:46:20 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 39"
+2019-03-29 11:46:22 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 39"
+2019-03-29 11:46:23 pid:1 Worker process terminated with ERROR: E_ERROR "Using $this when not in object context in D:\phpStudy\PHPTutorial\WWW\kefu\GatewayWorker\Applications\whisper\Events.php on line 39"
+2019-04-02 13:32:31 pid:1 Worker process terminated
+2019-04-02 13:32:33 pid:1 Worker process terminated
+2019-04-02 13:32:34 pid:1 Worker process terminated
+2019-04-02 13:33:28 pid:1 Worker process terminated
+2019-04-02 13:34:57 pid:1 Worker process terminated
+2019-04-02 13:34:58 pid:1 Worker process terminated
+2019-04-02 13:34:59 pid:1 Worker process terminated
+2019-04-02 13:35:00 pid:1 Worker process terminated
+2019-04-02 13:35:34 pid:1 Worker process terminated
+2019-04-02 14:41:44 pid:1 Worker process terminated
+2019-04-02 14:41:56 pid:1 Worker process terminated
+2019-04-02 14:42:11 pid:1 Worker process terminated
+2019-04-02 14:42:13 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-04-02 14:42:13 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-04-02 14:42:21 pid:1 Worker process terminated
+2019-04-02 14:42:26 pid:1 Worker process terminated
+2019-04-02 14:42:36 pid:1 Worker process terminated
+2019-04-02 14:42:41 pid:1 Worker process terminated
+2019-04-02 14:42:51 pid:1 Worker process terminated
+2019-04-02 14:42:56 pid:1 Worker process terminated
+2019-04-02 14:43:06 pid:1 Worker process terminated
+2019-04-02 14:43:11 pid:1 Worker process terminated
+2019-04-02 14:43:21 pid:1 Worker process terminated
+2019-04-02 14:43:26 pid:1 Worker process terminated
+2019-04-02 14:43:36 pid:1 Worker process terminated
+2019-04-02 14:43:41 pid:1 Worker process terminated
+2019-04-02 14:43:51 pid:1 Worker process terminated
+2019-04-02 14:43:56 pid:1 Worker process terminated
+2019-04-02 14:44:06 pid:1 Worker process terminated
+2019-04-02 14:44:11 pid:1 Worker process terminated
+2019-04-02 14:44:21 pid:1 Worker process terminated
+2019-04-02 14:44:26 pid:1 Worker process terminated
+2019-04-02 14:44:36 pid:1 Worker process terminated
+2019-04-02 14:44:41 pid:1 Worker process terminated
+2019-04-02 14:44:51 pid:1 Worker process terminated
+2019-04-02 14:44:56 pid:1 Worker process terminated
+2019-04-02 14:45:06 pid:1 Worker process terminated
+2019-04-02 14:45:11 pid:1 Worker process terminated
+2019-04-02 14:45:21 pid:1 Worker process terminated
+2019-04-02 14:45:26 pid:1 Worker process terminated
+2019-04-02 14:45:36 pid:1 Worker process terminated
+2019-04-02 14:45:41 pid:1 Worker process terminated
+2019-04-02 14:45:51 pid:1 Worker process terminated
+2019-04-02 14:45:56 pid:1 Worker process terminated
+2019-04-02 14:46:06 pid:1 Worker process terminated
+2019-04-02 14:46:11 pid:1 Worker process terminated
+2019-04-02 14:46:21 pid:1 Worker process terminated
+2019-04-02 14:46:26 pid:1 Worker process terminated
+2019-04-02 14:46:36 pid:1 Worker process terminated
+2019-04-02 14:46:41 pid:1 Worker process terminated
+2019-04-02 14:46:51 pid:1 Worker process terminated
+2019-04-02 14:46:56 pid:1 Worker process terminated
+2019-04-02 14:47:06 pid:1 Worker process terminated
+2019-04-02 14:47:11 pid:1 Worker process terminated
+2019-04-02 14:47:21 pid:1 Worker process terminated
+2019-04-02 14:47:26 pid:1 Worker process terminated
+2019-04-02 14:47:36 pid:1 Worker process terminated
+2019-04-02 14:47:41 pid:1 Worker process terminated
+2019-04-02 14:47:51 pid:1 Worker process terminated
+2019-04-02 14:47:56 pid:1 Worker process terminated
+2019-04-02 14:48:06 pid:1 Worker process terminated
+2019-04-02 14:48:11 pid:1 Worker process terminated
+2019-04-02 14:48:21 pid:1 Worker process terminated
+2019-04-02 14:48:26 pid:1 Worker process terminated
+2019-04-02 14:48:36 pid:1 Worker process terminated
+2019-04-02 14:48:41 pid:1 Worker process terminated
+2019-04-02 14:48:51 pid:1 Worker process terminated
+2019-04-02 14:48:56 pid:1 Worker process terminated
+2019-04-02 14:49:06 pid:1 Worker process terminated
+2019-04-02 14:49:11 pid:1 Worker process terminated
+2019-04-02 14:49:21 pid:1 Worker process terminated
+2019-04-02 14:49:26 pid:1 Worker process terminated
+2019-04-02 14:49:36 pid:1 Worker process terminated
+2019-04-02 14:49:41 pid:1 Worker process terminated
+2019-04-02 14:49:51 pid:1 Worker process terminated
+2019-04-02 14:50:01 pid:1 Worker process terminated
+2019-04-02 14:50:06 pid:1 Worker process terminated
+2019-04-02 14:50:16 pid:1 Worker process terminated
+2019-04-02 14:50:21 pid:1 Worker process terminated
+2019-04-02 14:50:31 pid:1 Worker process terminated
+2019-04-02 14:50:36 pid:1 Worker process terminated
+2019-04-02 14:50:46 pid:1 Worker process terminated
+2019-04-02 14:50:51 pid:1 Worker process terminated
+2019-04-02 14:51:01 pid:1 Worker process terminated
+2019-04-02 14:51:06 pid:1 Worker process terminated
+2019-04-02 14:51:16 pid:1 Worker process terminated
+2019-04-02 14:51:21 pid:1 Worker process terminated
+2019-04-02 14:51:31 pid:1 Worker process terminated
+2019-04-02 14:51:36 pid:1 Worker process terminated
+2019-04-02 14:51:46 pid:1 Worker process terminated
+2019-04-02 14:51:51 pid:1 Worker process terminated
+2019-04-02 14:52:01 pid:1 Worker process terminated
+2019-04-02 14:52:06 pid:1 Worker process terminated
+2019-04-02 14:52:16 pid:1 Worker process terminated
+2019-04-02 14:52:21 pid:1 Worker process terminated
+2019-04-02 14:52:31 pid:1 Worker process terminated
+2019-04-02 14:52:36 pid:1 Worker process terminated
+2019-04-02 14:53:06 pid:1 Worker process terminated
+2019-04-02 14:53:07 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-04-02 14:53:07 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-04-02 14:53:16 pid:1 Worker process terminated
+2019-04-02 14:53:31 pid:1 Worker process terminated
+2019-04-02 14:53:46 pid:1 Worker process terminated
+2019-04-02 14:54:01 pid:1 Worker process terminated
+2019-04-02 14:58:13 pid:1 Worker process terminated
+2019-04-02 14:58:28 pid:1 Worker process terminated
+2019-04-02 14:58:33 pid:1 Worker process terminated
+2019-04-02 14:58:43 pid:1 Worker process terminated
+2019-04-02 14:58:48 pid:1 Worker process terminated
+2019-04-02 14:58:58 pid:1 Worker process terminated
+2019-04-02 14:59:03 pid:1 Worker process terminated
+2019-04-02 14:59:13 pid:1 Worker process terminated
+2019-04-02 14:59:18 pid:1 Worker process terminated
+2019-04-02 14:59:28 pid:1 Worker process terminated
+2019-04-02 14:59:33 pid:1 Worker process terminated
+2019-04-02 14:59:43 pid:1 Worker process terminated
+2019-04-02 14:59:48 pid:1 Worker process terminated
+2019-04-02 14:59:58 pid:1 Worker process terminated
+2019-04-02 15:00:03 pid:1 Worker process terminated
+2019-04-02 15:00:13 pid:1 Worker process terminated
+2019-04-02 15:00:18 pid:1 Worker process terminated
+2019-04-02 15:00:28 pid:1 Worker process terminated
+2019-04-02 15:00:33 pid:1 Worker process terminated
+2019-04-02 15:00:43 pid:1 Worker process terminated
+2019-04-02 15:00:48 pid:1 Worker process terminated
+2019-04-02 15:00:58 pid:1 Worker process terminated
+2019-04-03 08:06:26 pid:1 Worker process terminated
+2019-04-03 09:48:23 pid:1 Worker process terminated
+2019-04-03 09:48:25 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-04-03 09:48:25 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2019-04-03 09:48:38 pid:1 Worker process terminated
+2019-04-03 09:48:53 pid:1 Worker process terminated
+2019-04-03 09:49:08 pid:1 Worker process terminated
+2019-04-03 09:49:23 pid:1 Worker process terminated
+2019-04-03 09:50:02 pid:1 Worker process terminated
+2019-04-03 09:50:14 pid:1 Worker process terminated
+2019-04-03 09:50:29 pid:1 Worker process terminated
+2019-04-03 09:50:44 pid:1 Worker process terminated
+2019-04-03 09:50:59 pid:1 Worker process terminated
+2019-04-03 09:51:14 pid:1 Worker process terminated
+2019-04-03 09:51:29 pid:1 Worker process terminated
+2019-04-03 09:51:44 pid:1 Worker process terminated
+2019-04-03 09:51:59 pid:1 Worker process terminated
+2019-04-03 09:52:14 pid:1 Worker process terminated
+2019-04-03 09:52:54 pid:1 Worker process terminated
+2019-04-03 09:53:09 pid:1 Worker process terminated
+2019-04-03 09:53:24 pid:1 Worker process terminated
+2019-04-03 09:53:38 pid:1 Worker process terminated
+2019-04-03 09:53:49 pid:1 Worker process terminated
+2019-04-03 09:54:04 pid:1 Worker process terminated
+2019-04-03 09:54:19 pid:1 Worker process terminated
+2019-04-03 09:54:34 pid:1 Worker process terminated
+2019-04-03 09:54:49 pid:1 Worker process terminated
+2019-04-03 09:55:04 pid:1 Worker process terminated
+2019-04-03 09:55:19 pid:1 Worker process terminated
+2019-04-03 09:55:34 pid:1 Worker process terminated
+2019-04-03 10:01:43 pid:1 Worker process terminated
+2019-04-03 10:01:54 pid:1 Worker process terminated
+2019-04-03 10:02:09 pid:1 Worker process terminated
+2019-04-03 10:02:24 pid:1 Worker process terminated
+2019-04-03 10:02:39 pid:1 Worker process terminated
+2019-04-03 10:02:54 pid:1 Worker process terminated
+2019-04-03 10:03:09 pid:1 Worker process terminated
+2019-04-03 10:03:24 pid:1 Worker process terminated
+2019-04-03 10:03:39 pid:1 Worker process terminated
+2019-04-03 10:03:54 pid:1 Worker process terminated
+2019-04-03 10:04:09 pid:1 Worker process terminated
+2019-04-03 10:04:24 pid:1 Worker process terminated
+2019-04-03 10:04:39 pid:1 Worker process terminated
+2019-04-03 10:04:54 pid:1 Worker process terminated
+2019-04-03 10:05:09 pid:1 Worker process terminated
+2019-04-03 10:05:24 pid:1 Worker process terminated
+2019-04-03 10:05:39 pid:1 Worker process terminated
+2019-04-03 10:05:54 pid:1 Worker process terminated
+2019-04-03 10:06:09 pid:1 Worker process terminated
+2019-04-03 10:06:24 pid:1 Worker process terminated
+2019-04-03 10:06:39 pid:1 Worker process terminated
+2019-04-03 10:06:54 pid:1 Worker process terminated
+2019-04-03 10:07:09 pid:1 Worker process terminated
+2019-04-03 10:07:24 pid:1 Worker process terminated
+2019-04-03 10:07:39 pid:1 Worker process terminated
+2019-04-03 10:07:54 pid:1 Worker process terminated
+2019-04-03 10:08:09 pid:1 Worker process terminated
+2019-04-03 10:08:24 pid:1 Worker process terminated
+2019-04-03 10:08:39 pid:1 Worker process terminated
+2019-04-03 10:08:54 pid:1 Worker process terminated
+2019-04-03 10:09:09 pid:1 Worker process terminated
+2019-04-03 10:09:24 pid:1 Worker process terminated
+2019-04-03 10:09:39 pid:1 Worker process terminated
+2019-04-03 10:09:54 pid:1 Worker process terminated
+2019-04-03 10:10:09 pid:1 Worker process terminated
+2019-04-03 10:10:24 pid:1 Worker process terminated
+2019-04-03 10:10:39 pid:1 Worker process terminated
+2019-04-03 10:10:54 pid:1 Worker process terminated
+2019-04-03 10:11:09 pid:1 Worker process terminated
+2019-04-03 10:11:24 pid:1 Worker process terminated
+2019-04-03 10:11:39 pid:1 Worker process terminated
+2019-04-03 10:11:54 pid:1 Worker process terminated
+2019-04-03 10:12:09 pid:1 Worker process terminated
+2019-04-03 10:12:24 pid:1 Worker process terminated
+2019-04-03 10:12:39 pid:1 Worker process terminated
+2019-04-03 10:12:54 pid:1 Worker process terminated
+2019-04-03 10:13:09 pid:1 Worker process terminated
+2019-04-03 10:13:24 pid:1 Worker process terminated
+2019-04-03 10:13:39 pid:1 Worker process terminated
+2019-04-03 10:13:54 pid:1 Worker process terminated
+2019-04-03 10:14:09 pid:1 Worker process terminated
+2019-04-03 10:14:24 pid:1 Worker process terminated
+2019-04-03 10:14:39 pid:1 Worker process terminated
+2019-04-03 10:14:54 pid:1 Worker process terminated
+2019-04-03 10:15:09 pid:1 Worker process terminated
+2019-04-03 10:15:24 pid:1 Worker process terminated
+2019-04-03 10:15:39 pid:1 Worker process terminated
+2019-04-03 10:15:54 pid:1 Worker process terminated
+2019-04-03 10:16:09 pid:1 Worker process terminated
+2019-04-03 10:16:24 pid:1 Worker process terminated
+2019-04-03 10:16:39 pid:1 Worker process terminated
+2019-04-03 10:16:54 pid:1 Worker process terminated
+2019-04-03 10:17:09 pid:1 Worker process terminated
+2019-04-03 10:17:24 pid:1 Worker process terminated
+2019-04-03 10:17:39 pid:1 Worker process terminated
+2019-04-03 10:17:54 pid:1 Worker process terminated
+2019-04-03 10:18:09 pid:1 Worker process terminated
+2019-04-03 10:18:24 pid:1 Worker process terminated

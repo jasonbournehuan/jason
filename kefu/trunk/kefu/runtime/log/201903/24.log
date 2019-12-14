@@ -1,0 +1,3639 @@
+---------------------------------------------------------------
+[ 2019-03-24T05:48:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/clear.html
+[ info ] www.kefu.com/admin/index/clear.html [运行时间：0.191011s][吞吐率：5.24req/s] [内存消耗：2,108.31kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'clear',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/clear_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->clear[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T05:55:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.kefu.com/admin/index/index.html [运行时间：0.278016s][吞吐率：3.60req/s] [内存消耗：2,310.04kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2019-03-24T05:55:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] www.kefu.com/admin/index/indexpage.html [运行时间：0.243014s][吞吐率：4.11req/s] [内存消耗：2,246.37kb] [文件加载：102]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\index\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'data',
+  3 => 'leave',
+  4 => 'show_data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_now_data` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_now_data` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_leave_msg` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_leave_msg` WHERE  `add_time` BETWEEN 1553356800 AND 1553443199 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_service_data` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_service_data` WHERE  `add_date` = '2019-03-24' GROUP BY `add_hour` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T05:55:18+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：1,263.94kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:46:53+08:00 ] 127.0.0.1 127.0.0.1 GET /service
+[ info ] www.kefu.com/service [运行时间：0.089006s][吞吐率：11.24req/s] [内存消耗：1,545.82kb] [文件加载：95]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:46:53+08:00 ] 127.0.0.1 127.0.0.1 GET /service/login/index.html
+[ info ] www.kefu.com/service/login/index.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：1,635.14kb] [文件加载：95]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service/login/index_html' => '',
+)
+[ info ] [ RUN ] app\service\controller\Login->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\service\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/service\view\login\index.html [ array (
+  0 => 'version',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:46:54+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.kefu.com/captcha.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：1,287.08kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:47:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html
+[ info ] www.kefu.com/admin/users/index.html [运行时间：0.151009s][吞吐率：6.62req/s] [内存消耗：2,329.27kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:47:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：1,263.94kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:47:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/users/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.186011s][吞吐率：5.38req/s] [内存消耗：2,222.20kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:47:12+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.kefu.com/captcha.html [运行时间：0.146008s][吞吐率：6.85req/s] [内存消耗：1,287.05kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:47:17+08:00 ] 127.0.0.1 127.0.0.1 POST /service/login/doLogin
+[ info ] www.kefu.com/service/login/doLogin [运行时间：0.126007s][吞吐率：7.94req/s] [内存消耗：2,117.39kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '74',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service/login/doLogin' => '',
+  'username' => '客服小小',
+  'password' => 'admin',
+  'captcha' => 'KELCN',
+)
+[ info ] [ RUN ] app\service\controller\Login->doLogin[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\service\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `user_name` = '客服小小' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:47:17+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.kefu.com/captcha.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,287.08kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:47:26+08:00 ] 127.0.0.1 127.0.0.1 POST /service/login/doLogin
+[ info ] www.kefu.com/service/login/doLogin [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,521.75kb] [文件加载：93]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '75',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service/login/doLogin' => '',
+  'username' => '客服小小',
+  'password' => '123456',
+  'captcha' => '653f0',
+)
+[ info ] [ RUN ] app\service\controller\Login->doLogin[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\service\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:47:26+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.kefu.com/captcha.html [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：1,287.08kb] [文件加载：83]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:47:31+08:00 ] 127.0.0.1 127.0.0.1 POST /service/login/doLogin
+[ info ] www.kefu.com/service/login/doLogin [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：2,190.15kb] [文件加载：102]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '75',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service/login/doLogin' => '',
+  'username' => '客服小小',
+  'password' => '123456',
+  'captcha' => 'pkw7q',
+)
+[ info ] [ RUN ] app\service\controller\Login->doLogin[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\service\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `user_name` = '客服小小' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /service/index/index.html
+[ info ] www.kefu.com/service/index/index.html [运行时间：0.207012s][吞吐率：4.83req/s] [内存消耗：2,252.28kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service/index/index_html' => '',
+)
+[ info ] [ RUN ] app\service\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\service\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/service\view\index\index.html [ array (
+  0 => 'version',
+  1 => 'socket',
+  2 => 'uinfo',
+  3 => 'word',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_words` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_words` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_kf_config` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_kf_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /service/index/getUserList
+[ info ] www.kefu.com/service/index/getUserList [运行时间：0.173010s][吞吐率：5.78req/s] [内存消耗：2,124.99kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => 'index',
+    2 => 'getUserList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service/index/getUserList' => '',
+)
+[ info ] [ RUN ] app\service\controller\Index->getUserList[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\service\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_service_log` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT `log_id`,user_id id,user_name name,user_avatar avatar,user_ip ip,`end_time`,`protocol` FROM `ws_service_log` WHERE  `kf_id` = 9  AND `start_time` > '2019-03-24'  AND `can_show` = 0 GROUP BY `id` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:47:44+08:00 ] 127.0.0.1 127.0.0.1 GET /static/service/js/jquery.min.map
+[ info ] www.kefu.com/static/service/js/jquery.min.map [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,264.46kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'service',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/service/js/jquery_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:47:48+08:00 ] 127.0.0.1 127.0.0.1 GET /service/index/index.html
+[ info ] www.kefu.com/service/index/index.html [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：2,246.91kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service/index/index_html' => '',
+)
+[ info ] [ RUN ] app\service\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\service\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/service\view\index\mobile.html [ array (
+  0 => 'version',
+  1 => 'socket',
+  2 => 'uinfo',
+  3 => 'word',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_words` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_words` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_kf_config` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_kf_config` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:47:49+08:00 ] 127.0.0.1 127.0.0.1 GET /service/index/getUserList
+[ info ] www.kefu.com/service/index/getUserList [运行时间：0.201012s][吞吐率：4.97req/s] [内存消耗：2,125.10kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'service',
+    1 => 'index',
+    2 => 'getUserList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/service/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/service/index/getUserList' => '',
+)
+[ info ] [ RUN ] app\service\controller\Index->getUserList[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\service\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_service_log` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT `log_id`,user_id id,user_name name,user_avatar avatar,user_ip ip,`end_time`,`protocol` FROM `ws_service_log` WHERE  `kf_id` = 9  AND `start_time` > '2019-03-24'  AND `can_show` = 0 GROUP BY `id` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:47:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/service/js/jquery.min.map
+[ info ] www.kefu.com/static/service/js/jquery.min.map [运行时间：0.071005s][吞吐率：14.08req/s] [内存消耗：1,264.43kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'service',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/service/js/jquery_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:54:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/chat?group=1&id=9&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg
+[ info ] www.kefu.com/index/index/chat?group=1&id=9&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg [运行时间：0.190011s][吞吐率：5.26req/s] [内存消耗：2,211.78kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/chat' => '',
+  'group' => '1',
+  'id' => '9',
+  'name' => '会员9',
+  'avatar' => 'http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Index->chat[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/index\view\index\chat.html [ array (
+  0 => 'socket',
+  1 => 'id',
+  2 => 'name',
+  3 => 'group',
+  4 => 'avatar',
+  5 => 'question',
+  6 => 'notice',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_questions` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `id`,`question` FROM `ws_questions` WHERE  `group_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_notice` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `ws_notice` WHERE  `group_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/question/id/6
+[ info ] www.kefu.com/index/index/question/id/6 [运行时间：0.185010s][吞吐率：5.41req/s] [内存消耗：2,198.13kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'question',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/index/index/chat?group=1&id=9&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/question/id/6' => '',
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->question[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/index\view\index\question.html [ array (
+  0 => 'question',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_questions` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_questions` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/notice/id/3
+[ info ] www.kefu.com/index/index/notice/id/3 [运行时间：0.144008s][吞吐率：6.94req/s] [内存消耗：2,197.92kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'notice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/index/index/chat?group=1&id=9&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/notice/id/3' => '',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\index\controller\Index->notice[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/index\view\index\notice.html [ array (
+  0 => 'notice',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_notice` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_notice` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/system/wordslog.html
+[ info ] www.kefu.com/admin/system/wordslog.html [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：2,287.12kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'wordslog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/system/wordslog_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\System->wordsLog[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\system\wordslog.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:08+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:55:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/system/wordslog.html?pageNumber=1&pageSize=15&searchText=&start=&end=
+[ info ] www.kefu.com/admin/system/wordslog.html?pageNumber=1&pageSize=15&searchText=&start=&end= [运行时间：0.171010s][吞吐率：5.85req/s] [内存消耗：2,126.14kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'wordslog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/system/wordslog.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/system/wordslog_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '15',
+  'searchText' => '',
+  'start' => '',
+  'end' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\System->wordsLog[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\System.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_chat_log` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_chat_log` ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_chat_log` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/question/index.html
+[ info ] www.kefu.com/admin/question/index.html [运行时间：0.126007s][吞吐率：7.94req/s] [内存消耗：2,277.78kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/question/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Question->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Question.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\question\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/question/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/question/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.151009s][吞吐率：6.62req/s] [内存消耗：2,163.88kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/question/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/question/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Question->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Question.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_questions` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_questions` LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_questions` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:11+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:55:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/question/editquestion/id/6.html
+[ info ] www.kefu.com/admin/question/editquestion/id/6.html [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：2,283.66kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question',
+    2 => 'editquestion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/question/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/question/editquestion/id/6_html' => '',
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Question->editQuestion[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Question.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\question\editquestion.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_questions` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_questions` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:14+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:55:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/question/index.html
+[ info ] www.kefu.com/admin/question/index.html [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,154.91kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/question/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Question->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Question.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\question\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/question/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/question/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.207012s][吞吐率：4.83req/s] [内存消耗：2,163.88kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/question/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/question/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Question->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Question.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_questions` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_questions` LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_questions` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:18+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.079004s][吞吐率：12.66req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:55:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/notice/index.html
+[ info ] www.kefu.com/admin/notice/index.html [运行时间：0.191011s][吞吐率：5.24req/s] [内存消耗：2,277.70kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/notice/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Notice->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Notice.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\notice\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:33+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:55:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/notice/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/notice/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.162009s][吞吐率：6.17req/s] [内存消耗：2,163.84kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/notice/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/notice/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Notice->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Notice.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_notice` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_notice` LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_notice` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/chat?group=2&id=9&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg
+[ info ] www.kefu.com/index/index/chat?group=2&id=9&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg [运行时间：0.173010s][吞吐率：5.78req/s] [内存消耗：2,205.73kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/chat' => '',
+  'group' => '2',
+  'id' => '9',
+  'name' => '会员9',
+  'avatar' => 'http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Index->chat[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/groups/index.html
+[ info ] www.kefu.com/admin/groups/index.html [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,279.16kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'groups',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/groups/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Groups->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Groups.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\groups\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:55:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/groups/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/groups/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.183010s][吞吐率：5.46req/s] [内存消耗：2,173.33kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'groups',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/groups/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/groups/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Groups->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Groups.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_groups` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` WHERE  `group_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` WHERE  `group_id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` WHERE  `group_id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` WHERE  `group_id` = 4 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` WHERE  `group_id` = 5 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:55:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/chat?group=3&id=9&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg
+[ info ] www.kefu.com/index/index/chat?group=3&id=9&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg [运行时间：0.119006s][吞吐率：8.40req/s] [内存消耗：2,090.01kb] [文件加载：99]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/chat' => '',
+  'group' => '3',
+  'id' => '9',
+  'name' => '会员9',
+  'avatar' => 'http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Index->chat[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:56:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html
+[ info ] www.kefu.com/admin/users/index.html [运行时间：0.130007s][吞吐率：7.69req/s] [内存消耗：2,206.60kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:56:04+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:56:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/users/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.189011s][吞吐率：5.29req/s] [内存消耗：2,222.66kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:56:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/chat?group=1&id=8&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg
+[ info ] www.kefu.com/index/index/chat?group=1&id=8&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：2,091.66kb] [文件加载：98]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/chat' => '',
+  'group' => '1',
+  'id' => '8',
+  'name' => '会员9',
+  'avatar' => 'http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Index->chat[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/index\view\index\chat.html [ array (
+  0 => 'socket',
+  1 => 'id',
+  2 => 'name',
+  3 => 'group',
+  4 => 'avatar',
+  5 => 'question',
+  6 => 'notice',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `ws_users` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_questions` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `id`,`question` FROM `ws_questions` WHERE  `group_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_notice` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `ws_notice` WHERE  `group_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:56:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/chat?group=2&id=8&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg
+[ info ] www.kefu.com/index/index/chat?group=2&id=8&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg [运行时间：0.099005s][吞吐率：10.10req/s] [内存消耗：2,090.01kb] [文件加载：99]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/chat' => '',
+  'group' => '2',
+  'id' => '8',
+  'name' => '会员9',
+  'avatar' => 'http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Index->chat[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `ws_users` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T06:57:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/chat?group=1&id=8&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg
+[ info ] www.kefu.com/index/index/chat?group=1&id=8&name=%E4%BC%9A%E5%91%989&avatar=http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg [运行时间：0.109007s][吞吐率：9.17req/s] [内存消耗：1,468.79kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/chat' => '',
+  'group' => '1',
+  'id' => '8',
+  'name' => '会员9',
+  'avatar' => 'http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Index->chat[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:57:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/mobile?id=8&name=%E4%BC%9A%E5%91%989&group=1&avatar=http%3A%2F%2Fwx2.sinaimg.cn%2Fmw690%2F5db11ff4gy1flxmew7edlj203d03wt8n.jpg
+[ info ] www.kefu.com/index/index/mobile?id=8&name=%E4%BC%9A%E5%91%989&group=1&avatar=http%3A%2F%2Fwx2.sinaimg.cn%2Fmw690%2F5db11ff4gy1flxmew7edlj203d03wt8n.jpg [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：1,612.05kb] [文件加载：93]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/mobile' => '',
+  'id' => '8',
+  'name' => '会员9',
+  'group' => '1',
+  'avatar' => 'http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Index->mobile[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/index\view\index\mobile.html [ array (
+  0 => 'socket',
+  1 => 'id',
+  2 => 'name',
+  3 => 'group',
+  4 => 'avatar',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T06:57:37+08:00 ] 127.0.0.1 127.0.0.1 GET /static/service/js/jquery.min.map
+[ info ] www.kefu.com/static/service/js/jquery.min.map [运行时间：0.112006s][吞吐率：8.93req/s] [内存消耗：1,264.43kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'service',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/service/js/jquery_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:10:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/adduser.html
+[ info ] www.kefu.com/admin/users/adduser.html [运行时间：0.270015s][吞吐率：3.70req/s] [内存消耗：2,332.21kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'adduser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/adduser_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->addUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\adduser.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:10:40+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:10:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html
+[ info ] www.kefu.com/admin/users/index.html [运行时间：0.238013s][吞吐率：4.20req/s] [内存消耗：2,206.60kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:10:42+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:10:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/users/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.305017s][吞吐率：3.28req/s] [内存消耗：2,222.66kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.045003s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` ORDER BY `id`  desc [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:10:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/edituser/id/9.html
+[ info ] www.kefu.com/admin/users/edituser/id/9.html [运行时间：0.230014s][吞吐率：4.35req/s] [内存消耗：2,346.20kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'edituser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/edituser/id/9_html' => '',
+  'id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->editUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\edituser.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'info',
+  3 => 'status',
+  4 => 'groups',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_groups` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:10:44+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.119006s][吞吐率：8.40req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:10:48+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/users/edituser.html
+[ info ] www.kefu.com/admin/users/edituser.html [运行时间：0.301018s][吞吐率：3.32req/s] [内存消耗：2,238.13kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'edituser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/edituser/id/9.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => '*/*',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/edituser_html' => '',
+  'id' => '9',
+  'user_name' => '客服小小',
+  'user_pwd' => '',
+  'status' => '1',
+  'user_avatar' => '',
+  'file' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->editUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `user_name` = '客服小小'  AND `id` <> 9 LIMIT 1 [ RunTime:0.018001s ]
+[ sql ] [ SQL ] UPDATE `ws_users`  SET `id`=9,`user_name`='客服小小',`status`=1  WHERE  `id` = 9 [ RunTime:0.020001s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:10:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/edituser/id/9.html
+[ info ] www.kefu.com/admin/users/edituser/id/9.html [运行时间：0.580034s][吞吐率：1.72req/s] [内存消耗：2,220.38kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'edituser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/edituser/id/9.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/edituser/id/9_html' => '',
+  'id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->editUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\edituser.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'info',
+  3 => 'status',
+  4 => 'groups',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_groups` [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:10:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.426025s][吞吐率：2.35req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:11:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/adduser.html
+[ info ] www.kefu.com/admin/users/adduser.html [运行时间：0.233013s][吞吐率：4.29req/s] [内存消耗：2,206.73kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'adduser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/adduser_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->addUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\adduser.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:12+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.257015s][吞吐率：3.89req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:11:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html
+[ info ] www.kefu.com/admin/users/index.html [运行时间：0.195012s][吞吐率：5.13req/s] [内存消耗：2,206.60kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:13+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.265015s][吞吐率：3.77req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:11:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/users/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.214012s][吞吐率：4.67req/s] [内存消耗：2,222.66kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/edituser/id/9.html
+[ info ] www.kefu.com/admin/users/edituser/id/9.html [运行时间：0.209012s][吞吐率：4.78req/s] [内存消耗：2,220.32kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'edituser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/edituser/id/9_html' => '',
+  'id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->editUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\edituser.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'info',
+  3 => 'status',
+  4 => 'groups',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.031001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_groups` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.127008s][吞吐率：7.87req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:11:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/users/edituser.html
+[ info ] www.kefu.com/admin/users/edituser.html [运行时间：0.321019s][吞吐率：3.12req/s] [内存消耗：2,238.13kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'edituser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/edituser/id/9.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => '*/*',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/edituser_html' => '',
+  'id' => '9',
+  'user_name' => '客服小小',
+  'user_pwd' => '',
+  'status' => '2',
+  'user_avatar' => '',
+  'file' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->editUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `user_name` = '客服小小'  AND `id` <> 9 LIMIT 1 [ RunTime:0.015001s ]
+[ sql ] [ SQL ] UPDATE `ws_users`  SET `id`=9,`user_name`='客服小小',`status`=2  WHERE  `id` = 9 [ RunTime:0.017001s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/edituser/id/9.html
+[ info ] www.kefu.com/admin/users/edituser/id/9.html [运行时间：0.202012s][吞吐率：4.95req/s] [内存消耗：2,220.38kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'edituser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/edituser/id/9.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/edituser/id/9_html' => '',
+  'id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->editUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\edituser.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'info',
+  3 => 'status',
+  4 => 'groups',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_groups` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:21+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:11:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/users/edituser.html
+[ info ] www.kefu.com/admin/users/edituser.html [运行时间：0.202011s][吞吐率：4.95req/s] [内存消耗：2,238.13kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'edituser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/edituser/id/9.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => '*/*',
+  'content-length' => '89',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/edituser_html' => '',
+  'id' => '9',
+  'user_name' => '客服小小',
+  'user_pwd' => '',
+  'status' => '1',
+  'user_avatar' => '',
+  'file' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->editUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `user_name` = '客服小小'  AND `id` <> 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `ws_users`  SET `id`=9,`user_name`='客服小小',`status`=1  WHERE  `id` = 9 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/edituser/id/9.html
+[ info ] www.kefu.com/admin/users/edituser/id/9.html [运行时间：0.214012s][吞吐率：4.67req/s] [内存消耗：2,220.38kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'edituser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/edituser/id/9.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/edituser/id/9_html' => '',
+  'id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->editUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\edituser.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'info',
+  3 => 'status',
+  4 => 'groups',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_groups` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:28+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.128008s][吞吐率：7.81req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:11:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html
+[ info ] www.kefu.com/admin/users/index.html [运行时间：0.180011s][吞吐率：5.56req/s] [内存消耗：2,206.60kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:32+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.114006s][吞吐率：8.77req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:11:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/users/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.232013s][吞吐率：4.31req/s] [内存消耗：2,222.66kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` ORDER BY `id`  desc [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/adduser.html
+[ info ] www.kefu.com/admin/users/adduser.html [运行时间：0.163010s][吞吐率：6.13req/s] [内存消耗：2,206.73kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'adduser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/adduser_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->addUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\adduser.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:11:33+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.133008s][吞吐率：7.52req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:11:38+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/users/adduser.html
+[ info ] www.kefu.com/admin/users/adduser.html [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：2,163.79kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'adduser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/adduser.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => '*/*',
+  'content-length' => '54',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/adduser_html' => '',
+  'user_name' => 'aaa',
+  'user_pwd' => 'aaa',
+  'status' => '1',
+  'user_avatar' => '',
+  'file' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->addUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:12:17+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/users/upavatar.html
+[ info ] www.kefu.com/admin/users/upavatar.html [运行时间：0.261015s][吞吐率：3.83req/s] [内存消耗：2,231.66kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'upavatar',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/adduser.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIScXvnhu4r7CwEEG',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4904',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/upavatar_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->upAvatar[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:12:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/users/adduser.html
+[ info ] www.kefu.com/admin/users/adduser.html [运行时间：0.276016s][吞吐率：3.62req/s] [内存消耗：2,196.27kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'adduser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/adduser.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => '*/*',
+  'content-length' => '114',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/adduser_html' => '',
+  'user_name' => 'aaa',
+  'user_pwd' => 'aaa',
+  'status' => '1',
+  'user_avatar' => '/uploads/20190324/a2d04771501372b138d45961573dd819.png',
+  'file' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->addUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_users` WHERE  `user_name` = 'aaa' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:12:23+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/users/adduser.html
+[ info ] www.kefu.com/admin/users/adduser.html [运行时间：0.199012s][吞吐率：5.02req/s] [内存消耗：2,196.27kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'adduser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/adduser.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => '*/*',
+  'content-length' => '114',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/adduser_html' => '',
+  'user_name' => 'aaa',
+  'user_pwd' => 'aaa',
+  'status' => '1',
+  'user_avatar' => '/uploads/20190324/a2d04771501372b138d45961573dd819.png',
+  'file' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->addUser[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_users` WHERE  `user_name` = 'aaa' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:12:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admins/addadmin.html
+[ info ] www.kefu.com/admin/admins/addadmin.html [运行时间：0.256014s][吞吐率：3.91req/s] [内存消耗：2,278.89kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admins',
+    2 => 'addadmin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admins/addadmin_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Admins->addAdmin[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Admins.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\admins\addadmin.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:12:59+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:13:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/system/customerservice.html
+[ info ] www.kefu.com/admin/system/customerservice.html [运行时间：0.332019s][吞吐率：3.01req/s] [内存消耗：2,290.53kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'customerservice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/system/customerservice_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\System->customerService[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\system\customerservice.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'config',
+  3 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_kf_config` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_kf_config` LIMIT 1 [ RunTime:0.060004s ]
+---------------------------------------------------------------
+[ 2019-03-24T19:13:04+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:13:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/system/customerservice.html
+[ info ] www.kefu.com/admin/system/customerservice.html [运行时间：0.249014s][吞吐率：4.02req/s] [内存消耗：2,145.19kb] [文件加载：102]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'customerservice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/system/customerservice.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kefu.com',
+  'accept' => '*/*',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/system/customerservice_html' => '',
+  'max_service' => '2',
+  'change_status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\System->customerService[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\System.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_kf_config` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_kf_config` LIMIT 1 [ RunTime:0.005000s ]
+[ error ] [0]缺少更新条件[D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\library\think\db\Query.php:2210]
+---------------------------------------------------------------
+[ 2019-03-24T19:14:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/mobile?id=8&name=%E4%BC%9A%E5%91%989&group=2&avatar=http%3A%2F%2Fwx2.sinaimg.cn%2Fmw690%2F5db11ff4gy1flxmew7edlj203d03wt8n.jpg
+[ info ] www.kefu.com/index/index/mobile?id=8&name=%E4%BC%9A%E5%91%989&group=2&avatar=http%3A%2F%2Fwx2.sinaimg.cn%2Fmw690%2F5db11ff4gy1flxmew7edlj203d03wt8n.jpg [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：1,491.33kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/mobile' => '',
+  'id' => '8',
+  'name' => '会员9',
+  'group' => '2',
+  'avatar' => 'http://wx2.sinaimg.cn/mw690/5db11ff4gy1flxmew7edlj203d03wt8n.jpg',
+)
+[ info ] [ RUN ] app\index\controller\Index->mobile[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/index\view\index\mobile.html [ array (
+  0 => 'socket',
+  1 => 'id',
+  2 => 'name',
+  3 => 'group',
+  4 => 'avatar',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:14:08+08:00 ] 127.0.0.1 127.0.0.1 GET /static/service/js/jquery.min.map
+[ info ] www.kefu.com/static/service/js/jquery.min.map [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：1,264.43kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'service',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/service/js/jquery_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T19:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /static/service/js/jquery.min.map
+[ info ] www.kefu.com/static/service/js/jquery.min.map [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：1,264.43kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'service',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Mobile Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/service/js/jquery_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T22:56:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/praise.html
+[ info ] www.kefu.com/admin/users/praise.html [运行时间：1.551088s][吞吐率：0.64req/s] [内存消耗：2,330.92kb] [文件加载：103]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'praise',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/praise_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->praise[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\praise.html [ array (
+  0 => 'version',
+  1 => 'uid',
+  2 => 'start',
+  3 => 'end',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030002s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.079005s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T22:56:31+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.216013s][吞吐率：4.63req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T22:56:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/praise.html?pageNumber=1&pageSize=100&start=2019-03-01&end=2019-03-24
+[ info ] www.kefu.com/admin/users/praise.html?pageNumber=1&pageSize=100&start=2019-03-01&end=2019-03-24 [运行时间：0.594034s][吞吐率：1.68req/s] [内存消耗：2,177.59kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'praise',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/praise.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/praise_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '100',
+  'start' => '2019-03-01',
+  'end' => '2019-03-24',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->praise[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT `id`,`user_name` FROM `ws_users` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_praise` [ RunTime:0.101006s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_praise` WHERE  `kf_id` IN (1,2,8,9)  AND ( `add_time` >= '2019-03-01' AND `add_time` <= '2019-03-24 23:59:59' ) [ RunTime:0.162009s ]
+---------------------------------------------------------------
+[ 2019-03-24T22:56:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html
+[ info ] www.kefu.com/admin/users/index.html [运行时间：0.287017s][吞吐率：3.48req/s] [内存消耗：2,206.60kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\users\index.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T22:56:40+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.101006s][吞吐率：9.90req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T22:56:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/users/index.html?pageNumber=1&pageSize=10&searchText=
+[ info ] www.kefu.com/admin/users/index.html?pageNumber=1&pageSize=10&searchText= [运行时间：0.377022s][吞吐率：2.65req/s] [内存消耗：2,222.66kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/users/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/users/index_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_users` [ RunTime:0.033001s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_users` ORDER BY `id`  desc [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_groups` [ RunTime:0.111006s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `ws_groups` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_users` LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T22:56:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/system/wordslog.html
+[ info ] www.kefu.com/admin/system/wordslog.html [运行时间：0.273015s][吞吐率：3.66req/s] [内存消耗：2,163.52kb] [文件加载：101]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'wordslog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/system/wordslog_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\System->wordsLog[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\System.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\public/../application/admin\view\system\wordslog.html [ array (
+  0 => 'version',
+  1 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-03-24T22:56:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/css/bootstrap.min.css.map
+[ info ] www.kefu.com/static/admin/css/bootstrap.min.css.map [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：1,264.50kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/css/bootstrap_min_css_map' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-24T22:56:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/system/wordslog.html?pageNumber=1&pageSize=15&searchText=&start=&end=
+[ info ] www.kefu.com/admin/system/wordslog.html?pageNumber=1&pageSize=15&searchText=&start=&end= [运行时间：0.323019s][吞吐率：3.10req/s] [内存消耗：2,126.14kb] [文件加载：100]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'system',
+    2 => 'wordslog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fg162jtejmu11nogmvj551j823; user_name=admin; user_id=1; l_user_name=%E5%AE%A2%E6%9C%8D%E5%B0%8F%E5%B0%8F; l_user_id=9; l_user_avatar=%2Fuploads%2F20190301%2Fac36a973d2c3bd866566d7d4fa2a1ab3.jpg',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kefu.com/admin/system/wordslog.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kefu.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/system/wordslog_html' => '',
+  'pageNumber' => '1',
+  'pageSize' => '15',
+  'searchText' => '',
+  'start' => '',
+  'end' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\System->wordsLog[ D:\phpStudy\PHPTutorial\WWW\zj-whisper_pay\application\admin\controller\System.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=whisper2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_admins` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `ws_admins` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ws_chat_log` [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SELECT * FROM `ws_chat_log` ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ws_chat_log` LIMIT 1 [ RunTime:0.000000s ]

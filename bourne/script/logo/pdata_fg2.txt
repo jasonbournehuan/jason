@@ -1,0 +1,1444 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 873
+Memory = 1127936
+Processtime = 0.0404
+
+Code:
+869  : 	    $in_data = $db_data = array();
+870  : 	    $this->c('fg');
+871  :         $fg_cache_key = "fg_poker_".$end_log_id ;
+872  :         $this->c('cache_redis');
+873  :         $this->cache_redis->select($$this->redis_db);<--
+874  : 
+875  :         $log_redis_data = json_decode($this->cache_redis->kGet($fg_cache_key),true);
+876  : 
+877  : 
+878  :         if(!empty($log_redis_data)) {
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_fg2.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\fg.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker<br>
+/agent/log_by_page/gt/pokerArray
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                    [0] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 1
+                            [all_wins] => 9.55
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 108.55
+                            [game_id] => 6501
+                            [gt] => poker
+                            [id] => 65013649
+                            [ip] => 0.0.0.0
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => jhpggzvtk
+                            [result] => 8.55
+                            [time] => 1555247494
+                            [total_agent_uid] => 1253
+                        )
+
+                    [1] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 1
+                            [all_wins] => 8.6
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 116.15
+                            [game_id] => 6501
+                            [gt] => poker
+                            [id] => 65013650
+                            [ip] => 0.0.0.0
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => jhpggzvtk
+                            [result] => 7.6
+                            [time] => 1555247558
+                            [total_agent_uid] => 1253
+                        )
+
+                    [2] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 1
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 761.88
+                            [game_id] => 6302
+                            [gt] => poker
+                            [id] => 630210034
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -1
+                            [time] => 1561712263
+                            [total_agent_uid] => 1253
+                        )
+
+                    [3] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 10
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 751.88
+                            [game_id] => 6302
+                            [gt] => poker
+                            [id] => 630210035
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -10
+                            [time] => 1561712297
+                            [total_agent_uid] => 1253
+                        )
+
+                    [4] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 1
+                            [all_wins] => 24.75
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 775.63
+                            [game_id] => 6302
+                            [gt] => poker
+                            [id] => 630210036
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 23.75
+                            [time] => 1561712335
+                            [total_agent_uid] => 1253
+                        )
+
+                    [5] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 100
+                            [all_wins] => 195
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 1099.02
+                            [game_id] => 6003
+                            [gt] => poker
+                            [id] => 60038462
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 95
+                            [time] => 1561971605
+                            [total_agent_uid] => 1253
+                        )
+
+                    [6] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 700
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 399.02
+                            [game_id] => 6003
+                            [gt] => poker
+                            [id] => 60038463
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -700
+                            [time] => 1561971628
+                            [total_agent_uid] => 1253
+                        )
+
+                    [7] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 88.5
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 310.52
+                            [game_id] => 6003
+                            [gt] => poker
+                            [id] => 60038464
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -88.5
+                            [time] => 1561971698
+                            [total_agent_uid] => 1253
+                        )
+
+                    [8] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 1031
+                            [all_wins] => 6907.7
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 16187.22
+                            [game_id] => 6003
+                            [gt] => poker
+                            [id] => 60038466
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 5876.7
+                            [time] => 1561971744
+                            [total_agent_uid] => 1253
+                        )
+
+                    [9] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 14562
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 1625.22
+                            [game_id] => 6003
+                            [gt] => poker
+                            [id] => 60038467
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -14562
+                            [time] => 1561971767
+                            [total_agent_uid] => 1253
+                        )
+
+                    [10] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 162
+                            [all_wins] => 1085.4
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 2548.62
+                            [game_id] => 6003
+                            [gt] => poker
+                            [id] => 60038468
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 923.4
+                            [time] => 1561971790
+                            [total_agent_uid] => 1253
+                        )
+
+                    [11] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 254
+                            [all_wins] => 2173.8
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 4468.42
+                            [game_id] => 6003
+                            [gt] => poker
+                            [id] => 60038470
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 1919.8
+                            [time] => 1561971813
+                            [total_agent_uid] => 1253
+                        )
+
+                    [12] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 1784
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 2684.42
+                            [game_id] => 6003
+                            [gt] => poker
+                            [id] => 60038473
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -1784
+                            [time] => 1561971836
+                            [total_agent_uid] => 1253
+                        )
+
+                    [13] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 16
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2663.16
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116319
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -16
+                            [time] => 1562218693
+                            [total_agent_uid] => 1253
+                        )
+
+                    [14] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 6
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2657.16
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116320
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -6
+                            [time] => 1562218731
+                            [total_agent_uid] => 1253
+                        )
+
+                    [15] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2
+                            [all_wins] => 7.7
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2662.86
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116322
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 5.7
+                            [time] => 1562218767
+                            [total_agent_uid] => 1253
+                        )
+
+                    [16] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2660.86
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116324
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -2
+                            [time] => 1562218801
+                            [total_agent_uid] => 1253
+                        )
+
+                    [17] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 6
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2654.86
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116326
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -6
+                            [time] => 1562218833
+                            [total_agent_uid] => 1253
+                        )
+
+                    [18] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 28
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2626.86
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116328
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -28
+                            [time] => 1562218871
+                            [total_agent_uid] => 1253
+                        )
+
+                    [19] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2624.86
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116330
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -2
+                            [time] => 1562218914
+                            [total_agent_uid] => 1253
+                        )
+
+                    [20] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 6
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2618.86
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116332
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -6
+                            [time] => 1562218959
+                            [total_agent_uid] => 1253
+                        )
+
+                    [21] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2616.86
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116335
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -2
+                            [time] => 1562219006
+                            [total_agent_uid] => 1253
+                        )
+
+                    [22] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2
+                            [all_wins] => 3.9
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2618.76
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116337
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 1.9
+                            [time] => 1562219047
+                            [total_agent_uid] => 1253
+                        )
+
+                    [23] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 6
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2612.76
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116338
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -6
+                            [time] => 1562219086
+                            [total_agent_uid] => 1253
+                        )
+
+                    [24] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2
+                            [all_wins] => 0
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2610.76
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116339
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -2
+                            [time] => 1562219119
+                            [total_agent_uid] => 1253
+                        )
+
+                    [25] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 2
+                            [all_wins] => 7.7
+                            [currency] => CNY
+                            [device] => 4
+                            [end_chips] => 2616.46
+                            [game_id] => 6011
+                            [gt] => poker
+                            [id] => 60116340
+                            [ip] => 103.119.129.72
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 5.7
+                            [time] => 1562219150
+                            [total_agent_uid] => 1253
+                        )
+
+                    [26] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 8
+                            [all_wins] => 11
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 63.65
+                            [game_id] => 6006
+                            [gt] => poker
+                            [id] => 600610796
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => 3
+                            [time] => 1563886420
+                            [total_agent_uid] => 1253
+                        )
+
+                    [27] => Array
+                        (
+                            [agent_uid] => 1253
+                            [all_bets] => 3
+                            [all_wins] => 1
+                            [currency] => CNY
+                            [device] => 1
+                            [end_chips] => 61.65
+                            [game_id] => 6006
+                            [gt] => poker
+                            [id] => 600610797
+                            [ip] => 103.78.243.173
+                            [jackpot_bonus] => 0
+                            [jp_contri] => 0
+                            [player_name] => uhjjaavc5
+                            [result] => -2
+                            [time] => 1563886462
+                            [total_agent_uid] => 1253
+                        )
+
+                )
+
+            [page_key] => g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3
+        )
+
+    [msg] => success
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/page_key/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+07-31 22:24:02采集FG棋牌数据26条！
+  
+ ��3�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:25:02 采集FG棋数据成功，没有新数据！
+  
+ ��4�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:26:04 采集FG棋数据成功，没有新数据！
+  
+ ��5�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:27:05 采集FG棋数据成功，没有新数据！
+  
+ ��6�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:28:05 采集FG棋数据成功，没有新数据！
+  
+ ��7�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:29:04 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��8�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:30:06 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��9�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:31:09 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��10�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:32:08 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��11�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:33:08 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��12�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:34:08 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��13�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:35:08 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��14�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:36:08 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��15�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:37:08 采集FG棋数据成功，没有新数据！
+  
+ ��16�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:38:07 采集FG棋数据成功，没有新数据！
+  
+ ��17�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:39:07 采集FG棋数据成功，没有新数据！
+  
+ ��18�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:40:06 采集FG棋数据成功，没有新数据！
+  
+ ��19�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 0
+    [data] => Array
+        (
+            [data] => Array
+                (
+                )
+
+            [page_key] => none
+        )
+
+    [msg] => success
+)
+07-31 22:41:06 采集FG棋数据成功，没有新数据！
+  
+ ��20�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:42:06 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��21�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:43:06 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��22�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:44:05 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��23�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:45:05 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��24�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:46:05 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��25�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:47:05 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��26�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:48:05 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��27�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:49:05 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��28�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:50:05 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��29�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:51:06 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��30�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:52:05 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception  
+ ��31�� 
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3<br>
+/agent/log_by_page/gt/poker/id/g2gCbgcAFP8NsViOBW0AAAAJNjAwNjEwNzk3Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+https://api.ppro.98078.net/v3/agent/log_by_page/gt/poker/id/600610797<br>
+/agent/log_by_page/gt/poker/id/600610797Array
+(
+    [code] => 115
+    [data] => Array
+        (
+        )
+
+    [msg] => ip address is exception
+)
+07-31 22:53:06 采集FG棋数据失败，返回状态:采集数据超时！
+失败原因:ip address is exception

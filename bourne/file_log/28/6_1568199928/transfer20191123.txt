@@ -1,0 +1,8 @@
+start|-|2019-11-23 23:16:58|-|{"id":"1568199928","result":50,"error":null,"jsonrpc":"2.0"}
+
+end|-|2019-11-23 23:16:58|-|{"id":null,"result":{"total":1,"pageIndex":1,"stats":{"userCount":1,"incomeAmount":50,"balanceAmount":50,"expenditureAmount":0},"pageSize":3,"etag":null,"page":1,"items":[{"userLayerId":null,"amount":50,"loginId":"khevarii2","bizType":"c","cashflowId":"11074249902","operateTime":"2019-11-23 11:16:58","memo":null,"chargeNo":null,"userId":119702478,"accountItemName":"转入BG余额","balance":50,"withdrawNo":null,"cashflow":false,"bizId":"1574522218108","sn":"am00","accountItem":10701,"operatorId":null}]},"error":null,"jsonrpc":"2.0"}
+
+start|-|2019-11-23 23:17:09|-|{"id":"1568199928","result":0,"error":null,"jsonrpc":"2.0"}
+
+end|-|2019-11-23 23:17:09|-|{"id":null,"result":{"total":1,"pageIndex":1,"stats":{"userCount":1,"incomeAmount":0,"balanceAmount":-50,"expenditureAmount":50},"pageSize":3,"etag":null,"page":1,"items":[{"userLayerId":null,"amount":-50,"loginId":"khevarii2","bizType":"w","cashflowId":"11074250598","operateTime":"2019-11-23 11:17:10","memo":null,"chargeNo":null,"userId":119702478,"accountItemName":"BG余额转出","balance":0,"withdrawNo":null,"cashflow":false,"bizId":"1574522229318","sn":"am00","accountItem":20701,"operatorId":null}]},"error":null,"jsonrpc":"2.0"}
+

@@ -1,0 +1,4 @@
+start|-|2019-12-07 16:12:11|-|{"request_info":{"UserName":"uhtdjvd4li","amount":"+2032","externaltransactionid":"1575706331405_uhtdjv"},"return":{"code":0,"data":[],"msg":"success"}}
+end|-|2019-12-07 16:12:11|-|{"request_info":{"ID":"1575706331405_uhtdjv"},"return":{"code":0,"data":{"amount":2032,"end_chips":2032,"externaltransactionid":"1575706331405_uhtdjv","member_code":"uhtdjvd4li","time":1575706331},"msg":"success"}}
+start|-|2019-12-07 16:16:25|-|{"request_info":{"UserName":"uhtdjvd4li","amount":"-2032","externaltransactionid":"1575706585137_uhtdjv"},"return":{"code":0,"data":[],"msg":"success"}}
+end|-|2019-12-07 16:16:25|-|{"request_info":{"ID":"1575706585137_uhtdjv"},"return":{"code":0,"data":{"amount":2032,"end_chips":0,"externaltransactionid":"1575706585137_uhtdjv","member_code":"uhtdjvd4li","time":1575706585},"msg":"success"}}

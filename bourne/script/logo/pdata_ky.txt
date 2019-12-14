@@ -1,0 +1,626 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 1665
+Memory = 1159896
+Processtime = 0.0319
+
+Code:
+1661  : 	    $cache_ky_key = "ky_".$end_log_id;
+1662  : 		$in_data = $db_data = array();
+1663  : 	    $this->c('ky');
+1664  : 	    $this->c('cache_redis');
+1665  : 	    $this->cache_redis->select($$this->redis_db);<--
+1666  : 
+1667  :         $cache_log =  json_decode($this->cache_redis->kGet($cache_ky_key),true);
+1668  : 
+1669  :         if(!empty($cache_log))
+1670  :         {
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_ky.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\ky.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\aes.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583044000
+    [param] => BvSItbq2wfnI8u9z2mr0KGx6myrZQvQ+YxR2Dc5JMcH+vN4KkSBIcU5PUKEEis5Qf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 6712f6ea8a8b589c8095c699837599e7
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564496645000
+            [end] => 1564500244000
+        )
+
+)
+07-31 22:24:04 采集开元数据成功，没有新数据！
+  
+ ��3�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583104000
+    [param] => BvSItbq2wfnI8u9z2mr0KDOLJKWVLkoNUTIAocLBqo0U5tl6HLhrs17Hzf4GeOoVf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => d253f27a35a9e25022862a24356703fc
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564500245000
+            [end] => 1564503844000
+        )
+
+)
+07-31 22:25:04 采集开元数据成功，没有新数据！
+  
+ ��4�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583164000
+    [param] => BvSItbq2wfnI8u9z2mr0KD2pxgNCm9wSFhL3Xmx6Qz6PbtYCcvi/V3ekDRO3dU5mf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 1b7d38e73905a85b5607aa1ebe72d0eb
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564503845000
+            [end] => 1564507444000
+        )
+
+)
+07-31 22:26:04 采集开元数据成功，没有新数据！
+  
+ ��5�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583224000
+    [param] => BvSItbq2wfnI8u9z2mr0KNZUco5KXNlGY8JpeaNICqfXIwwTic4sZV0HXtK6+nidf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 2e2f2a70a4192afceeb6a443a09c2617
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564507445000
+            [end] => 1564511044000
+        )
+
+)
+07-31 22:27:04 采集开元数据成功，没有新数据！
+  
+ ��6�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583284000
+    [param] => BvSItbq2wfnI8u9z2mr0KL+aGZjWtGcoPMoJXsrzBkiKwr6ruX2X8dyJgZe9Ff+yf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => e3ae80fd29939d43aef74fb84fe1b73f
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564511045000
+            [end] => 1564514644000
+        )
+
+)
+07-31 22:28:04 采集开元数据成功，没有新数据！
+  
+ ��7�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583344000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 87f1614ce3ff82d4fe862775be016c48
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:29:04 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��8�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583406000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 334ed17b4b8f2c667fba561210c18e3c
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:30:06 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��9�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583468000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 887edfa61e9bb6509770d8506dc35371
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:31:08 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��10�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583527000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 047efce8f754a799d6c765e9fa6f7b11
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:32:07 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��11�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583587000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 0fef8e0ecb13f50e7f8aaa5c66a1644b
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:33:07 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��12�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583646000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 665d207d6b0b1f4d2b72c6e5b8a8b1ab
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:34:06 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��13�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583706000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => ecd97fe3aa87dffc10d8f7fdbbfd0d90
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:35:06 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��14�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583766000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 2966311063631306187c240ddd584ac6
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:36:06 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��15�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583825000
+    [param] => BvSItbq2wfnI8u9z2mr0KH3MB3ec119chH4O5tPsP7unYmQangFdos6PnNq5dtJKf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 1140c3aa711d38c347e451ee6a4f4dec
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564514645000
+            [end] => 1564518244000
+        )
+
+)
+07-31 22:37:05 采集开元数据成功，没有新数据！
+  
+ ��16�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583885000
+    [param] => BvSItbq2wfnI8u9z2mr0KPUz9MMTML4NwGqhShGGhDgnXRjmINdOcVm06q6RfoFnf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 386baad1f19937558454768862ffed0a
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564518245000
+            [end] => 1564521844000
+        )
+
+)
+07-31 22:38:05 采集开元数据成功，没有新数据！
+  
+ ��17�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564583945000
+    [param] => BvSItbq2wfnI8u9z2mr0KHs9MdCTaeQMXtwGZM3nHTZx2s0lDhhT42rkcIEUzDKYf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 6d420dd1a4d943ec069b231250f7ec77
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564521845000
+            [end] => 1564525444000
+        )
+
+)
+07-31 22:39:05 采集开元数据成功，没有新数据！
+  
+ ��18�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584005000
+    [param] => BvSItbq2wfnI8u9z2mr0KNwCzDuNc118npU0yt+Cyhu7dpeUxakO612fnhDXXbT7f4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => cc6560168afed0e5925431c42dce31df
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564525445000
+            [end] => 1564529044000
+        )
+
+)
+07-31 22:40:05 采集开元数据成功，没有新数据！
+  
+ ��19�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584065000
+    [param] => BvSItbq2wfnI8u9z2mr0KAxM3sjDAfXACdzLcu14sgVhdsxCRoI9gp0kkUz9YzQdf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => d4652a8ca74034b5fb1ae1553a702708
+)
+Array
+(
+    [m] => /getRecordHandle
+    [s] => 106
+    [d] => Array
+        (
+            [code] => 16
+            [start] => 1564529045000
+            [end] => 1564532644000
+        )
+
+)
+07-31 22:41:05 采集开元数据成功，没有新数据！
+  
+ ��20�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584125000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => ec0b66dd89ac5ccd08bc81a60e057efe
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:42:05 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��21�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584186000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 57e50ea80f4fec4910a0af0eefeeb9c9
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:43:06 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��22�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584248000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 280ff524f2e173ed456ae57dc8a8b341
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:44:08 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��23�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584308000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 7785c2627fb46eba34bb723e0175b574
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:45:08 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��24�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584367000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 6831a202e93efa8ae2063861ef4e8f5a
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:46:07 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��25�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584427000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 42f75fdd8c0639adef87acfb3f245a0b
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:47:07 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��26�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584488000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => fee2d7eb0d4f9deda8461345429f52e3
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:48:08 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��27�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584547000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 53292f0cbd592b670ced6c36070d8199
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:49:07 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��28�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584607000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 4dfebb1c414af9b3603a6ba76df3ed43
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:50:07 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��29�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584667000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 6d134adabc93965b71e8fd1fa8e1ab37
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:51:07 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��30�� 
+Array
+(
+    [agent] => 70823
+    [timestamp] => 1564584726000
+    [param] => BvSItbq2wfnI8u9z2mr0KGzvgJH1Ontz44bcIW57Xzz4AFGqNDXnevJoZXf8u/sgf4X5QdSFxSR+uCvMZNO4Ww==
+    [key] => 82f01556560cfdc5454e48551653d1cd
+)
+Array
+(
+    [m] => /getRecordHandle
+    [d] => Array
+        (
+            [code] => 5
+        )
+
+)
+07-31 22:52:06 采集开元数据失败，返回状态:5！
+失败原因:渠道白名单错误（请联系客服添加服务器白名单）  
+ ��31�� 

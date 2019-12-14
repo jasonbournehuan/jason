@@ -1,0 +1,9 @@
+start|-|2019-11-26 16:59:37|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"180","uid":"510008","money":"","order_id":"346456456"}
+end|-|2019-11-26 16:59:39|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=0fcd2ba8f74840568920f1d49f3db269&UserName=khjpwa","money":"","orders_number":"888kh8vvvhp5ddruh","order_id":"346456456"}
+start|-|2019-11-26 18:04:39|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"11","uid":"510008","money":"500","order_id":"346456456"}
+start|-|2019-11-26 18:07:05|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"11","uid":"510008","money":"500","order_id":"346456456"}
+start|-|2019-11-26 18:07:38|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"11","uid":"510008","money":"500","order_id":"346456456"}
+start|-|2019-11-26 18:07:58|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"11","uid":"510008","money":"500","order_id":"346456456"}
+start|-|2019-11-26 18:08:05|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"11","uid":"510008","money":"500","order_id":"346456456"}
+start|-|2019-11-26 18:08:31|-|{"api_key":"17W4jD1vyoCa","api_secret":"8JR1jjZA88Vwu9YMJ3Pn0nGLM2hyLDH0","method":"goto_game","gid":"11","uid":"510008","money":"500","order_id":"346456456"}
+end|-|2019-11-26 18:08:33|-|{"status":1,"msg":"https:\/\/h5.chichengwl.com\/game?type=h5&gamecode=hyrz&language=zh-cn&token=3C3FE385940B1968","money":"500","orders_number":"888kh8vvvhp5ddrdh","order_id":"346456456"}

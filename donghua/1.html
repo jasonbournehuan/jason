@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html">
+    
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui">
+    <meta name="format-detection" content="telephone=no">
+    <title></title>
+    <link rel="stylesheet" href="ssc/static/css/style-201965171.css">
+    <link rel="stylesheet" href="ssc/static/css/animateTool.css">
+    <script src="ssc/static/js/jquery-2.1.0-2019530156.js"></script>
+</head>
+<body>
+    <div class="cqsscAnimate">
+        <div class="bodybg"><img src="ssc/static/picture/bodybg.jpg"></div>
+        <div class="loading">
+            <div class="loadtxt">
+                LOADING...
+            </div>
+        </div>
+        <div class="content">
+            <div class="nameLogo nameLogo_xjssc" style="background: url(logo/<?php echo $game_id;?>.png) no-repeat;background-size: 100%;"></div>
+            <div class="coderbox">
+                <div class="codeboxl">
+                    <div class="line tl">
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip bigbg"></span>
+                        </div>
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip smallbg"></span>
+                        </div>
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip bigbg"></span>
+                        </div>
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip smallbg"></span>
+                        </div>
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip bigbg"></span>
+                        </div>
+                    </div>
+                    <div class="line ml" id="numBig">
+                        <div class="box beforebg">
+                            <span class="num2"></span>
+                        </div>
+                        <div class="box beforebg">
+                            <span class="num1"></span>
+                        </div>
+                        <div class="box beforebg">
+                            <span class="num0"></span>
+                        </div>
+                        <div class="box beforebg">
+                            <span class="num9"></span>
+                        </div>
+                        <div class="box beforebg">
+                            <span class="num6"></span>
+                        </div>
+                    </div>
+                    <div class="line bl">
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip singlebg"></span>
+                        </div>
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip doublebg"></span>
+                        </div>
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip doublebg"></span>
+                        </div>
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip singlebg"></span>
+                        </div>
+                        <div class="box perspectiveView">
+                            <span class="flip afterbg out"></span>
+                            <span class="flip doublebg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="codeboxr">
+                    <div class="heiban">
+                        <div class="line1" id="qishu">
+                            当期：<span class="redfont" id="preDrawIssue"></span>
+                        </div>
+                        <div class="line1" id="qishu">
+                            下期：<span class="redfont" id="curDrawIssue"></span>
+                        </div>
+                        <div class="line1" id="nexttime">
+                            <span>开奖时间：</span><span class="redfont" id="drawTime"></span>
+                        </div>
+                        <div class="line1">
+                            <div class="oping">
+                                <div class="cuttimetitle">正在开奖...</div>
+                            </div>
+                            <div class="djs">
+                                <span class="cuttimetitle" id="cuttime">倒计时：</span>
+                                <span class="bluefont"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heibanb">
+                        <div class="bckj">
+                            <span id="sumNum"></span><span id="sumSingleDouble"></span><span id="sumBigSmall"></span><span id="dragonTiger"></span>
+                        </div>
+                        <div class="smallnum" id="litNum">
+                            <div class="box beforebg">
+                                <span class="num9"></span>
+                            </div>
+                            <div class="box beforebg">
+                                <span class="num2"></span>
+                            </div>
+                            <div class="box beforebg">
+                                <span class="num4"></span>
+                            </div>
+                            <div class="box beforebg">
+                                <span class="num0"></span>
+                            </div>
+                            <div class="box beforebg">
+                                <span class="num6"></span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="menubox">
+                <div class="tyrbtn"></div>
+                <div id="soundbtn" class="soundbtn"></div>
+            </div>
+            <div class="disnone">
+                <audio autoplay="autoplay" id="bgsound" src=""></audio>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
+<script type="text/javascript">
+	var game_id = <?php echo $game_id;?>;
+    $(function () {
+        pubmethod.init(10004);
+    });
+</script>
+<script type="text/javascript" src="ssc/static/js/victor1.0.js"></script>
+<script src="ssc/static/js/config-2019530156.js"></script>
+<script src="ssc/static/js/video-2019530156.js"></script>

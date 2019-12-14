@@ -1,0 +1,15 @@
+UPDATE `center`.`center_games` SET  `query_info` = '4_5016',`status`='2' WHERE `id` = 214;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5017',`status`='2'  WHERE `id` = 215;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5018',`status`='2'  WHERE `id` = 216;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5025',`status`='2'  WHERE `id` = 218;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5026',`status`='2'  WHERE `id` = 219;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5028',`status`='2'  WHERE `id` = 221;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5029',`status`='2'  WHERE `id` = 222;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5034',`status`='2'  WHERE `id` = 224;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5035',`status`='2'  WHERE `id` = 225;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5040',`status`='2'  WHERE `id` = 227;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5041',`status`='2'  WHERE `id` = 228;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5070',`status`='2'  WHERE `id` = 246;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5078',`status`='2'  WHERE `id` = 250;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5091',`status`='2'  WHERE `id` = 258;
+UPDATE `center`.`center_games` SET  `query_info` = '4_5092',`status`='2'  WHERE `id` = 259;

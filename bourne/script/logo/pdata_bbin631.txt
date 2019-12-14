@@ -1,0 +1,1815 @@
+ ��1�� 
+Error: Object of class pdata_control could not be converted to string
+File: D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+Line: 3460
+Memory = 1207552
+Processtime = 0.0677
+
+Code:
+3456  :         $api  = "/WagersRecordBy31";
+3457  :         $in_data = $db_data = array();
+3458  :         $this->c('bbin');
+3459  :         $this->c('cache_redis');
+3460  :         $this->cache_redis->select($$this->redis_db);<--
+3461  : 
+3462  :         $data = $this->bbin->get_sports($end_log_id,$api);
+3463  :         /* echo  date("Y-m-d H:i:s", $data['end_time']).'<br>';
+3464  :          echo    $date_time.'<br>';
+3465  :          echo  date("Y-m-d H:i:s", $_SERVER['time']-120).'<br>';
+
+Include Files:
+  D:\phpStudy\PHPTutorial\WWW\pdata_bbin631.php
+  D:\phpStudy\PHPTutorial\WWW\conf\conf.php
+  D:\phpStudy\PHPTutorial\WWW\framework\core.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\core.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\misc.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\log.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\xn_exception.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\db_mysqli.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache.interface.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\cache_memcache.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\base_model.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\lib\encrypt.func.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\center_pdata_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\tmp\control_common_control.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\endlog.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\bbin.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\id_to_code.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\error.class.php
+  D:\phpStudy\PHPTutorial\WWW\class\cache_redis.class.php
+  D:\phpStudy\PHPTutorial\WWW\framework\errorpage\exception_cmd.htm
+  
+ ��2�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:24:02
+    [endtime] => 10:29:02
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:24:01 采集New BB体育成功，没有新数据！
+  
+ ��3�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:29:03
+    [endtime] => 10:34:03
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:25:01 采集New BB体育成功，没有新数据！
+  
+ ��4�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:34:04
+    [endtime] => 10:39:04
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:26:03 采集New BB体育成功，没有新数据！
+  
+ ��5�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:39:05
+    [endtime] => 10:44:05
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:27:05 采集New BB体育成功，没有新数据！
+  
+ ��6�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:44:06
+    [endtime] => 10:49:06
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:28:06 采集New BB体育成功，没有新数据！
+  
+ ��7�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:29:09 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��8�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:30:11 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��9�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:31:14 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��10�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:32:15 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��11�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:33:16 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��12�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:34:17 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��13�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:35:18 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��14�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:36:21 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��15�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:49:07
+    [endtime] => 10:54:07
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:37:23 采集New BB体育成功，没有新数据！
+  
+ ��16�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:54:08
+    [endtime] => 10:59:08
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:38:25 采集New BB体育成功，没有新数据！
+  
+ ��17�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 10:59:09
+    [endtime] => 11:04:09
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:39:27 采集New BB体育成功，没有新数据！
+  
+ ��18�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:04:10
+    [endtime] => 11:09:10
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:40:29 采集New BB体育成功，没有新数据！
+  
+ ��19�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:09:11
+    [endtime] => 11:14:11
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 1
+    [pagination] => Array
+        (
+            [Page] => 1
+            [PageLimit] => 500
+            [TotalNumber] => 0
+            [TotalPage] => 0
+        )
+
+)
+2019-07-31 22:41:30 采集New BB体育成功，没有新数据！
+  
+ ��20�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:42:31 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��21�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:43:32 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��22�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:44:33 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��23�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:45:36 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��24�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:46:40 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��25�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:47:41 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��26�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:48:42 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��27�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:49:43 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��28�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:50:44 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��29�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:51:45 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  
+ ��30�� 
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+接口地址：https://linkapi.walk168.com/app/WebService/JSON/display.php/WagersRecordBy31
+Array
+(
+    [website] => avia
+    [action] => ModifiedTime
+    [uppername] => dmingbo
+    [date] => 2019-07-30
+    [starttime] => 11:14:12
+    [endtime] => 11:19:12
+    [gametype] => 
+    [page] => 
+    [pagelimit] => 500
+    [key] => x1739268a2594c2ae4f13bbf367238bcenishizhu
+)
+Array
+(
+    [result] => 
+    [globalIp] => 
+    [data] => Array
+        (
+            [Code] => 44900
+            [Message] => IP is not accepted.
+        )
+
+)
+2019-07-31 22:52:46 采集New BB体育失败，返回状态:采集失败！
+失败原因:IP is not accepted.  

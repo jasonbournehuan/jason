@@ -1,0 +1,8 @@
+start|-|2019-12-10 19:39:24|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"goto_game","gid":"180","uid":"514744","money":"50","order_id":"346456456"}
+end|-|2019-12-10 19:39:25|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=637eae5a882645abbd819c12563ea503&UserName=uhj0l55","money":"50","orders_number":"888uh888uh80d5h","order_id":"346456456"}
+start|-|2019-12-10 20:56:56|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"goto_game","gid":"180","uid":"514744","money":"50.5","order_id":"346456456"}
+end|-|2019-12-10 20:56:57|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=f8bcca4b876e421e9c6cf2b39c025a7f&UserName=uhj0l55","money":"50.5","orders_number":"888uh888uh80dah","order_id":"346456456"}
+start|-|2019-12-10 20:57:33|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"goto_game","gid":"347","uid":"514744","money":"50","order_id":"346456456"}
+end|-|2019-12-10 08:57:37|-|{"status":1,"msg":"https:\/\/888.walk168.com\/app\/WebService\/JSON\/display.php\/Login?website=avia&username=uhj0l55&uppername=dmingbo&lang=zh-cn&page_site=live&page_present=live&maintenance_page=0&key=qwertyus8f0ad7031b81df64bb6fbe59c888f6cbx","money":"50","orders_number":"888uh888uh805gh","order_id":"346456456"}
+start|-|2019-12-10 21:12:19|-|{"api_key":"ZFFjNsdfdf","api_secret":"0ebp2UizVfwCt4UWbFvC","method":"goto_game","gid":"180","uid":"514744","money":"50","order_id":"346456456"}
+end|-|2019-12-10 21:12:20|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=4fdfd7192f4f46f891b8bc0e64eadf14&UserName=uhj0l55","money":"50","orders_number":"888uh888uh805kh","order_id":"346456456"}

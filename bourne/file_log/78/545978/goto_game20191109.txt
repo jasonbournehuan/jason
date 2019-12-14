@@ -1,0 +1,14 @@
+start|-|2019-11-09 02:09:43|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"400","uid":"545978","money":"20"}
+end|-|2019-11-09 02:09:47|-|{"status":1,"msg":"https:\/\/fish.bgwin33.com\/index.html?lang=zh-CN&token=bVu+URzyvr7QSiJLit0G7oYgGFOiFgqI3le63SOZkG3FRPOmK3U2hM5bzTs3XM0Or2xBceCRasM4vdB2H0WB9kmcyfy1XCOvxgsIOlt31S0Y26Bfn1r9jUV360QU2+MbzHS4rySoQnmUUTSyG4bqavqK0Pw4mEV0jkkgTy8g0S+YIaewMccdEVhJsUJYClUAUuvY2HdQTjAuDwU4yxDIuleeEhU\/gCkb2eOF5\/hjl5u8bjyIkzce7CfuOsqagMYHcmC2\/hLFY2Mz8OHxT8rjXzlV5RWrQRgO+2eWtFjbC9IHUqZ2kBGp+G9Ba17YMPsruD7XvaV0XkiYTQTrTml7Cw==","money":"20","orders_number":"888kh8vvvhp5d25dh"}
+start|-|2019-11-09 02:10:34|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"180","uid":"545978","money":"20"}
+end|-|2019-11-09 02:10:39|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=680422316381476bb799a0e18b76fbc5&UserName=khj5jila","money":140,"orders_number":"888kh8vvvhp5d25jh"}
+start|-|2019-11-09 18:01:52|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"180","uid":"545978","money":"20","order_id":"346456456"}
+end|-|2019-11-09 18:01:53|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=f2b2ff1d5f6442d2b71f165a5f2d87ac&UserName=khj5jila","money":"20","orders_number":180}
+start|-|2019-11-09 18:03:12|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"180","uid":"545978","money":"20","order_id":"346456456"}
+end|-|2019-11-09 18:03:13|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=8a08d63efebc4ea9800b49353e64b9f2&UserName=khj5jila","money":"20","orders_number":180}
+start|-|2019-11-09 18:03:49|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"180","uid":"545978","money":"20","order_id":"346456456"}
+end|-|2019-11-09 18:03:50|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=80fc8f75f4334ea5936e5735afe11262&UserName=khj5jila","money":"20","orders_number":"346456456"}
+start|-|2019-11-09 18:04:27|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"180","uid":"545978","money":"20","order_id":"346456456"}
+end|-|2019-11-09 18:04:28|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=2043da292bf8433f8d227d2da4774e77&UserName=khj5jila","money":"20","orders_number":"346456456"}
+start|-|2019-11-09 18:05:16|-|{"api_key":"krasi","api_secret":"krasi12345","method":"goto_game","gid":"180","uid":"545978","money":"20","order_id":"346456456"}
+end|-|2019-11-09 18:05:17|-|{"status":1,"msg":"http:\/\/test.bw-gaming.com\/handler\/fastlogin?key=79f1f3632ee841849fefa819da074721&UserName=khj5jila","money":"20","orders_number":"346456456"}
